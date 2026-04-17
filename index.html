@@ -85,6 +85,8 @@
   .cal-evt.m394{background:rgba(34,211,238,.18);color:#67e8f9;border-left:3px solid #22d3ee}
   .cal-evt.gen{background:rgba(154,163,178,.18);color:#cbd5e1;border-left:3px solid #94a3b8}
   .cal-evt.urgent{box-shadow:0 0 0 1px var(--danger) inset;font-weight:700}
+  .cal-evt.done{text-decoration:line-through;opacity:.45;filter:saturate(.4)}
+  .cal-evt.done::before{content:'✓ ';color:var(--ok);font-weight:700;text-decoration:none;display:inline-block}
   .cal-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:100;align-items:center;justify-content:center;padding:20px}
   .cal-modal.show{display:flex}
   .cal-modal-inner{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:24px;max-width:500px;width:100%;max-height:80vh;overflow:auto}
@@ -118,33 +120,31 @@
   <h2>📊 本周仪表板</h2>
   <p class="muted">今天是 2026-04-16（周四）· 本周 = Week 2</p>
   <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
-    <div class="stat"><p class="big">3</p><div class="lbl">门进行中的课</div></div>
-    <div class="stat"><p class="big" style="color:var(--danger)">1</p><div class="lbl">明天截止</div></div>
-    <div class="stat"><p class="big" style="color:var(--warn)">7</p><div class="lbl">本周内截止</div></div>
+    <div class="stat"><p class="big" style="color:var(--ok)">5</p><div class="lbl">本周已完成</div></div>
+    <div class="stat"><p class="big" style="color:var(--warn)">4</p><div class="lbl">本周待办</div></div>
     <div class="stat"><p class="big" style="color:var(--accent2)">4</p><div class="lbl">下周内截止</div></div>
+    <div class="stat"><p class="big">3</p><div class="lbl">门课程</div></div>
     <div class="stat"><p class="big">≥12h</p><div class="lbl">每门课/周</div></div>
   </div>
 
-  <div class="alert" style="margin-top:24px;border-left-color:var(--danger);background:rgba(248,113,113,.15);padding:18px">
-    <div style="font-size:17px;color:var(--danger);font-weight:700;margin-bottom:8px">🚨🚨🚨 最紧急：今晚 23:59 PDT 截止（剩不到 4 小时）</div>
-    <div style="font-size:15px"><strong>MBA394 DF Wk2 Ethics 原帖还没发！</strong>（我查了论坛 Qi Zhou 没出现）</div>
-    <ul style="margin:8px 0">
-      <li>原帖占 <strong>50 分</strong>，老师明文："<em>No late responses will be accepted for your initial post, which is due by Thursday. No exceptions!</em>"</li>
-      <li>内容要求：解释 "ethics" 的定义 + 为何 ethics 成为组织成败关键；至少 2 条引用</li>
-      <li>👉 立即发：<a href="https://moodle.humphreys.edu/mod/forum/view.php?id=366348" target="_blank" style="color:var(--accent);text-decoration:underline">打开 MBA394 DF Wk2 Ethics 论坛</a></li>
+  <div class="alert" style="margin-top:24px;border-left-color:var(--ok);background:rgba(52,211,153,.12);padding:16px">
+    <div style="font-size:15px;color:var(--ok);font-weight:700">✅ 已完成（Moodle 验证 @ 2026-04-16 20:43）</div>
+    <ul style="margin:6px 0">
+      <li>✅ MBA394 DF Wk2 Ethics 原帖（你今天发了 "Week 2: Ethics" thread）</li>
+      <li>✅ MBA306 Week 2 Forum 回复 2 条（在 Muzammil 和 Ruijie 的 threads）</li>
+      <li>✅ MBA306 On-ground PPT 已提交（提前 7 天）</li>
+      <li>✅ MBA394 On-Ground Submission 已提交</li>
+      <li>✅ MBA April Week 1 Presentation 课程进度 100%</li>
     </ul>
   </div>
   <div class="alert" style="border-left-color:var(--warn);background:rgba(251,191,36,.12);padding:16px">
-    <div style="font-size:15px;color:var(--warn);font-weight:700">⚠️ 次紧急：MBA306 Week 2 Forum 原帖你也没发</div>
+    <div style="font-size:15px;color:var(--warn);font-weight:700">⚠️ 仍需处理（本周内）</div>
     <ul style="margin:6px 0">
-      <li>老师规定原帖周三 4/15 23:59 前发（已过），系统 deadline 是 Sat 4/18 23:59</li>
-      <li>论坛已有 10+ 同学发帖，部分也是 4/15–4/16 才补发，说明老师可能按系统 Saturday deadline 最终判</li>
-      <li>👉 今晚也一起补发，周六前配 2 条回复：<a href="https://moodle.humphreys.edu/mod/forum/view.php?id=366035" target="_blank" style="color:var(--accent);text-decoration:underline">打开 MBA306 Week 2 Forum</a></li>
-      <li>题目：What factors make it difficult to determine the unemployment rate? / 区分 frictional, structural, cyclical unemployment / 经济与非经济影响</li>
+      <li><strong>MBA306 Week 2 Forum 原帖</strong>：你发了 2 条回复但没开自己的 thread。老师规定 Wed 已过，系统 deadline Sat 4/18。建议今晚补开一个 thread（标题含你姓名），按老师规则可能扣分但总比 0 分强。<a href="https://moodle.humphreys.edu/mod/forum/view.php?id=366035" target="_blank" style="color:var(--accent)">打开论坛</a></li>
+      <li><strong>MBA394 DF Wk2 回复</strong>：0/2（周日 4/19 前要 2 条，每条 ≥ 2 段）</li>
+      <li><strong>MBA306 Week 2 Q&P</strong>：未提交（周日 4/19）</li>
+      <li><strong>MBA394 Assignment #1 Case Study</strong>：未提交（周日 4/19）</li>
     </ul>
-  </div>
-  <div class="alert" style="border-left-color:var(--accent2)">
-    <strong style="color:var(--accent2)">📅 明天 (4/17 周五) 17:00 PDT：</strong> 上传 Group Presentation Slide（MBA April Week 1 课程）— 已标记完成 ✅
   </div>
   <div class="alert warn">
     <strong>📌 数据可靠性说明：</strong>日期基于 Moodle iCal 日历导出（33 个事件权威核对）· 4 份 PDF（3 个 syllabus + FAQ + ReadMe）全文核对 · 课程页文字核对 · 论坛实际状态核对。<br>
@@ -154,7 +154,8 @@
 
 <section id="calendar">
   <h2>📅 月历视图（点击事件看详情）</h2>
-  <p class="muted">色块 = 截止事件 · 🟣 MBA306 · 🟠 MBA392 · 🔵 MBA394 · ⚪ 其他 · 今天 = 高亮框</p>
+  <p class="muted">色块 = 截止事件 · 🟣 MBA306 · 🟠 MBA392 · 🔵 MBA394 · ⚪ 其他 · 今天 = 高亮框 · <span style="text-decoration:line-through;opacity:.5">划线</span> = 已完成 · 红框 = 紧急未完成</p>
+  <p class="muted" style="font-size:12px">💡 点击事件可以手动标记完成/未完成（保存到浏览器本地）。已从 Moodle 验证完成的项目自动划线。</p>
   <div id="month-grid"></div>
   <nav><a href="#timeline" style="margin-top:10px;display:inline-block">↓ 看详细时间线</a></nav>
 </section>
@@ -772,20 +773,21 @@
 
   // ============ 日历数据（源自 Moodle iCal + 课程页 + syllabus）============
   const TODAY = '2026-04-16';
-  // 格式: [日期, 时间, 课程标签, 标题, 详情HTML, 是否紧急]
+  // 格式: [日期, 时间, 课程标签, 标题, 详情HTML, 是否紧急, 是否已完成]
+  // done=true 的事件会自动显示为划线+绿色勾，基于 2026-04-16 20:43 PDT Moodle 状态核对
   const EVENTS = [
     // --- 4 月 ---
-    ['2026-04-12','23:59','m306','W1 Forum','Week 1 Forum（自我介绍）— 已完成 ✅',false],
-    ['2026-04-12','23:59','m394','DF Wk1 Algorithms','W1 Forum（算法）第一周例外，无需回复。已完成 ✅',false],
-    ['2026-04-15','23:59','m306','W2 Forum 原帖','老师规定周三发原帖；系统 deadline 实际周六。<br><strong>⚠️ 如还没发，立即补发！</strong>',true],
-    ['2026-04-16','23:59','m394','DF Wk2 原帖 🔴','<strong>原帖占 50 分，绝不接受迟交！</strong><br>解释 ethics 定义 + 为何是组织成败关键，≥ 2 条引用',true],
-    ['2026-04-17','17:00','gen','Upload Presentation Slide','MBA April Week 1 课小组 PPT 上传（已完成 ✅）',false],
-    ['2026-04-18','23:59','m306','W2 Forum 回复','至少 2 条回复其他同学',false],
-    ['2026-04-19','23:59','m306','W2 HW Q&P','Ch.1 Conceptual Q1 + Technical Q1 (p.21) + Ch.7 Conceptual Q1–5 (p.175–176)',false],
-    ['2026-04-19','23:59','m306','On-ground PPT','上传 Stockton 周末做的 PPT',false],
-    ['2026-04-19','23:59','m394','On-Ground Submission','on-ground 周末作业',false],
-    ['2026-04-19','23:59','m394','Assignment #1 Case Study','2 页双倍行距·伦理问题案例·封面/参考独立页·文件名含姓名',false],
-    ['2026-04-19','23:59','m394','DF Wk2 回复','2 条回复，每条 ≥ 2 段',false],
+    ['2026-04-12','23:59','m306','W1 Forum','Week 1 Forum（自我介绍）',false,true],
+    ['2026-04-12','23:59','m394','DF Wk1 Algorithms','W1 Forum（算法）第一周例外，无需回复',false,true],
+    ['2026-04-15','23:59','m306','W2 Forum 原帖','老师规定周三发原帖；系统 deadline 实际周六。<br><strong>⚠️ 状态：你只发了 2 条回复，没开自己的 thread。原帖 0 分（但系统 Sat 4/18 前补发可能还有分）</strong>',true,false],
+    ['2026-04-16','23:59','m394','DF Wk2 原帖','<strong>已发 ✅</strong>（你今天发了 "Week 2: Ethics" thread）',false,true],
+    ['2026-04-17','17:00','gen','Upload Presentation Slide','MBA April Week 1 课小组 PPT 上传',false,true],
+    ['2026-04-18','23:59','m306','W2 Forum 回复','已发 2 条回复（Muzammil 和 Ruijie 的 threads）',false,true],
+    ['2026-04-19','23:59','m306','W2 HW Q&P','Ch.1 Conceptual Q1 + Technical Q1 (p.21) + Ch.7 Conceptual Q1–5 (p.175–176)',false,false],
+    ['2026-04-19','23:59','m306','On-ground PPT','上传 Stockton 周末做的 PPT',false,true],
+    ['2026-04-19','23:59','m394','On-Ground Submission','on-ground 周末作业',false,true],
+    ['2026-04-19','23:59','m394','Assignment #1 Case Study','2 页双倍行距·伦理问题案例·封面/参考独立页·文件名含 first+last name',false,false],
+    ['2026-04-19','23:59','m394','DF Wk2 回复','2 条回复，每条 ≥ 2 段',false,false],
     ['2026-04-22','23:59','m306','W3 Forum 原帖','预计（Ch.8 Inflation）',false],
     ['2026-04-23','17:15','gen','Workshop: EBSCO','Extra Credit · Dr. Donna Roberts',false],
     ['2026-04-23','23:59','m394','DF Wk3 原帖','Privacy 主题 · 50 分 · 绝不迟交',false],
@@ -880,9 +882,13 @@
       if (isToday) cls += ' today';
       html += `<div class="${cls}"><div class="dnum">${d}${isToday?' 📍':''}</div>`;
       dayEvents.forEach((e, idx) => {
-        const urgentCls = e[5] ? ' urgent' : '';
         const evtId = `${dstr}-${idx}`;
-        html += `<span class="cal-evt ${e[2]}${urgentCls}" onclick="showEvent('${evtId}')" title="${e[1]} ${e[3]}">${e[3]}</span>`;
+        const dataDone = e[6] === true;
+        const userDone = localStorage.getItem('hu-done-' + evtId) === '1';
+        const isDone = dataDone || userDone;
+        const urgentCls = e[5] && !isDone ? ' urgent' : '';
+        const doneCls = isDone ? ' done' : '';
+        html += `<span class="cal-evt ${e[2]}${urgentCls}${doneCls}" onclick="showEvent('${evtId}')" title="${e[1]} ${e[3]}">${e[3]}</span>`;
       });
       html += `</div>`;
     }
@@ -902,13 +908,31 @@
     const [date, idx] = [id.substring(0,10), parseInt(id.substring(11))];
     const dayEvents = EVENTS.filter(e => e[0] === date);
     const e = dayEvents[idx];
-    const [d, time, tag, title, desc, urgent] = e;
+    const [d, time, tag, title, desc, urgent, dataDone] = e;
+    const userDone = localStorage.getItem('hu-done-' + id) === '1';
+    const isDone = dataDone || userDone;
+    const canToggle = !dataDone; // only user-set events can be toggled; auto-verified done events stay as is
     document.getElementById('calModalContent').innerHTML = `
-      <div style="color:var(--muted);font-size:12px">${d} (${['周日','周一','周二','周三','周四','周五','周六'][new Date(d).getUTCDay()]}) ${time} PDT · ${TAGS[tag]}</div>
-      <h3 style="margin:8px 0;color:${urgent?'var(--danger)':'var(--text)'}">${title}</h3>
+      <div style="color:var(--muted);font-size:12px">${d} (${['周日','周一','周二','周三','周四','周五','周六'][new Date(d).getUTCDay()]}) ${time} PDT · ${TAGS[tag]} ${isDone ? '· <span style="color:var(--ok)">✓ 已完成</span>' : ''}</div>
+      <h3 style="margin:8px 0;${isDone?'text-decoration:line-through;opacity:.6;':''}color:${urgent && !isDone?'var(--danger)':'var(--text)'}">${title}</h3>
       <div style="font-size:14px;line-height:1.6">${desc || '（无详情）'}</div>
+      ${dataDone ? '<div style="margin-top:16px;padding:8px;background:rgba(52,211,153,.1);border-radius:6px;font-size:12px;color:var(--ok)">✓ 已从 Moodle 验证完成（2026-04-16 20:43 PDT 核对）</div>' : `
+        <div style="margin-top:16px">
+          <button onclick="toggleDone('${id}')" style="background:var(--panel2);border:1px solid var(--line);color:var(--text);padding:8px 16px;border-radius:6px;cursor:pointer;font-size:13px">
+            ${userDone ? '↻ 标记为未完成' : '✓ 标记为已完成'}
+          </button>
+        </div>`}
     `;
     document.getElementById('calModal').classList.add('show');
+  }
+
+  function toggleDone(id){
+    const cur = localStorage.getItem('hu-done-' + id) === '1';
+    if (cur) localStorage.removeItem('hu-done-' + id);
+    else localStorage.setItem('hu-done-' + id, '1');
+    document.getElementById('calModal').classList.remove('show');
+    document.getElementById('month-grid').innerHTML =
+      buildMonth(2026,4) + buildMonth(2026,5) + buildMonth(2026,6);
   }
 
   document.getElementById('month-grid').innerHTML =

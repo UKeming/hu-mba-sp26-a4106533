@@ -1,0 +1,594 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:     
+      - navigation [ref=e36]:
+        - list [ref=e39]:
+          - listitem [ref=e40]
+          - listitem [ref=e44]
+          - listitem [ref=e48]
+          - listitem [ref=e52]
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic: 
+        - banner [ref=e58]:
+          - generic [ref=e59]:
+            - navigation "Breadcrumb" [ref=e62]:
+              - list [ref=e63]:
+                - listitem [ref=e64]:
+                  - link "2026SP" [ref=e65] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/index.php?categoryid=535
+                - listitem [ref=e66]:
+                  - text: /
+                  - link "2026SP-MBA394B" [ref=e67] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/view.php?id=5525
+                - listitem [ref=e68]:
+                  - text: /
+                  - 'link "Week 2: April 13-19" [ref=e69] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71301
+                - listitem [ref=e70]: "/ DF (Wk2: Ethics)"
+            - generic [ref=e74]:
+              - img [ref=e77]
+              - 'heading "DF (Wk2: Ethics)" [level=1] [ref=e79]'
+        - navigation [ref=e81]:
+          - menubar [ref=e82]:
+            - menuitem "Forum" [ref=e83] [cursor=pointer]
+            - menuitem "Don't track unread posts" [ref=e84] [cursor=pointer]
+            - text: 
+        - generic [ref=e87]:
+          - generic [ref=e89]:
+            - generic [ref=e90]: Completion requirements
+            - generic [ref=e91]:
+              - 'list "Completion requirements for DF (Wk2: Ethics)" [ref=e93]':
+                - listitem [ref=e94]:
+                  - generic [ref=e95]: 
+                  - strong [ref=e96]: "Done:"
+                  - text: View
+                - listitem [ref=e97]:
+                  - strong [ref=e98]: "To do:"
+                  - text: "Post replies: 2"
+                - listitem [ref=e99]:
+                  - generic [ref=e100]: 
+                  - strong [ref=e101]: "Done:"
+                  - text: "Make forum posts: 1"
+              - generic [ref=e103]:
+                - strong [ref=e104]: "Due:"
+                - text: Sunday, April 19, 2026, 11:59 PM
+            - generic [ref=e106]:
+              - paragraph [ref=e107]: Start the discussion with an explanation of the term “ethics.” What is meant by “ethics” and why has ethics become a central component of an organization’s success and/or failure?
+              - paragraph [ref=e108]: Provide one original post, along with 2 responses to the posts made by other students. Each response should be a minimum of 2 paragraphs. Your original post must include at least two citations.
+          - main [ref=e109]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - button "Help" [ref=e113] [cursor=pointer]:
+                  - img "Help with Search" [ref=e114]: 
+                - generic [ref=e117]:
+                  - generic [ref=e118]: Search forums
+                  - textbox "Search forums" [ref=e119]
+                  - button "Search forums" [ref=e121] [cursor=pointer]:
+                    - generic [ref=e122]: 
+                    - generic [ref=e123]: Search forums
+              - link "Add discussion topic" [ref=e125] [cursor=pointer]:
+                - /url: "#collapseAddForm"
+              - link "Subscribe to forum" [ref=e127] [cursor=pointer]:
+                - /url: https://moodle.humphreys.edu/mod/forum/subscribe.php?id=38088&sesskey=N1WBZKzDos&returnurl=https%3A%2F%2Fmoodle.humphreys.edu%2Fmod%2Fforum%2Fview.php%3Fid%3D366348
+            - generic [ref=e128]:
+              - text:   
+              - table "List of discussions. Showing 14 of 14 discussions" [ref=e132]:
+                - caption [ref=e133]: List of discussions. Showing 14 of 14 discussions
+                - rowgroup [ref=e134]:
+                  - row "Status Sort by discussion name in descending order Sort by discussion starter name in descending order Sort by last post creation date in descending order Ascending Sort by number of replies in descending order Mark all posts in this forum read. Subscribe Actions" [ref=e135]:
+                    - columnheader "Status" [ref=e136]:
+                      - generic [ref=e137]: Status
+                    - columnheader "Sort by discussion name in descending order" [ref=e138]:
+                      - link "Sort by discussion name in descending order" [ref=e139] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366348&o=7
+                        - text: Discussion
+                    - columnheader "Sort by discussion starter name in descending order" [ref=e140]:
+                      - link "Sort by discussion starter name in descending order" [ref=e141] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366348&o=9
+                        - text: Started by
+                    - columnheader "Sort by last post creation date in descending order Ascending" [ref=e142]:
+                      - link "Sort by last post creation date in descending order" [ref=e143] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366348&o=1
+                        - text: Last post
+                      - img "Ascending" [ref=e145]: 
+                    - columnheader "Sort by number of replies in descending order Mark all posts in this forum read." [ref=e146]:
+                      - link "Sort by number of replies in descending order" [ref=e147] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366348&o=5
+                        - text: Replies
+                      - link "Mark all posts in this forum read." [ref=e148] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/markposts.php?f=38088&mark=read&sesskey=N1WBZKzDos&return=https%3A%2F%2Fmoodle.humphreys.edu%2Fmod%2Fforum%2Fview.php%3Fid%3D366348
+                        - img "Mark all posts in this forum read." [ref=e149]: 
+                    - columnheader "Subscribe" [ref=e150]
+                    - columnheader "Actions" [ref=e151]:
+                      - generic [ref=e152]: Actions
+                - rowgroup [ref=e153]:
+                  - 'row "Star this discussion Week 2: Ethics Picture of Spandana Sunkara Spandana Sunkara 15 Apr 2026 Picture of Vijay Manohar Vijay Manohar 15 Apr 2026 2 3 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e154]':
+                    - cell "Star this discussion" [ref=e155]:
+                      - button "Star this discussion" [ref=e156] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e158]: 
+                    - 'rowheader "Week 2: Ethics" [ref=e159]':
+                      - 'link "Week 2: Ethics" [ref=e162] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196635
+                    - cell "Picture of Spandana Sunkara Spandana Sunkara 15 Apr 2026" [ref=e163]:
+                      - generic [ref=e164]:
+                        - img "Picture of Spandana Sunkara" [ref=e166]
+                        - generic [ref=e167]:
+                          - generic [ref=e168]: Spandana Sunkara
+                          - time [ref=e170]: 15 Apr 2026
+                    - cell "Picture of Vijay Manohar Vijay Manohar 15 Apr 2026" [ref=e171]:
+                      - generic [ref=e172]:
+                        - img "Picture of Vijay Manohar" [ref=e174]
+                        - generic [ref=e175]:
+                          - generic [ref=e176]: Vijay Manohar
+                          - link "15 Apr 2026" [ref=e178] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196635&parent=565138
+                            - time [ref=e179]: 15 Apr 2026
+                    - cell "2 3 unread posts" [ref=e180]:
+                      - text: "2"
+                      - link "3 unread posts" [ref=e182] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196635#unread
+                        - text: "3"
+                    - cell "Subscribe to this discussion" [ref=e183]:
+                      - generic [ref=e184]:
+                        - checkbox "Subscribe to this discussion" [ref=e185]
+                        - generic [ref=e186]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e187]:
+                      - button "Toggle the discussion menu" [ref=e191] [cursor=pointer]:
+                        - generic [ref=e192]: 
+                  - 'row "Star this discussion Wk2: Ethics Picture of Bharath Routhu Bharath Routhu 15 Apr 2026 Picture of Vijay Manohar Vijay Manohar 15 Apr 2026 2 3 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e193]':
+                    - cell "Star this discussion" [ref=e194]:
+                      - button "Star this discussion" [ref=e195] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e197]: 
+                    - 'rowheader "Wk2: Ethics" [ref=e198]':
+                      - 'link "Wk2: Ethics" [ref=e201] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196633
+                    - cell "Picture of Bharath Routhu Bharath Routhu 15 Apr 2026" [ref=e202]:
+                      - generic [ref=e203]:
+                        - img "Picture of Bharath Routhu" [ref=e205]
+                        - generic [ref=e206]:
+                          - generic [ref=e207]: Bharath Routhu
+                          - time [ref=e209]: 15 Apr 2026
+                    - cell "Picture of Vijay Manohar Vijay Manohar 15 Apr 2026" [ref=e210]:
+                      - generic [ref=e211]:
+                        - img "Picture of Vijay Manohar" [ref=e213]
+                        - generic [ref=e214]:
+                          - generic [ref=e215]: Vijay Manohar
+                          - link "15 Apr 2026" [ref=e217] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196633&parent=565152
+                            - time [ref=e218]: 15 Apr 2026
+                    - cell "2 3 unread posts" [ref=e219]:
+                      - text: "2"
+                      - link "3 unread posts" [ref=e221] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196633#unread
+                        - text: "3"
+                    - cell "Subscribe to this discussion" [ref=e222]:
+                      - generic [ref=e223]:
+                        - checkbox "Subscribe to this discussion" [ref=e224]
+                        - generic [ref=e225]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e226]:
+                      - button "Toggle the discussion menu" [ref=e230] [cursor=pointer]:
+                        - generic [ref=e231]: 
+                  - row "Star this discussion Week 2 - \"Ethics\" Picture of Pranjali Mehta Pranjali Mehta 15 Apr 2026 Picture of Pranjali Mehta Pranjali Mehta 15 Apr 2026 0 1 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e232]:
+                    - cell "Star this discussion" [ref=e233]:
+                      - button "Star this discussion" [ref=e234] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e236]: 
+                    - rowheader "Week 2 - \"Ethics\"" [ref=e237]:
+                      - link "Week 2 - \"Ethics\"" [ref=e240] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196751
+                    - cell "Picture of Pranjali Mehta Pranjali Mehta 15 Apr 2026" [ref=e241]:
+                      - generic [ref=e242]:
+                        - img "Picture of Pranjali Mehta" [ref=e244]
+                        - generic [ref=e245]:
+                          - generic [ref=e246]: Pranjali Mehta
+                          - time [ref=e248]: 15 Apr 2026
+                    - cell "Picture of Pranjali Mehta Pranjali Mehta 15 Apr 2026" [ref=e249]:
+                      - generic [ref=e250]:
+                        - img "Picture of Pranjali Mehta" [ref=e252]
+                        - generic [ref=e253]:
+                          - generic [ref=e254]: Pranjali Mehta
+                          - link "15 Apr 2026" [ref=e256] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196751&parent=565162
+                            - time [ref=e257]: 15 Apr 2026
+                    - cell "0 1 unread posts" [ref=e258]:
+                      - text: "0"
+                      - link "1 unread posts" [ref=e260] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196751#unread
+                        - text: "1"
+                    - cell "Subscribe to this discussion" [ref=e261]:
+                      - generic [ref=e262]:
+                        - checkbox "Subscribe to this discussion" [ref=e263]
+                        - generic [ref=e264]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e265]:
+                      - button "Toggle the discussion menu" [ref=e269] [cursor=pointer]:
+                        - generic [ref=e270]: 
+                  - 'row "Star this discussion DF (Wk2: Ethics) Picture of Zeng Giam Zeng Giam 15 Apr 2026 Picture of Taiyuan Mei Taiyuan Mei 15 Apr 2026 2 3 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e271]':
+                    - cell "Star this discussion" [ref=e272]:
+                      - button "Star this discussion" [ref=e273] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e275]: 
+                    - 'rowheader "DF (Wk2: Ethics)" [ref=e276]':
+                      - 'link "DF (Wk2: Ethics)" [ref=e279] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196648
+                    - cell "Picture of Zeng Giam Zeng Giam 15 Apr 2026" [ref=e280]:
+                      - generic [ref=e281]:
+                        - img "Picture of Zeng Giam" [ref=e283]
+                        - generic [ref=e284]:
+                          - generic [ref=e285]: Zeng Giam
+                          - time [ref=e287]: 15 Apr 2026
+                    - cell "Picture of Taiyuan Mei Taiyuan Mei 15 Apr 2026" [ref=e288]:
+                      - generic [ref=e289]:
+                        - img "Picture of Taiyuan Mei" [ref=e291]
+                        - generic [ref=e292]:
+                          - generic [ref=e293]: Taiyuan Mei
+                          - link "15 Apr 2026" [ref=e295] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196648&parent=565172
+                            - time [ref=e296]: 15 Apr 2026
+                    - cell "2 3 unread posts" [ref=e297]:
+                      - text: "2"
+                      - link "3 unread posts" [ref=e299] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196648#unread
+                        - text: "3"
+                    - cell "Subscribe to this discussion" [ref=e300]:
+                      - generic [ref=e301]:
+                        - checkbox "Subscribe to this discussion" [ref=e302]
+                        - generic [ref=e303]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e304]:
+                      - button "Toggle the discussion menu" [ref=e308] [cursor=pointer]:
+                        - generic [ref=e309]: 
+                  - row "Star this discussion Week 2- Ethics Picture of Vijay Manohar Vijay Manohar 12 Apr 2026 Picture of Taiyuan Mei Taiyuan Mei 15 Apr 2026 2 3 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e310]:
+                    - cell "Star this discussion" [ref=e311]:
+                      - button "Star this discussion" [ref=e312] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e314]: 
+                    - rowheader "Week 2- Ethics" [ref=e315]:
+                      - link "Week 2- Ethics" [ref=e318] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196223
+                    - cell "Picture of Vijay Manohar Vijay Manohar 12 Apr 2026" [ref=e319]:
+                      - generic [ref=e320]:
+                        - img "Picture of Vijay Manohar" [ref=e322]
+                        - generic [ref=e323]:
+                          - generic [ref=e324]: Vijay Manohar
+                          - time [ref=e326]: 12 Apr 2026
+                    - cell "Picture of Taiyuan Mei Taiyuan Mei 15 Apr 2026" [ref=e327]:
+                      - generic [ref=e328]:
+                        - img "Picture of Taiyuan Mei" [ref=e330]
+                        - generic [ref=e331]:
+                          - generic [ref=e332]: Taiyuan Mei
+                          - link "15 Apr 2026" [ref=e334] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196223&parent=565174
+                            - time [ref=e335]: 15 Apr 2026
+                    - cell "2 3 unread posts" [ref=e336]:
+                      - text: "2"
+                      - link "3 unread posts" [ref=e338] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196223#unread
+                        - text: "3"
+                    - cell "Subscribe to this discussion" [ref=e339]:
+                      - generic [ref=e340]:
+                        - checkbox "Subscribe to this discussion" [ref=e341]
+                        - generic [ref=e342]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e343]:
+                      - button "Toggle the discussion menu" [ref=e347] [cursor=pointer]:
+                        - generic [ref=e348]: 
+                  - 'row "Star this discussion DF (Wk2: Ethics) Picture of Taiyuan Mei Taiyuan Mei 15 Apr 2026 Picture of Sofia Maringoni Sofia Maringoni 15 Apr 2026 1 2 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e349]':
+                    - cell "Star this discussion" [ref=e350]:
+                      - button "Star this discussion" [ref=e351] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e353]: 
+                    - 'rowheader "DF (Wk2: Ethics)" [ref=e354]':
+                      - 'link "DF (Wk2: Ethics)" [ref=e357] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196754
+                    - cell "Picture of Taiyuan Mei Taiyuan Mei 15 Apr 2026" [ref=e358]:
+                      - generic [ref=e359]:
+                        - img "Picture of Taiyuan Mei" [ref=e361]
+                        - generic [ref=e362]:
+                          - generic [ref=e363]: Taiyuan Mei
+                          - time [ref=e365]: 15 Apr 2026
+                    - cell "Picture of Sofia Maringoni Sofia Maringoni 15 Apr 2026" [ref=e366]:
+                      - generic [ref=e367]:
+                        - img "Picture of Sofia Maringoni" [ref=e369]
+                        - generic [ref=e370]:
+                          - generic [ref=e371]: Sofia Maringoni
+                          - link "15 Apr 2026" [ref=e373] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196754&parent=565237
+                            - time [ref=e374]: 15 Apr 2026
+                    - cell "1 2 unread posts" [ref=e375]:
+                      - text: "1"
+                      - link "2 unread posts" [ref=e377] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196754#unread
+                        - text: "2"
+                    - cell "Subscribe to this discussion" [ref=e378]:
+                      - generic [ref=e379]:
+                        - checkbox "Subscribe to this discussion" [ref=e380]
+                        - generic [ref=e381]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e382]:
+                      - button "Toggle the discussion menu" [ref=e386] [cursor=pointer]:
+                        - generic [ref=e387]: 
+                  - row "Star this discussion Week 2 - Ethics Picture of An-Chen Li An-Chen Li 14 Apr 2026 Picture of Sofia Maringoni Sofia Maringoni 15 Apr 2026 2 3 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e388]:
+                    - cell "Star this discussion" [ref=e389]:
+                      - button "Star this discussion" [ref=e390] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e392]: 
+                    - rowheader "Week 2 - Ethics" [ref=e393]:
+                      - link "Week 2 - Ethics" [ref=e396] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196608
+                    - cell "Picture of An-Chen Li An-Chen Li 14 Apr 2026" [ref=e397]:
+                      - generic [ref=e398]:
+                        - img "Picture of An-Chen Li" [ref=e400]
+                        - generic [ref=e401]:
+                          - generic [ref=e402]: An-Chen Li
+                          - time [ref=e404]: 14 Apr 2026
+                    - cell "Picture of Sofia Maringoni Sofia Maringoni 15 Apr 2026" [ref=e405]:
+                      - generic [ref=e406]:
+                        - img "Picture of Sofia Maringoni" [ref=e408]
+                        - generic [ref=e409]:
+                          - generic [ref=e410]: Sofia Maringoni
+                          - link "15 Apr 2026" [ref=e412] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196608&parent=565245
+                            - time [ref=e413]: 15 Apr 2026
+                    - cell "2 3 unread posts" [ref=e414]:
+                      - text: "2"
+                      - link "3 unread posts" [ref=e416] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196608#unread
+                        - text: "3"
+                    - cell "Subscribe to this discussion" [ref=e417]:
+                      - generic [ref=e418]:
+                        - checkbox "Subscribe to this discussion" [ref=e419]
+                        - generic [ref=e420]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e421]:
+                      - button "Toggle the discussion menu" [ref=e425] [cursor=pointer]:
+                        - generic [ref=e426]: 
+                  - 'row "Star this discussion Wk2: Ethics Picture of Yuhao Shen Yuhao Shen 15 Apr 2026 Picture of Yuhao Shen Yuhao Shen 15 Apr 2026 0 1 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e427]':
+                    - cell "Star this discussion" [ref=e428]:
+                      - button "Star this discussion" [ref=e429] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e431]: 
+                    - 'rowheader "Wk2: Ethics" [ref=e432]':
+                      - 'link "Wk2: Ethics" [ref=e435] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196786
+                    - cell "Picture of Yuhao Shen Yuhao Shen 15 Apr 2026" [ref=e436]:
+                      - generic [ref=e437]:
+                        - img "Picture of Yuhao Shen" [ref=e439]
+                        - generic [ref=e440]:
+                          - generic [ref=e441]: Yuhao Shen
+                          - time [ref=e443]: 15 Apr 2026
+                    - cell "Picture of Yuhao Shen Yuhao Shen 15 Apr 2026" [ref=e444]:
+                      - generic [ref=e445]:
+                        - img "Picture of Yuhao Shen" [ref=e447]
+                        - generic [ref=e448]:
+                          - generic [ref=e449]: Yuhao Shen
+                          - link "15 Apr 2026" [ref=e451] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196786&parent=565251
+                            - time [ref=e452]: 15 Apr 2026
+                    - cell "0 1 unread posts" [ref=e453]:
+                      - text: "0"
+                      - link "1 unread posts" [ref=e455] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196786#unread
+                        - text: "1"
+                    - cell "Subscribe to this discussion" [ref=e456]:
+                      - generic [ref=e457]:
+                        - checkbox "Subscribe to this discussion" [ref=e458]
+                        - generic [ref=e459]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e460]:
+                      - button "Toggle the discussion menu" [ref=e464] [cursor=pointer]:
+                        - generic [ref=e465]: 
+                  - row "Star this discussion week2 forum post Picture of Longtao Lyu Longtao Lyu 11 Apr 2026 Picture of Yuhao Shen Yuhao Shen 15 Apr 2026 1 2 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e466]:
+                    - cell "Star this discussion" [ref=e467]:
+                      - button "Star this discussion" [ref=e468] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e470]: 
+                    - rowheader "week2 forum post" [ref=e471]:
+                      - link "week2 forum post" [ref=e474] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=195851
+                    - cell "Picture of Longtao Lyu Longtao Lyu 11 Apr 2026" [ref=e475]:
+                      - generic [ref=e476]:
+                        - img "Picture of Longtao Lyu" [ref=e478]
+                        - generic [ref=e479]:
+                          - generic [ref=e480]: Longtao Lyu
+                          - time [ref=e482]: 11 Apr 2026
+                    - cell "Picture of Yuhao Shen Yuhao Shen 15 Apr 2026" [ref=e483]:
+                      - generic [ref=e484]:
+                        - img "Picture of Yuhao Shen" [ref=e486]
+                        - generic [ref=e487]:
+                          - generic [ref=e488]: Yuhao Shen
+                          - link "15 Apr 2026" [ref=e490] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=195851&parent=565256
+                            - time [ref=e491]: 15 Apr 2026
+                    - cell "1 2 unread posts" [ref=e492]:
+                      - text: "1"
+                      - link "2 unread posts" [ref=e494] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=195851#unread
+                        - text: "2"
+                    - cell "Subscribe to this discussion" [ref=e495]:
+                      - generic [ref=e496]:
+                        - checkbox "Subscribe to this discussion" [ref=e497]
+                        - generic [ref=e498]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e499]:
+                      - button "Toggle the discussion menu" [ref=e503] [cursor=pointer]:
+                        - generic [ref=e504]: 
+                  - row "Star this discussion week 2- Ethics Discussion Picture of Jayanth Karupothula Jayanth Karupothula 15 Apr 2026 Picture of Yuhao Shen Yuhao Shen 15 Apr 2026 1 2 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e505]:
+                    - cell "Star this discussion" [ref=e506]:
+                      - button "Star this discussion" [ref=e507] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e509]: 
+                    - rowheader "week 2- Ethics Discussion" [ref=e510]:
+                      - link "week 2- Ethics Discussion" [ref=e513] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196715
+                    - cell "Picture of Jayanth Karupothula Jayanth Karupothula 15 Apr 2026" [ref=e514]:
+                      - generic [ref=e515]:
+                        - img "Picture of Jayanth Karupothula" [ref=e517]
+                        - generic [ref=e518]:
+                          - generic [ref=e519]: Jayanth Karupothula
+                          - time [ref=e521]: 15 Apr 2026
+                    - cell "Picture of Yuhao Shen Yuhao Shen 15 Apr 2026" [ref=e522]:
+                      - generic [ref=e523]:
+                        - img "Picture of Yuhao Shen" [ref=e525]
+                        - generic [ref=e526]:
+                          - generic [ref=e527]: Yuhao Shen
+                          - link "15 Apr 2026" [ref=e529] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196715&parent=565259
+                            - time [ref=e530]: 15 Apr 2026
+                    - cell "1 2 unread posts" [ref=e531]:
+                      - text: "1"
+                      - link "2 unread posts" [ref=e533] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196715#unread
+                        - text: "2"
+                    - cell "Subscribe to this discussion" [ref=e534]:
+                      - generic [ref=e535]:
+                        - checkbox "Subscribe to this discussion" [ref=e536]
+                        - generic [ref=e537]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e538]:
+                      - button "Toggle the discussion menu" [ref=e542] [cursor=pointer]:
+                        - generic [ref=e543]: 
+                  - 'row "Star this discussion Week 2: Ethics Picture of Wen-Yu Lee Wen-Yu Lee 15 Apr 2026 Picture of Wen-Yu Lee Wen-Yu Lee 15 Apr 2026 0 1 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e544]':
+                    - cell "Star this discussion" [ref=e545]:
+                      - button "Star this discussion" [ref=e546] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e548]: 
+                    - 'rowheader "Week 2: Ethics" [ref=e549]':
+                      - 'link "Week 2: Ethics" [ref=e552] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196803
+                    - cell "Picture of Wen-Yu Lee Wen-Yu Lee 15 Apr 2026" [ref=e553]:
+                      - generic [ref=e554]:
+                        - img "Picture of Wen-Yu Lee" [ref=e556]
+                        - generic [ref=e557]:
+                          - generic [ref=e558]: Wen-Yu Lee
+                          - time [ref=e560]: 15 Apr 2026
+                    - cell "Picture of Wen-Yu Lee Wen-Yu Lee 15 Apr 2026" [ref=e561]:
+                      - generic [ref=e562]:
+                        - img "Picture of Wen-Yu Lee" [ref=e564]
+                        - generic [ref=e565]:
+                          - generic [ref=e566]: Wen-Yu Lee
+                          - link "15 Apr 2026" [ref=e568] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196803&parent=565302
+                            - time [ref=e569]: 15 Apr 2026
+                    - cell "0 1 unread posts" [ref=e570]:
+                      - text: "0"
+                      - link "1 unread posts" [ref=e572] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196803#unread
+                        - text: "1"
+                    - cell "Subscribe to this discussion" [ref=e573]:
+                      - generic [ref=e574]:
+                        - checkbox "Subscribe to this discussion" [ref=e575]
+                        - generic [ref=e576]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e577]:
+                      - button "Toggle the discussion menu" [ref=e581] [cursor=pointer]:
+                        - generic [ref=e582]: 
+                  - row "Star this discussion Week 2 Discussion Post Picture of Andrea Ahorner Andrea Ahorner 16 Apr 2026 Picture of Andrea Ahorner Andrea Ahorner 16 Apr 2026 0 1 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e583]:
+                    - cell "Star this discussion" [ref=e584]:
+                      - button "Star this discussion" [ref=e585] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e587]: 
+                    - rowheader "Week 2 Discussion Post" [ref=e588]:
+                      - link "Week 2 Discussion Post" [ref=e591] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196933
+                    - cell "Picture of Andrea Ahorner Andrea Ahorner 16 Apr 2026" [ref=e592]:
+                      - generic [ref=e593]:
+                        - img "Picture of Andrea Ahorner" [ref=e595]
+                        - generic [ref=e596]:
+                          - generic [ref=e597]: Andrea Ahorner
+                          - time [ref=e599]: 16 Apr 2026
+                    - cell "Picture of Andrea Ahorner Andrea Ahorner 16 Apr 2026" [ref=e600]:
+                      - generic [ref=e601]:
+                        - img "Picture of Andrea Ahorner" [ref=e603]
+                        - generic [ref=e604]:
+                          - generic [ref=e605]: Andrea Ahorner
+                          - link "16 Apr 2026" [ref=e607] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196933&parent=565651
+                            - time [ref=e608]: 16 Apr 2026
+                    - cell "0 1 unread posts" [ref=e609]:
+                      - text: "0"
+                      - link "1 unread posts" [ref=e611] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196933#unread
+                        - text: "1"
+                    - cell "Subscribe to this discussion" [ref=e612]:
+                      - generic [ref=e613]:
+                        - checkbox "Subscribe to this discussion" [ref=e614]
+                        - generic [ref=e615]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e616]:
+                      - button "Toggle the discussion menu" [ref=e620] [cursor=pointer]:
+                        - generic [ref=e621]: 
+                  - row "Star this discussion Week 2 Discussion Picture of Sofia Maringoni Sofia Maringoni 12 Apr 2026 Picture of Andrea Ahorner Andrea Ahorner 16 Apr 2026 2 3 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e622]:
+                    - cell "Star this discussion" [ref=e623]:
+                      - button "Star this discussion" [ref=e624] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e626]: 
+                    - rowheader "Week 2 Discussion" [ref=e627]:
+                      - link "Week 2 Discussion" [ref=e630] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196147
+                    - cell "Picture of Sofia Maringoni Sofia Maringoni 12 Apr 2026" [ref=e631]:
+                      - generic [ref=e632]:
+                        - img "Picture of Sofia Maringoni" [ref=e634]
+                        - generic [ref=e635]:
+                          - generic [ref=e636]: Sofia Maringoni
+                          - time [ref=e638]: 12 Apr 2026
+                    - cell "Picture of Andrea Ahorner Andrea Ahorner 16 Apr 2026" [ref=e639]:
+                      - generic [ref=e640]:
+                        - img "Picture of Andrea Ahorner" [ref=e642]
+                        - generic [ref=e643]:
+                          - generic [ref=e644]: Andrea Ahorner
+                          - link "16 Apr 2026" [ref=e646] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196147&parent=565654
+                            - time [ref=e647]: 16 Apr 2026
+                    - cell "2 3 unread posts" [ref=e648]:
+                      - text: "2"
+                      - link "3 unread posts" [ref=e650] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196147#unread
+                        - text: "3"
+                    - cell "Subscribe to this discussion" [ref=e651]:
+                      - generic [ref=e652]:
+                        - checkbox "Subscribe to this discussion" [ref=e653]
+                        - generic [ref=e654]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e655]:
+                      - button "Toggle the discussion menu" [ref=e659] [cursor=pointer]:
+                        - generic [ref=e660]: 
+                  - 'row "Star this discussion Week 2: Ethics Picture of Qi Zhou Qi Zhou 16 Apr 2026 Picture of Qi Zhou Qi Zhou 16 Apr 2026 0 Subscribe to this discussion Toggle the discussion menu" [ref=e661]':
+                    - cell "Star this discussion" [ref=e662]:
+                      - button "Star this discussion" [ref=e663] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e665]: 
+                    - 'rowheader "Week 2: Ethics" [ref=e666]':
+                      - 'link "Week 2: Ethics" [ref=e669] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196989
+                    - cell "Picture of Qi Zhou Qi Zhou 16 Apr 2026" [ref=e670]:
+                      - generic [ref=e671]:
+                        - img "Picture of Qi Zhou" [ref=e673]
+                        - generic [ref=e674]:
+                          - generic [ref=e675]: Qi Zhou
+                          - time [ref=e677]: 16 Apr 2026
+                    - cell "Picture of Qi Zhou Qi Zhou 16 Apr 2026" [ref=e678]:
+                      - generic [ref=e679]:
+                        - img "Picture of Qi Zhou" [ref=e681]
+                        - generic [ref=e682]:
+                          - generic [ref=e683]: Qi Zhou
+                          - link "16 Apr 2026" [ref=e685] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196989&parent=565771
+                            - time [ref=e686]: 16 Apr 2026
+                    - cell "0" [ref=e687]
+                    - cell "Subscribe to this discussion" [ref=e688]:
+                      - generic [ref=e689]:
+                        - checkbox "Subscribe to this discussion" [ref=e690]
+                        - generic [ref=e691]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e692]:
+                      - button "Toggle the discussion menu" [ref=e696] [cursor=pointer]:
+                        - generic [ref=e697]: 
+      - contentinfo:
+        - button "Show footer" [ref=e698] [cursor=pointer]:
+          - generic [ref=e699]: "?"
+        - text: 
