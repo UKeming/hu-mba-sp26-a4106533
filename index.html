@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Humphreys MBA Spring 2026 — 课程完整指南</title>
+<style>
+  :root{
+    --bg:#0b0e14; --panel:#131722; --panel2:#1a1f2e; --line:#2a3142;
+    --text:#e6e9ef; --muted:#9aa3b2; --accent:#6ee7b7; --accent2:#60a5fa;
+    --warn:#fbbf24; --danger:#f87171; --ok:#34d399;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+  header{position:sticky;top:0;z-index:10;background:rgba(11,14,20,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:14px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+  header h1{font-size:17px;margin:0;font-weight:600}
+  header .meta{font-size:12px;color:var(--muted)}
+  nav{display:flex;gap:6px;flex-wrap:wrap}
+  nav a{padding:6px 12px;border-radius:6px;background:var(--panel2);color:var(--text);text-decoration:none;font-size:13px;border:1px solid var(--line)}
+  nav a:hover{background:var(--accent);color:#0b0e14}
+  main{max-width:1100px;margin:0 auto;padding:32px 20px}
+  section{margin-bottom:56px}
+  h2{font-size:24px;border-left:4px solid var(--accent);padding-left:12px;margin:40px 0 20px}
+  h3{font-size:18px;color:var(--accent2);margin:28px 0 12px}
+  h4{font-size:15px;color:var(--accent);margin:20px 0 8px;text-transform:uppercase;letter-spacing:.5px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin-bottom:16px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:var(--panel2);color:var(--accent);font-weight:600;text-transform:uppercase;font-size:11px;letter-spacing:.5px}
+  tr:hover td{background:rgba(96,165,250,.05)}
+  .pill{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;letter-spacing:.3px}
+  .pill.urgent{background:rgba(248,113,113,.15);color:var(--danger);border:1px solid rgba(248,113,113,.3)}
+  .pill.warn{background:rgba(251,191,36,.15);color:var(--warn);border:1px solid rgba(251,191,36,.3)}
+  .pill.ok{background:rgba(52,211,153,.15);color:var(--ok);border:1px solid rgba(52,211,153,.3)}
+  .pill.info{background:rgba(96,165,250,.15);color:var(--accent2);border:1px solid rgba(96,165,250,.3)}
+  .pill.done{background:rgba(154,163,178,.15);color:var(--muted);border:1px solid var(--line)}
+  .pill.mba306{background:rgba(167,139,250,.15);color:#c4b5fd;border:1px solid rgba(167,139,250,.3)}
+  .pill.mba392{background:rgba(251,146,60,.15);color:#fdba74;border:1px solid rgba(251,146,60,.3)}
+  .pill.mba394{background:rgba(34,211,238,.15);color:#67e8f9;border:1px solid rgba(34,211,238,.3)}
+  .alert{background:rgba(248,113,113,.08);border-left:4px solid var(--danger);padding:12px 16px;border-radius:6px;margin:10px 0}
+  .alert.warn{background:rgba(251,191,36,.08);border-left-color:var(--warn)}
+  .alert.ok{background:rgba(52,211,153,.08);border-left-color:var(--ok)}
+  .alert.info{background:rgba(96,165,250,.08);border-left-color:var(--accent2)}
+  .muted{color:var(--muted);font-size:13px}
+  .big{font-size:38px;font-weight:700;color:var(--accent);margin:0;line-height:1}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;text-align:center}
+  .stat .lbl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-top:6px}
+  ul li{margin:4px 0}
+  code{background:var(--panel2);padding:2px 6px;border-radius:3px;font-size:12px;color:var(--accent)}
+  details{background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:10px 14px;margin:6px 0}
+  details summary{cursor:pointer;font-weight:600;color:var(--accent2)}
+  details[open] summary{margin-bottom:10px}
+  .timeline{position:relative;padding-left:28px;margin:20px 0}
+  .timeline::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:2px;background:var(--line)}
+  .event{position:relative;margin-bottom:18px;padding:12px 16px;background:var(--panel2);border-radius:8px;border:1px solid var(--line)}
+  .event::before{content:'';position:absolute;left:-24px;top:18px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:3px solid var(--bg)}
+  .event.past::before{background:var(--muted)}
+  .event.urgent::before{background:var(--danger)}
+  .event.soon::before{background:var(--warn)}
+  .event .date{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.5px}
+  .event .title{font-size:15px;font-weight:600;margin:4px 0 2px}
+  .event .desc{font-size:13px;color:var(--muted)}
+  .chk{font-size:14px}
+  .chk input{margin-right:8px}
+  .rubric-item{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line);font-size:13px}
+  footer{text-align:center;color:var(--muted);font-size:12px;padding:24px;border-top:1px solid var(--line);margin-top:40px}
+  @media print {body{background:white;color:black} .card{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>📚 Humphreys MBA Spring 2026 — 完整课程指南</h1>
+    <div class="meta">学生：Qi Zhou · 学期：2026/4/6 – 2026/6/21（11 周）</div>
+  </div>
+  <nav>
+    <a href="#dash">📊 仪表板</a>
+    <a href="#timeline">⏰ 时间线</a>
+    <a href="#mba306">MBA306</a>
+    <a href="#mba392">MBA392</a>
+    <a href="#mba394">MBA394</a>
+    <a href="#policy">⚠️ 通用规则</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="dash">
+  <h2>📊 本周仪表板</h2>
+  <p class="muted">今天是 2026-04-16（周四）· 本周 = Week 2</p>
+  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
+    <div class="stat"><p class="big">3</p><div class="lbl">门进行中的课</div></div>
+    <div class="stat"><p class="big" style="color:var(--danger)">1</p><div class="lbl">明天截止</div></div>
+    <div class="stat"><p class="big" style="color:var(--warn)">7</p><div class="lbl">本周内截止</div></div>
+    <div class="stat"><p class="big" style="color:var(--accent2)">4</p><div class="lbl">下周内截止</div></div>
+    <div class="stat"><p class="big">≥12h</p><div class="lbl">每门课/周</div></div>
+  </div>
+
+  <div class="alert" style="margin-top:24px">
+    <strong style="color:var(--danger)">🚨 明天 (4/17 周五) 17:00 PDT：</strong> 上传 Group Presentation Slide（MBA April Week 1 课程）— <em>已标记完成，但请确认。</em>
+  </div>
+  <div class="alert warn">
+    <strong>📌 数据可靠性说明：</strong>日期基于 Moodle iCal 日历导出（33 个事件权威核对）· Syllabus PDF 全文核对 · 课程页文字核对。<br>
+    <strong>已知系统陷阱：</strong> MBA392 Paper #1/#2 截止时间 <strong>只在课程页文字中声明，没进 Moodle 日历</strong>，Moodle 不会自动提醒。<strong>4/26 & 5/10</strong> 两个日期请手动设置闹钟。
+  </div>
+</section>
+
+<section id="timeline">
+  <h2>⏰ 完整 Deadlines 时间线</h2>
+
+  <h3>🔥 本周（4/13–4/19）</h3>
+  <div class="timeline">
+    <div class="event past">
+      <div class="date">周三 4/15 23:59 · 已过</div>
+      <div class="title"><span class="pill mba306">MBA306</span> Week 2 Forum 原帖</div>
+      <div class="desc">Unemployment 讨论题：factors 难以确定 unemployment rate / frictional vs structural vs cyclical / 经济与非经济影响。<br>⚠️ 如果错过，<strong>论坛零容忍迟交</strong>，该题原帖已无分。</div>
+    </div>
+    <div class="event past">
+      <div class="date">周四 4/16 23:59 · 今晚</div>
+      <div class="title"><span class="pill mba394">MBA394</span> DF Wk2 原帖（50 分）</div>
+      <div class="desc">解释 "ethics" 的定义 + 为何 ethics 对组织成败至关重要。原帖需 ≥ 2 条引用。<strong>逾时原帖直接 0 分，无例外。</strong></div>
+    </div>
+    <div class="event urgent">
+      <div class="date">周五 4/17 17:00 PST</div>
+      <div class="title"><span class="pill">Weekend</span> Upload Presentation Slide</div>
+      <div class="desc">上周末在 Stockton 做的小组 presentation PPT 上传（"MBA April Week 1 Spring 2026 Weekend Presentation Slide Upload" 课）。<br>✅ 状态显示 100% 已完成，请再确认。</div>
+    </div>
+    <div class="event urgent">
+      <div class="date">周六 4/18 23:59 PST</div>
+      <div class="title"><span class="pill mba306">MBA306</span> Week 2 Forum 回复</div>
+      <div class="desc">至少 <strong>2 条回复</strong>其他同学的原帖。</div>
+    </div>
+    <div class="event urgent">
+      <div class="date">周日 4/19 23:59 PDT · 🔴 一天 <strong>5 件事</strong>（日历验证）</div>
+      <div class="title">周日大限：5 个任务同时到期</div>
+      <div class="desc">
+        <ul style="margin:6px 0 0">
+          <li><span class="pill mba306">MBA306</span> <strong>Week 2 Questions & Problems</strong>：Ch.1 Conceptual Q1 + Technical Q1 (p.21) + Ch.7 Conceptual Q1–5 (p.175–176)，打字提交</li>
+          <li><span class="pill mba306">MBA306</span> <strong>On-ground weekend participation</strong>：上传在 Stockton 做的 PPT</li>
+          <li><span class="pill mba394">MBA394</span> <strong>On_Ground Submission</strong>：on-ground 周末作业上传</li>
+          <li><span class="pill mba394">MBA394</span> <strong>Assignment #1: Case Study - Ethics</strong>：2 页双倍行距，伦理问题 + 公司概述 + 影响 + 2 个方案 + 推荐方案；封面独立页 + 参考独立页；<strong>文件名必须含你的姓（否则扣 3 分）</strong></li>
+          <li><span class="pill mba394">MBA394</span> <strong>DF Wk2 Ethics 回复</strong>：2 条，每条 ≥ 2 段（Moodle 系统 deadline 记录为周日 23:59；原帖周四应已发）</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <h3>📅 下周（4/20–4/26）</h3>
+  <div class="timeline">
+    <div class="event soon">
+      <div class="date">周四 4/23 23:59</div>
+      <div class="title"><span class="pill mba394">MBA394</span> DF Wk3 Privacy 原帖（50 分）</div>
+      <div class="desc">隐私 vs 商家收集数据的权衡；需 ≥ 2 条引用。</div>
+    </div>
+    <div class="event soon">
+      <div class="date">周四 4/23 17:15</div>
+      <div class="title"><span class="pill info">Extra Credit</span> Library Workshop: EBSCO 数据库</div>
+      <div class="desc">Dr. Donna Roberts 主讲，Online in Moodle，观看即可申请额外加分。</div>
+    </div>
+    <div class="event soon">
+      <div class="date">周三 4/22 23:59（老师规定）</div>
+      <div class="title"><span class="pill mba306">MBA306</span> Week 3 Forum 原帖</div>
+      <div class="desc">话题待发布（Ch.8 Inflation）</div>
+    </div>
+    <div class="event soon">
+      <div class="date">周六 4/25 23:59（预计，Week 3 事件未公布）</div>
+      <div class="title"><span class="pill mba306">MBA306</span> Week 3 Forum 回复 2 条</div>
+      <div class="desc">⚠️ Week 3+ 日历事件老师尚未公布，时间按 Week 2 模式预测（Sat 23:59 回复 · Sun 23:59 HW）。老师公布后请以日历为准。</div>
+    </div>
+    <div class="event urgent">
+      <div class="date">周日 4/26 23:59 PST · 🔴 CPT Paper #1 截止</div>
+      <div class="title">周日大限：4 个任务同时到期</div>
+      <div class="desc">
+        <ul style="margin:6px 0 0">
+          <li><span class="pill mba392">MBA392</span> <strong>Paper #1</strong>（1 篇，4.5+ 页，.docx；你选给 MBA306 或 MBA394 写，上传到对应课程的 paper 文件夹）</li>
+          <li><span class="pill mba306">MBA306</span> Week 3 作业（Ch.8 HW）</li>
+          <li><span class="pill mba394">MBA394</span> <strong>Assignment #2: Executive Summary</strong>（2–3 页政策 paper，隐私 vs 商业）</li>
+          <li><span class="pill mba394">MBA394</span> DF Wk3 回复（2 条）</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <h3>📅 5 月关键节点</h3>
+  <div class="timeline">
+    <div class="event">
+      <div class="date">周六 5/2 05:00 → 周日 5/3 23:59 PDT</div>
+      <div class="title"><span class="pill mba394">MBA394</span> <strong>Exam #1 窗口</strong>（约 43 小时，closed-book）</div>
+      <div class="desc">必须在 5/3 Sun 23:59 前完成并提交。</div>
+    </div>
+    <div class="event">
+      <div class="date">周日 5/3 23:59</div>
+      <div class="title"><span class="pill mba306">MBA306</span> Week 4 HW（Ch.14 Q1–12 p.353–354）+ <span class="pill mba394">MBA394</span> Assignment #3 Infographic + DF Wk4 Power 回复</div>
+    </div>
+    <div class="event urgent">
+      <div class="date">周日 5/10 23:59 PST · 🔴 CPT Paper #2 截止</div>
+      <div class="title">MBA392 Paper #2（另一门课的 paper）</div>
+      <div class="desc">交另一门课的 1 篇 paper（如果 Paper #1 写了 MBA394，这里就写 MBA306，反之亦然）。4.5+ 页、.docx、按模板、原创、禁 AI、禁翻译。最后截止，<strong>错过即 No Credit</strong>。同时 MBA394 Slides for Ch.5/6（Part 1）也这天截止。</div>
+    </div>
+    <div class="event">
+      <div class="date">周日 5/17</div>
+      <div class="title"><span class="pill mba306">MBA306</span> <strong>MIDTERM</strong>（Chapters 1, 7, 8, 14）+ <span class="pill mba394">MBA394</span> Assignment #4 Article Review</div>
+      <div class="desc">⚠️ MBA306 考试是 <strong>Open Book</strong>，MBA394 考试是 <strong>Closed Book / Closed Note</strong>（不同！）</div>
+    </div>
+    <div class="event">
+      <div class="date">周日 5/24</div>
+      <div class="title"><span class="pill mba306">MBA306</span> Week 7 Ch.16 Demand for Money · <span class="pill mba394">MBA394</span> Assignment #5 Email</div>
+    </div>
+    <div class="event">
+      <div class="date">周六 5/30 05:00 → 周日 5/31 23:59 PDT</div>
+      <div class="title"><span class="pill mba394">MBA394</span> <strong>Exam #2 窗口</strong>（closed-book）</div>
+    </div>
+    <div class="event">
+      <div class="date">周日 5/31 23:59</div>
+      <div class="title"><span class="pill mba306">MBA306</span> Week 8 Ch.17 Fed, Money, Credit · <span class="pill mba394">MBA394</span> 10-min 视频 presentation 上传 + DF Wk7</div>
+    </div>
+  </div>
+
+  <h3>📅 6 月 / 期末</h3>
+  <div class="timeline">
+    <div class="event">
+      <div class="date">周日 6/7</div>
+      <div class="title"><span class="pill mba306">MBA306</span> Week 9 Ch.20 National Debt · <span class="pill mba394">MBA394</span> Assignment #6 Blog</div>
+    </div>
+    <div class="event">
+      <div class="date">周日 6/14</div>
+      <div class="title"><span class="pill mba306">MBA306</span> Week 10 Ch.21 Recession · <span class="pill mba394">MBA394</span> Assignment #7 Safeguard Data</div>
+    </div>
+    <div class="event urgent">
+      <div class="date">周四 6/18 23:59 PDT</div>
+      <div class="title"><span class="pill mba394">MBA394</span> DF Wk11 Reflection 原帖（<strong>无需回复，只要原帖！</strong>）</div>
+    </div>
+    <div class="event urgent">
+      <div class="date">周四 6/18 05:00 → 周五 6/19 17:00 PDT</div>
+      <div class="title"><span class="pill mba394">MBA394</span> <strong>Exam #3 窗口</strong>（closed-book · 与学期硬死线同时关闭！）</div>
+      <div class="desc">Exam #3 关闭时间就是学期终止线。</div>
+    </div>
+    <div class="event urgent">
+      <div class="date">周五 6/19 16:59 PDT · 🔴 HARD DEADLINE（无任何例外）</div>
+      <div class="title">学期终止：Business Department 任何课程不接受 17:00 后提交</div>
+      <div class="desc">
+        <ul style="margin:6px 0 0">
+          <li><span class="pill mba306">MBA306</span> Final Paper (10% of grade) + FINAL Reflection（Week 11 内容）</li>
+          <li><span class="pill mba394">MBA394</span> Exam #3 必须已提交</li>
+          <li>⛔ 之后<strong>不论何种理由都不接受任何提交</strong>。规划务必留缓冲。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== MBA306 =================== -->
+<section id="mba306">
+  <h2><span class="pill mba306">MBA306</span> Macroeconomics: Business Conditions</h2>
+  <div class="grid">
+    <div class="card">
+      <h4>教授</h4>
+      <p>Dr. <strong>Samrat B. Kunwar</strong>, PhD Economics<br>
+      📧 <code>samrat.kunwar@humphreys.edu</code><br>
+      Email 主题必须含你的姓名 + 课程号，24 小时内回复</p>
+    </div>
+    <div class="card">
+      <h4>教材</h4>
+      <p>Dornbusch, Fischer, Startz.<br><strong>Macroeconomics, 13th Edition</strong><br>McGraw-Hill Education · ISBN: <code>9781259290633</code></p>
+    </div>
+    <div class="card">
+      <h4>学分 & 形式</h4>
+      <p>4 学分 · 纯在线课程<br>考勤 = 每周论坛发帖 · 开卷线上考试</p>
+    </div>
+  </div>
+
+  <h3>📊 评分比例</h3>
+  <table>
+    <tr><th>项目</th><th>权重</th></tr>
+    <tr><td>Forum / Discussion</td><td>30%</td></tr>
+    <tr><td>Homework（每周作业）</td><td>45%</td></tr>
+    <tr><td>Midterm</td><td>10%</td></tr>
+    <tr><td>Final Paper</td><td>10%</td></tr>
+    <tr><td>MBA On-Ground Weekend 参与</td><td>5%</td></tr>
+  </table>
+  <p class="muted">评分线：A ≥ 90% · B 80–89.99% · C 70–79.99% · D 60–69.99% · F &lt; 60%</p>
+
+  <h3>📝 Late Policy（每项规则不同！）</h3>
+  <table>
+    <tr><th>类型</th><th>政策</th></tr>
+    <tr><td>Homework</td><td><span class="pill warn">可迟交 1 周</span> 扣 20%；超过 1 周扣 75%；超过 midterm 时间不再接受</td></tr>
+    <tr><td>Forum Discussion</td><td><span class="pill urgent">绝不接受迟交</span> 任何情况都是 0 分</td></tr>
+    <tr><td>Quiz / Exam</td><td>只有在考前邮件通知并获批准才可补考</td></tr>
+    <tr><td colspan="2" style="background:rgba(251,191,36,.08)"><strong>⚠️ 关键规则：</strong>即使迟交在宽限期内，<strong>必须当天 email 老师</strong>告知已迟交，否则直接判 0 分。</td></tr>
+  </table>
+
+  <h3>🗓️ 11 周完整课表</h3>
+  <table>
+    <tr><th>Week</th><th>日期</th><th>主题 / 章节</th><th>Homework</th></tr>
+    <tr><td>1</td><td>4/6–4/12</td><td>Intro to Macroeconomics (Ch.1)</td><td>Forum 介绍帖 ✅</td></tr>
+    <tr style="background:rgba(96,165,250,.08)"><td><strong>2</strong></td><td><strong>4/13–4/19</strong></td><td>Unemployment (Ch.7) + Ch.1 回顾</td><td>Ch.1 Q1 Conceptual + Q1 Technical (p.21); Ch.7 Conceptual Q1–5 (p.175–176)</td></tr>
+    <tr><td>3</td><td>4/20–4/26</td><td>Inflation (Ch.8)</td><td>Ch.8 Conceptual Q1–4 (p.189)</td></tr>
+    <tr><td>4</td><td>4/27–5/3</td><td>Consumption & Saving (Ch.14)</td><td>Ch.14 Conceptual Q1–12 (p.353–354)</td></tr>
+    <tr><td>5</td><td>5/4–5/10</td><td>视频 "The Big Short" + Midterm Review</td><td>Case Study</td></tr>
+    <tr style="background:rgba(248,113,113,.08)"><td><strong>6</strong></td><td>5/11–5/17</td><td><strong>MIDTERM</strong> (Ch.1, 7, 8, 14)</td><td>开卷考试</td></tr>
+    <tr><td>7</td><td>5/18–5/24</td><td>Demand for Money (Ch.16)</td><td>Paper</td></tr>
+    <tr><td>8</td><td>5/25–5/31</td><td>Fed, Money, Credit (Ch.17)</td><td>Paper</td></tr>
+    <tr><td>9</td><td>6/1–6/7</td><td>National Debt (Ch.20)</td><td>Paper</td></tr>
+    <tr><td>10</td><td>6/8–6/14</td><td>Recession & Depression (Ch.21)</td><td>Paper</td></tr>
+    <tr><td>11</td><td>6/15–6/19</td><td><strong>Final Reflection</strong></td><td>提交期末</td></tr>
+  </table>
+
+  <h3>⏱️ 每周 rhythm（务必记住）</h3>
+  <table>
+    <tr><th>任务</th><th>截止</th></tr>
+    <tr><td>Forum 原帖</td><td><span class="pill warn">周三 23:59 PST</span></td></tr>
+    <tr><td>Forum 回复 ≥ 2 条</td><td><span class="pill warn">周六 23:59 PST</span></td></tr>
+    <tr><td>Homework + 阅读</td><td><span class="pill warn">周日 23:59 PST</span></td></tr>
+  </table>
+
+  <details>
+    <summary>📋 Writing Assignment Rubric（100 分）</summary>
+    <div class="rubric-item"><span>Topic（主题切合度）</span><span>10%</span></div>
+    <div class="rubric-item"><span>Audience（读者意识）</span><span>5%</span></div>
+    <div class="rubric-item"><span>Idea（中心论点）</span><span>15%</span></div>
+    <div class="rubric-item"><span>Organization（结构）</span><span>20%</span></div>
+    <div class="rubric-item"><span>Evidence（论据支持）</span><span>20%</span></div>
+    <div class="rubric-item"><span>Sources（引用）</span><span>10%</span></div>
+    <div class="rubric-item"><span>English（语言规范）</span><span>20%</span></div>
+  </details>
+</section>
+
+<!-- =================== MBA392 =================== -->
+<section id="mba392">
+  <h2><span class="pill mba392">MBA392</span> CPT Practicum — <span style="color:var(--danger)">最严格！</span></h2>
+  <div class="card" style="border-color:var(--danger)">
+    <strong style="color:var(--danger)">⛔ 铁律：MBA392 绝不接受任何迟交、不接受重交、不接受 AI、不接受翻译。</strong>
+    <p class="muted" style="margin-top:8px">本课 Credit / No Credit 评分，不计入 GPA，但 No Credit 会显示在成绩单上（= 55%）。连续 3 个学期 No Credit 将被从 MBA IT/OL/PM concentration 中移除，需转 General Business。</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h4>教授</h4>
+      <p>Dr. <strong>Vanessa Ann Claus</strong><br>📧 <code>vanessa.claus@humphreys.edu</code><br>CPT 延迟审批问题：Dr. Gregg Meath <code>gregg.meath@humphreys.edu</code></p>
+    </div>
+    <div class="card">
+      <h4>你要交几篇？</h4>
+      <p>你同时修 MBA306 + MBA394 = <strong>一共 2 篇 Paper，每门课 1 篇</strong>。Paper #1 截止交其中一门（你选），Paper #2 截止交另外一门。</p>
+    </div>
+    <div class="card">
+      <h4>评分占比</h4>
+      <p>Paper #1 = 50% · Paper #2 = 50%<br>任一篇 "Not Satisfactory" = 整课 No Credit</p>
+    </div>
+  </div>
+
+  <h3>📆 死亡 Deadline</h3>
+  <div class="alert" style="margin-bottom:10px">
+    <strong style="color:var(--danger)">⚠️ 系统陷阱：</strong>MBA392 的 Paper #1/#2 截止时间 <strong>仅写在课程页面文字里，没有进入 Moodle 日历</strong>（我验证过 iCal 导出，只有 MBA385 变体有日历事件）。<br>
+    <strong>你不会收到 Moodle 的自动提醒</strong>，务必手动在手机/日历记下：<strong>4/26 23:59</strong> 和 <strong>5/10 23:59</strong>。
+  </div>
+  <div class="alert info" style="margin-bottom:10px">
+    <strong>📌 关键理解：</strong>Paper #1 和 Paper #2 是两个<strong>截止日期</strong>，不是两个课程。<br>
+    你一共交 2 篇：一篇选 <strong>MBA306</strong>，另一篇选 <strong>MBA394</strong>。先交哪门你自己决定，但 Paper #1 deadline 到时必须有一篇上交。<br>
+    每篇 Paper 只上传到对应课程的文件夹（例：给 MBA306 的 paper 上传到 MBA392 课内"MBA306: Macroeconomics: Business Conditions - Paper"那一项）。
+  </div>
+  <table>
+    <tr><th>截止</th><th>Due</th><th>交哪篇？</th></tr>
+    <tr><td><strong>Paper #1</strong></td><td><span class="pill urgent">2026-04-26 23:59 PST</span></td><td>选一门课写 1 篇：<br>• <code>Zhou.MBA306.Paper1.docx</code> ← 上传到 MBA306 paper 文件夹<br>&nbsp;&nbsp;<em>或</em><br>• <code>Zhou.MBA394.Paper1.docx</code> ← 上传到 MBA394 paper 文件夹</td></tr>
+    <tr><td><strong>Paper #2</strong></td><td><span class="pill urgent">2026-05-10 23:59 PST</span></td><td>写另一门课的 1 篇：<br>• 若 Paper #1 写的是 MBA306，Paper #2 就写 <code>Zhou.MBA394.Paper2.docx</code><br>• 反之亦然</td></tr>
+    <tr><td colspan="3" class="muted">💡 建议：Paper #1 先写 MBA394（到 4/26 你已经读了 Ch.1–3，有更多内容可写）；Paper #2 写 MBA306。</td></tr>
+  </table>
+
+  <h3>📐 Paper 严格要求</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>文件格式</h4>
+      <ul>
+        <li>必须用 <strong>MBA392 APA 模板</strong>（在 "An Introduction to MBA392" 区域下载，别自己排版）</li>
+        <li>文件类型 <strong>.doc 或 .docx</strong>，<span class="pill urgent">禁 PDF</span></li>
+        <li>不能在别的文件先打草稿再粘贴</li>
+        <li>命名：<code>LastName.CourseNumber.PaperX</code><br>例 <code>Zhou.MBA306.Paper1</code></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>内容结构</h4>
+      <ul>
+        <li>正文 <strong>≥ 4.5 页</strong>（不含封面 & 参考页），Times New Roman 双倍行距</li>
+        <li><strong>Part #1</strong>（0.5–1 页）：公司介绍 + 你的工作</li>
+        <li><strong>Part #2</strong>（4–4.5 页）：课程内容 ↔ 工作 / 公司业务的联系，需引具体章节/视频</li>
+        <li>必须含 in-text citations + References 页</li>
+        <li><strong>最多 3 个引用</strong>，<strong>每个 ≤ 20 字</strong></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>禁止事项</h4>
+      <ul>
+        <li>❌ 不能用 AI 写作（AI 写 = No Credit）</li>
+        <li>❌ 不能翻译（母语写再翻译 = 高 Turnitin AI 分 = No Credit）</li>
+        <li>❌ Grammarly 可以检查语法但不能大段重写</li>
+        <li>❌ TurnItIn 相似度 &gt; 24% = 不合格，无法重交</li>
+        <li>❌ 迟交 = No Credit（无宽限）</li>
+        <li>❌ 上传错课程后果自负（立即 email Dr. Claus）</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>📋 提交前 checklist（每篇都要问自己）</h3>
+  <label class="chk"><input type="checkbox"> 我看过 MBA392 VIDEO EXPLANATION 了吗？</label><br>
+  <label class="chk"><input type="checkbox"> 文件名正确？<code>Zhou.MBA3XX.PaperX.docx</code></label><br>
+  <label class="chk"><input type="checkbox"> 用了 APA 模板？没改 margins / spacing / 字体？</label><br>
+  <label class="chk"><input type="checkbox"> ≥ 4.5 页（Part #1 + Part #2，不含封面/参考）？</label><br>
+  <label class="chk"><input type="checkbox"> Part #1 和 Part #2 都有？</label><br>
+  <label class="chk"><input type="checkbox"> 内容原创，不是 AI / 翻译 / 抄袭？</label><br>
+  <label class="chk"><input type="checkbox"> 有 in-text citations + References 页？</label><br>
+  <label class="chk"><input type="checkbox"> Turnitin 相似度 &lt; 24%？</label><br>
+  <label class="chk"><input type="checkbox"> 上传到了正确的课程文件夹？</label>
+</section>
+
+<!-- =================== MBA394 =================== -->
+<section id="mba394">
+  <h2><span class="pill mba394">MBA394</span> Data in Business Environments</h2>
+  <div class="grid">
+    <div class="card">
+      <h4>教授</h4>
+      <p>Prof. <strong>Arshad Khan</strong>, ME, MBA<br>📧 <code>arshad.khan@humphreys.edu</code><br>📞 (408) 204-0211<br>Office：Virtual / Phone</p>
+    </div>
+    <div class="card">
+      <h4>教材</h4>
+      <p>Martin, K. (2022).<br><strong>Ethics of Data and Analytics: Concepts and Cases</strong><br>CRC Press · Taylor & Francis Group</p>
+    </div>
+    <div class="card">
+      <h4>形式</h4>
+      <p>Hybrid（在线 + on-ground 周末）<br>4 学分 · 每周 ≥ 12 小时学习</p>
+    </div>
+  </div>
+
+  <h3>🕐 教授 Office Hours</h3>
+  <table>
+    <tr><th>周一</th><th>周二</th><th>周三</th><th>周四</th><th>周五</th></tr>
+    <tr><td>14:00–19:00</td><td>14:00–16:00</td><td>16:00–19:00</td><td>14:00–19:00</td><td>16:00–18:00</td></tr>
+    <tr><td colspan="5" class="muted">电话或虚拟，需预先 email 预约</td></tr>
+  </table>
+
+  <h3>📊 评分比例</h3>
+  <table>
+    <tr><th>项目</th><th>权重</th></tr>
+    <tr><td>Discussions（论坛）</td><td>25%</td></tr>
+    <tr><td>Assignments（7 个作业）</td><td>45%</td></tr>
+    <tr><td>Presentation Slides（Part 1）</td><td>5%</td></tr>
+    <tr><td>Presentation Video（Part 2）</td><td>10%</td></tr>
+    <tr><td>Exams（3 次）</td><td>10%</td></tr>
+    <tr><td>On-Ground Weekend 参与</td><td>5%</td></tr>
+  </table>
+
+  <div class="alert warn">
+    <strong>⚠️ 与 MBA306 不同的关键点：</strong>
+    <ul style="margin:6px 0 0">
+      <li>MBA394 考试是 <strong>Closed Book / Closed Note / Closed Everything</strong>（MBA306 是开卷）</li>
+      <li>DF 原帖截止是 <strong>周四 23:59</strong>（MBA306 是周三；第一周例外为周日）</li>
+      <li>DF 原帖占 50 分，两条回复占 50 分；<strong>原帖迟交直接 0 分，无例外</strong></li>
+      <li>回复迟交（周日后）= 0 分</li>
+    </ul>
+  </div>
+
+  <h3>📝 Late Policy</h3>
+  <table>
+    <tr><th>类型</th><th>政策</th></tr>
+    <tr><td>Assignment / Paper</td><td><span class="pill warn">可迟交 1 周</span> 扣 20%，超过 1 周不接受。Week 10 周五 4:59 PM 后完全不接受</td></tr>
+    <tr><td>Forum</td><td><span class="pill urgent">绝不接受迟交</span></td></tr>
+    <tr><td>Exam / Quiz</td><td>只有提前获老师批准才能补考</td></tr>
+    <tr><td colspan="2" style="background:rgba(248,113,113,.08)">📌 <strong>文件名必须含你的 first 或 last name</strong>，否则每份作业 <span class="pill urgent">-3 分</span></td></tr>
+  </table>
+
+  <h3>🗓️ 11 周完整课表</h3>
+  <table>
+    <tr><th>Week</th><th>日期</th><th>章节/主题</th><th>作业</th><th>CLO</th></tr>
+    <tr><td>1</td><td>4/6–4/12</td><td>Ch.1 Algorithms</td><td>DF Wk1（第一周原帖周日截止；无需回复）✅ + On-Ground Weekend</td><td>1,2,3</td></tr>
+    <tr style="background:rgba(96,165,250,.08)"><td><strong>2</strong></td><td><strong>4/13–4/19</strong></td><td>Ch.2 Ethics</td><td>DF Wk2 + Assignment #1 (Case Study) + On-Ground 交</td><td>1,2,3</td></tr>
+    <tr><td>3</td><td>4/20–4/26</td><td>Ch.3 Privacy</td><td>DF Wk3 + Assignment #2 (Exec Summary)</td><td>1,2,3</td></tr>
+    <tr><td>4</td><td>4/27–5/3</td><td>Ch.4 Power</td><td>DF Wk4 + Assignment #3 (Infographic) + <strong>Exam #1</strong></td><td>1,2,3,4</td></tr>
+    <tr><td>5</td><td>5/4–5/10</td><td>Ch.5–6 Fairness</td><td>DF Wk5 + Slides Ch.5 或 Ch.6（10–15 张，Part 1）</td><td>1,2,3,4</td></tr>
+    <tr><td>6</td><td>5/11–5/17</td><td>Ch.7 Biases</td><td>DF Wk6 + Assignment #4 (Article Review)</td><td>1,2,3,4</td></tr>
+    <tr><td>7</td><td>5/18–5/24</td><td>Ch.8 Metrics</td><td>DF Wk7 + Assignment #5 (Email)</td><td>1,2,3</td></tr>
+    <tr><td>8</td><td>5/25–5/31</td><td>录视频周</td><td>10 分钟视频 presentation（基于 Week 5 slides）+ <strong>Exam #2</strong></td><td>1,2,3</td></tr>
+    <tr><td>9</td><td>6/1–6/7</td><td>Ch.9 Social Media</td><td>DF Wk9 + Assignment #6 (Blog)</td><td>1,2,3,4</td></tr>
+    <tr><td>10</td><td>6/8–6/14</td><td>Ch.10 Safeguarding Data</td><td>DF Wk10 + Assignment #7 (Safeguard Data)</td><td>1,2,3</td></tr>
+    <tr><td>11</td><td>6/15–6/19</td><td>Ch.11 Reflection</td><td>DF Wk11 Reflection（仅原帖，周四截止）+ <strong>Exam #3</strong></td><td>1,2,3,4</td></tr>
+  </table>
+
+  <h3>📋 本周（W2）具体任务详解</h3>
+  <div class="card">
+    <h4>DF Wk2: Ethics</h4>
+    <p>原帖：解释 "ethics"，为何 ethics 成为组织成败的关键。需 <strong>≥ 2 条引用</strong>。</p>
+    <p>回复：2 条，每条 ≥ 2 段。</p>
+  </div>
+  <div class="card">
+    <h4>Assignment #1 (Case Study – Ethics)</h4>
+    <p><strong>2 页</strong>双倍行距，写一家组织遇到的 ethical issue。必须包含：</p>
+    <ul>
+      <li>Overview of the selected organization</li>
+      <li>Summary of the ethical issue faced</li>
+      <li>Impact on the organization</li>
+      <li>Two alternatives for addressing / resolving</li>
+      <li>Proposed solution and justification</li>
+    </ul>
+    <p>⚠️ 封面单独一页 + 参考单独一页（除非全用 in-text）<br>⚠️ 文件名必含你的 first/last name，否则 -3 分</p>
+  </div>
+
+  <h3>🎥 W5 + W8 Presentation（两部分）</h3>
+  <div class="alert info">
+    <strong>Part 1（Week 5 截止 5/10）：</strong>基于 Ch.5 或 Ch.6 做 10–15 张 slides。每张 bullet 精简，别全是字。<br>
+    <strong>Part 2（Week 8 截止 5/31）：</strong>用 Zoom 录一段 10 分钟视频讲这些 slides（测试相机麦克风、多练几次、不要交第一次录的）。
+  </div>
+
+  <details>
+    <summary>📋 Writing Assignment Rubric（与 MBA306 一致，100 分）</summary>
+    <div class="rubric-item"><span>Topic</span><span>10%</span></div>
+    <div class="rubric-item"><span>Audience</span><span>5%</span></div>
+    <div class="rubric-item"><span>Idea</span><span>15%</span></div>
+    <div class="rubric-item"><span>Organization</span><span>20%</span></div>
+    <div class="rubric-item"><span>Evidence</span><span>20%</span></div>
+    <div class="rubric-item"><span>Sources</span><span>10%</span></div>
+    <div class="rubric-item"><span>English</span><span>20%</span></div>
+  </details>
+</section>
+
+<!-- =================== POLICY =================== -->
+<section id="policy">
+  <h2>⚠️ 通用规则 & 资源</h2>
+
+  <h3>🤖 AI (GenAI) Policy（全校适用）</h3>
+  <div class="alert">
+    <strong style="color:var(--danger)">禁止：</strong>
+    <ul style="margin:6px 0 0">
+      <li>把任何学校材料（syllabi、作业题、模板、老师反馈）上传给 AI 系统</li>
+      <li>用 AI 做 quiz / exam / summative assessment</li>
+      <li>输入学生记录、成绩、同学反馈、教授材料</li>
+      <li>提交未编辑、未引用的 AI 生成内容</li>
+    </ul>
+    <strong style="color:var(--ok);display:inline-block;margin-top:8px">允许（但必须）：</strong>
+    <ul style="margin:6px 0 0">
+      <li>保留完整 AI 聊天记录（老师要求时要能提供）</li>
+      <li>按老师要求的格式引用 AI 工具</li>
+      <li>用可靠的原始资料核实 AI 信息的准确性</li>
+    </ul>
+    <strong style="color:var(--danger);display:inline-block;margin-top:8px">MBA392 例外：</strong> Paper #1 / #2 是 summative assessment → <strong>完全不能用 AI</strong>
+  </div>
+
+  <h3>📜 Plagiarism / Turnitin</h3>
+  <table>
+    <tr><th>Turnitin 相似度</th><th>结果</th></tr>
+    <tr><td style="color:var(--ok)">≤ 24%（蓝/绿）</td><td>通过（前提是引用正确）</td></tr>
+    <tr><td style="color:var(--danger)">&gt; 24%</td><td>其他课：需修正重交；MBA392：<strong>无法重交，直接 fail</strong></td></tr>
+    <tr><td colspan="2" class="muted">违反 Cheating Policy 可能 probation、fail 或被学校开除</td></tr>
+  </table>
+
+  <h3>🏫 Quarter 终止铁律</h3>
+  <div class="alert warn">
+    Business Department 所有课程 <strong>绝对不接受 Friday Week 11（2026-06-19）16:59 PST 之后的任何提交</strong>，不论理由。规划一切作业时务必留缓冲。
+  </div>
+
+  <h3>🔐 数据库 & 资源</h3>
+  <table>
+    <tr><th>资源</th><th>登录 / 联系</th></tr>
+    <tr><td>EBSCO Database（ePeriodicals + eBooks）</td><td>Institution: Humphreys University · User: <code>humphreys</code> · Pass: <code>HU2026!</code></td></tr>
+    <tr><td>Global Road Warrior + A-to-Z Maps</td><td>Library Card #: <code>worldtrade2008</code></td></tr>
+    <tr><td>Library & Learning Center 电话</td><td>(209) 235-2907</td></tr>
+    <tr><td>EBSCO 数据库 tutor</td><td>Dr. Donna Roberts · <code>donna.roberts@humphreys.edu</code>（预约制）</td></tr>
+    <tr><td>English Grammar & Writing tutor</td><td>Jordan Joyner · 周一/周二 18:00–20:00 Zoom</td></tr>
+    <tr><td>Math & Accounting tutor</td><td>Prof. Albert Castello · 周二/周四 16:00–19:00 Zoom</td></tr>
+  </table>
+
+  <h3>🎁 Extra Credit Workshops（免预约，观看并交 Form）</h3>
+  <table>
+    <tr><th>日期</th><th>主题</th><th>主讲</th></tr>
+    <tr><td>周四 4/23 17:15</td><td>Effectively Navigating EBSCO Databases</td><td>Dr. Donna Roberts</td></tr>
+    <tr><td>周四 5/7 17:15</td><td>Preparing for Math Success</td><td>Prof. Albert Castello</td></tr>
+    <tr><td>周四 5/21 17:15</td><td>How to Read a Textbook Effectively</td><td>Prof. Julie Walker</td></tr>
+    <tr><td>周四 6/4 17:15</td><td>Ethical Considerations for Students Using AI</td><td>Dr. Donna Roberts</td></tr>
+    <tr><td colspan="3" class="muted">录播，当天 23:55 前看完并提交 Extra Credit Form</td></tr>
+  </table>
+
+  <h3>📐 共通的作业写作要求</h3>
+  <ul>
+    <li>所有写作按 Writing Rubric 评（见每门课内）</li>
+    <li>APA 格式：封面 + 正文 + 参考页分开</li>
+    <li>in-text citations + References 页</li>
+    <li>文件名标明你的姓名（MBA394 明确要求否则 -3 分）</li>
+    <li>非英文材料需英文原创写作，不能先写中文再翻译</li>
+  </ul>
+
+  <h3>🧾 Grading 转换表（成绩单显示）</h3>
+  <table>
+    <tr><th>Letter</th><th>Range</th><th>MBA392 特殊标记</th></tr>
+    <tr><td>A</td><td>90% +</td><td>—</td></tr>
+    <tr><td>B</td><td>80–89.99%</td><td>—</td></tr>
+    <tr><td>C</td><td>70–79.99%</td><td>—</td></tr>
+    <tr><td>C-</td><td>≥70%（作为 prerequisite）</td><td>MBA306 作为 prereq 需 C- 及以上</td></tr>
+    <tr><td>D</td><td>60–69.99%</td><td>—</td></tr>
+    <tr><td>F</td><td>&lt; 60%</td><td>—</td></tr>
+    <tr><td>Credit (MBA392)</td><td>显示 75%</td><td>需两篇 Paper 都至少 Satisfactory</td></tr>
+    <tr><td>No Credit (MBA392)</td><td>显示 55%</td><td>任一 Paper Not Satisfactory / No Submission → 整课失败</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>✅ 未来 2 周建议行动</h2>
+  <div class="card">
+    <h4>今晚（4/16 周四）</h4>
+    <label class="chk"><input type="checkbox"> 确认 MBA306 Week 2 Forum 原帖（若还没发，立刻发——回复也算分）</label><br>
+    <label class="chk"><input type="checkbox"> <strong>MBA394 DF Wk2 Ethics 原帖（50 分，今晚截止！）</strong></label>
+  </div>
+  <div class="card">
+    <h4>4/17 周五</h4>
+    <label class="chk"><input type="checkbox"> 5PM 前：上传 Group Presentation Slide（如果还没交）</label><br>
+    <label class="chk"><input type="checkbox"> 开始写 MBA394 Assignment #1（Case Study - Ethics，2 页）</label><br>
+    <label class="chk"><input type="checkbox"> 开始准备 MBA306 Week 2 Homework</label>
+  </div>
+  <div class="card">
+    <h4>4/18 周六</h4>
+    <label class="chk"><input type="checkbox"> 完成 MBA306 Week 2 Forum 2 条回复（23:59 截止）</label><br>
+    <label class="chk"><input type="checkbox"> 完成 MBA394 DF Wk2 2 条回复（23:59 截止）</label><br>
+    <label class="chk"><input type="checkbox"> 完成 MBA394 Assignment #1（周日前交）</label>
+  </div>
+  <div class="card">
+    <h4>4/19 周日（5 项同截止）</h4>
+    <label class="chk"><input type="checkbox"> MBA306 Week 2 Questions & Problems 上传</label><br>
+    <label class="chk"><input type="checkbox"> MBA306 On-ground PPT 上传</label><br>
+    <label class="chk"><input type="checkbox"> MBA394 On_Ground Submission 上传</label><br>
+    <label class="chk"><input type="checkbox"> MBA394 Assignment #1 上传（文件名含 Zhou）</label><br>
+    <label class="chk"><input type="checkbox"> MBA394 DF Wk2 回复最终检查</label>
+  </div>
+  <div class="card">
+    <h4>4/20–4/26 这一周（最关键）</h4>
+    <label class="chk"><input type="checkbox"> 决定 <strong>Paper #1 写哪门课</strong>（建议 MBA394，因为到 4/26 你已读了 Ch.1–3 有更多素材）</label><br>
+    <label class="chk"><input type="checkbox"> 开始写 <strong>MBA392 Paper #1</strong>（4.5+ 页，APA 模板，例：<code>Zhou.MBA394.Paper1.docx</code>，上传到该课的 paper 文件夹）</label><br>
+    <label class="chk"><input type="checkbox"> MBA394 Assignment #2 (Exec Summary, 2–3 页政策 paper)</label><br>
+    <label class="chk"><input type="checkbox"> MBA306 Week 3 Forum（周三原帖 + 周六回复）</label><br>
+    <label class="chk"><input type="checkbox"> MBA394 DF Wk3 Privacy（周四原帖 + 周日回复）</label><br>
+    <label class="chk"><input type="checkbox"> MBA306 Ch.8 Homework（Conceptual Q1–4）</label><br>
+    <label class="chk"><input type="checkbox"> <strong>周日 4/26 23:59 前全部上传</strong></label>
+  </div>
+  <div class="card">
+    <h4>4/27–5/10（Paper #2 冲刺）</h4>
+    <label class="chk"><input type="checkbox"> 开始写 <strong>Paper #2</strong>（另一门课的 paper，例：<code>Zhou.MBA306.Paper2.docx</code>）</label><br>
+    <label class="chk"><input type="checkbox"> MBA394 Slides Ch.5/6（Part 1 of presentation, 10–15 张）</label><br>
+    <label class="chk"><input type="checkbox"> <strong>5/10 23:59 前上传 Paper #2 到对应课程文件夹</strong></label>
+  </div>
+</section>
+
+<footer>
+  数据采集自 moodle.humphreys.edu · 生成时间 2026-04-16 ·
+  基于每门课 Syllabus PDF + 课程页 + FAQ 整合 · 本地离线存储，随改随用
+</footer>
+
+</main>
+
+<script>
+  // persist checkbox state in localStorage
+  document.querySelectorAll('input[type=checkbox]').forEach((cb,i)=>{
+    const key = 'hu-chk-' + i;
+    cb.checked = localStorage.getItem(key) === '1';
+    cb.addEventListener('change', () => localStorage.setItem(key, cb.checked ? '1' : '0'));
+  });
+</script>
+</body>
+</html>
