@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>Humphreys MBA Spring 2026 — 课程完整指南</title>
 <style>
   :root{
@@ -98,10 +101,13 @@
 </style>
 </head>
 <body>
+<div id="updateBanner" style="display:none;position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--ok);color:#0b0e14;text-align:center;padding:10px;font-weight:600;cursor:pointer" onclick="forceReload()">
+  🔄 检测到新版本！点击刷新加载最新内容
+</div>
 <header>
   <div>
     <h1>📚 Humphreys MBA Spring 2026 — 完整课程指南</h1>
-    <div class="meta">学生：Qi Zhou · 学期：2026/4/6 – 2026/6/21（11 周）</div>
+    <div class="meta">学生：Qi Zhou · 学期：2026/4/6 – 2026/6/21（11 周）· <span id="buildTime" style="color:var(--accent)">构建中</span> · <a href="#" onclick="forceReload();return false" style="color:var(--accent2)">[强制刷新]</a></div>
   </div>
   <nav>
     <a href="#dash">📊 仪表板</a>
@@ -764,6 +770,30 @@
 </div>
 
 <script>
+  // ============ 版本检测 + 自动提示更新 ============
+  const BUILD_ID = '__BUILD_ID__'; // 部署时替换
+  document.getElementById('buildTime').textContent = '版本 ' + BUILD_ID.substring(0,7);
+
+  function forceReload(){
+    // 清除所有缓存并强制重载
+    if ('caches' in window) caches.keys().then(n => n.forEach(c => caches.delete(c)));
+    location.reload(true);
+  }
+
+  async function checkForUpdate(){
+    try {
+      const r = await fetch('version.txt?_=' + Date.now(), {cache:'no-store'});
+      if (!r.ok) return;
+      const latest = (await r.text()).trim();
+      if (latest && latest !== BUILD_ID) {
+        document.getElementById('updateBanner').style.display = 'block';
+      }
+    } catch(e){}
+  }
+  // 页面加载 5 秒后第一次检查，之后每 2 分钟一次
+  setTimeout(checkForUpdate, 5000);
+  setInterval(checkForUpdate, 120000);
+
   // persist checkbox state in localStorage
   document.querySelectorAll('input[type=checkbox]').forEach((cb,i)=>{
     const key = 'hu-chk-' + i;
