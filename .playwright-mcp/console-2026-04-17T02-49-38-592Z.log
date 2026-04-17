@@ -1,0 +1,3 @@
+[     419ms] [ERROR] Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME @ cid:image001.png@01DCC231.A73BEA60:0
+[     457ms] [ERROR] Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME @ cid:image001.png@01DCC231.A73BEA60:0
+[     481ms] [LOG] Starting Moodle session timeout warning. @ https://moodle.humphreys.edu/lib/requirejs.php/1769684206/core/first.js:509

@@ -1,0 +1,436 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:     
+      - navigation [ref=e36]:
+        - tree [ref=e38]:
+          - treeitem "Collapse General Course Info, Textbook purchase, Research & Citation links" [ref=e39]:
+            - generic [ref=e40]:
+              - link "Collapse" [expanded] [ref=e41] [cursor=pointer]:
+                - /url: "#courseindexcollapse0"
+                - text:  
+                - generic "Collapse" [ref=e42]:
+                  - generic [ref=e43]: 
+                  - generic [ref=e44]: Collapse
+              - link "General Course Info, Textbook purchase, Research & Citation links" [ref=e45] [cursor=pointer]:
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71263
+              - text: 
+            - group "Collapse General Course Info, Textbook purchase, Research & Citation links" [ref=e46]:
+              - group [ref=e47]:
+                - treeitem "GENERAL COURSE INFORMATION" [ref=e48]:
+                  - link "GENERAL COURSE INFORMATION" [ref=e50] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-365986
+                  - text: 
+                - treeitem "Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023" [ref=e51]:
+                  - link "Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023" [ref=e53] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=365987
+                  - text: 
+                - treeitem "Generative Artificial Intelligence (AI) Policy" [ref=e54]:
+                  - link "Generative Artificial Intelligence (AI) Policy" [ref=e56] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=365988
+                  - text: 
+                - treeitem "Make-Up/ Late Work Policy" [ref=e57]:
+                  - link "Make-Up/ Late Work Policy" [ref=e59] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=365989
+                  - text: 
+                - treeitem "Announcements" [ref=e60]:
+                  - link "Announcements" [ref=e62] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=365990
+                  - text: 
+                - treeitem "Forum/Discussion Rubric" [ref=e63]:
+                  - link "Forum/Discussion Rubric" [ref=e65] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=365991
+                  - text: 
+                - treeitem "If you have your pop-up blocker turned on, you may..." [ref=e66]:
+                  - link "If you have your pop-up blocker turned on, you may..." [ref=e68] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-365992
+                  - text: 
+                - treeitem "Course Text" [ref=e69]:
+                  - link "Course Text" [ref=e71] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-365993
+                  - text: 
+                - treeitem "Link to Buy Textbook on eCampus" [ref=e72]:
+                  - link "Link to Buy Textbook on eCampus" [ref=e74] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=365994
+                  - text: 
+                - treeitem "Research" [ref=e75]:
+                  - link "Research" [ref=e77] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-365995
+                  - text: 
+                - treeitem "Library and Learning Center Resources" [ref=e78]:
+                  - link "Library and Learning Center Resources" [ref=e80] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-365996
+                  - text: 
+                - treeitem "Link and Log-In Information for Online EBSCO Research Databases" [ref=e81]:
+                  - link "Link and Log-In Information for Online EBSCO Research Databases" [ref=e83] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=365997
+                  - text: 
+                - treeitem "Online Workshops (How to Succeed in College)" [ref=e84]:
+                  - link "Online Workshops (How to Succeed in College)" [ref=e86] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=365998
+                  - text: 
+                - treeitem "Tutoring Service" [ref=e87]:
+                  - link "Tutoring Service" [ref=e89] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=365999
+                  - text: 
+                - treeitem "Jacob Grafius, General Reference & Databases Tutor- Video" [ref=e90]:
+                  - link "Jacob Grafius, General Reference & Databases Tutor- Video" [ref=e92] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366000
+                  - text: 
+                - treeitem "Alberto Castello, Math & Accounting Tutor- Video" [ref=e93]:
+                  - link "Alberto Castello, Math & Accounting Tutor- Video" [ref=e95] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366001
+                  - text: 
+                - treeitem "Jordan Joyner, English Grammar & Writing Tutor- Video" [ref=e96]:
+                  - link "Jordan Joyner, English Grammar & Writing Tutor- Video" [ref=e98] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366002
+                  - text: 
+                - treeitem "APA Formatting" [ref=e99]:
+                  - link "APA Formatting" [ref=e101] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-366003
+                  - text: 
+                - 'treeitem "Plagiarism, Citations, and References: Links to Excellent APA videos" [ref=e102]':
+                  - 'link "Plagiarism, Citations, and References: Links to Excellent APA videos" [ref=e104] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366004
+                  - text: 
+                - treeitem "Hanging Indent on References Pages (5 min)" [ref=e105]:
+                  - link "Hanging Indent on References Pages (5 min)" [ref=e107] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366005
+                  - text: 
+                - treeitem "How to Cite (and Reference) a Quote in a Quote" [ref=e108]:
+                  - link "How to Cite (and Reference) a Quote in a Quote" [ref=e110] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366006
+                  - text: 
+                - treeitem "Video on Erasing Background Colors on References" [ref=e111]:
+                  - link "Video on Erasing Background Colors on References" [ref=e113] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366007
+                  - text: 
+                - treeitem "Purdue University Online Writing Lab (OWL)" [ref=e114]:
+                  - link "Purdue University Online Writing Lab (OWL)" [ref=e116] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366008
+                  - text: 
+                - treeitem "Students with Disabilities" [ref=e117]:
+                  - link "Students with Disabilities" [ref=e119] [cursor=pointer]:
+                    - /url: "#module-366009"
+                  - text: 
+                - treeitem "Humphreys University welcomes students with disab..." [ref=e120]:
+                  - link "Humphreys University welcomes students with disab..." [ref=e122] [cursor=pointer]:
+                    - /url: "#module-366010"
+                  - text: 
+                - treeitem "Instructor Bio and Contact Info" [ref=e123]:
+                  - link "Instructor Bio and Contact Info" [ref=e125] [cursor=pointer]:
+                    - /url: "#module-366011"
+                  - text: 
+                - treeitem "Introduction to your instructor - Samrat B. Kunwar, PhD" [ref=e126]:
+                  - link "Introduction to your instructor - Samrat B. Kunwar, PhD" [ref=e128] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366012
+                  - text: 
+                - 'treeitem "Contact Your Professor with Questions:E-Mail: samr..." [ref=e129]':
+                  - 'link "Contact Your Professor with Questions:E-Mail: samr..." [ref=e131] [cursor=pointer]':
+                    - /url: "#module-366013"
+                  - text: 
+                - treeitem "Announcements" [ref=e132]:
+                  - link "Announcements" [ref=e134] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366014
+                  - text: 
+          - 'treeitem "Collapse Apr 06 - 12: WEEK 1 - INTRODUCTION TO MACROECONOMICS" [ref=e135]':
+            - generic [ref=e136]:
+              - link "Collapse" [expanded] [ref=e137] [cursor=pointer]:
+                - /url: "#courseindexcollapse1"
+                - text:  
+                - generic "Collapse" [ref=e138]:
+                  - generic [ref=e139]: 
+                  - generic [ref=e140]: Collapse
+              - 'link "Apr 06 - 12: WEEK 1 - INTRODUCTION TO MACROECONOMICS" [ref=e141] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71264
+              - text: 
+            - 'group "Collapse Apr 06 - 12: WEEK 1 - INTRODUCTION TO MACROECONOMICS" [ref=e142]':
+              - group [ref=e143]:
+                - treeitem "Syllabus" [ref=e144]:
+                  - link "Syllabus" [ref=e146] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366015
+                  - text: 
+                - treeitem "Read (3 hours)Chapter 1 - Introduction to Macroeco..." [ref=e147]:
+                  - link "Read (3 hours)Chapter 1 - Introduction to Macroeco..." [ref=e149] [cursor=pointer]:
+                    - /url: "#module-366016"
+                  - text: 
+                - treeitem "Chapter 1 Lecture Notes - Introduction" [ref=e150]:
+                  - link "Chapter 1 Lecture Notes - Introduction" [ref=e152] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366017
+                  - text: 
+                - treeitem "Watch ( 1 hours)" [ref=e153]:
+                  - link "Watch ( 1 hours)" [ref=e155] [cursor=pointer]:
+                    - /url: "#module-366018"
+                  - text: 
+                - treeitem "Aggregate Supply and Demand" [ref=e156]:
+                  - link "Aggregate Supply and Demand" [ref=e158] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366019
+                  - text: 
+                - treeitem "Short and Long Run Behavior of the Economy" [ref=e159]:
+                  - link "Short and Long Run Behavior of the Economy" [ref=e161] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366020
+                  - text: 
+                - treeitem "Long Run - Productivity Capacity of the Economy" [ref=e162]:
+                  - link "Long Run - Productivity Capacity of the Economy" [ref=e164] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366021
+                  - text: 
+                - treeitem "Aggregate Demand and the Short Run Economy" [ref=e165]:
+                  - link "Aggregate Demand and the Short Run Economy" [ref=e167] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366022
+                  - text: 
+                - treeitem "Practice Aggregate Supply and Demand Practice" [ref=e168]:
+                  - link "Practice Aggregate Supply and Demand Practice" [ref=e170] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366023
+                  - text: 
+                - treeitem "Participate ( 3 hours)" [ref=e171]:
+                  - link "Participate ( 3 hours)" [ref=e173] [cursor=pointer]:
+                    - /url: "#module-366024"
+                  - text: 
+                - treeitem "Week 1 Forum" [ref=e174]:
+                  - link "Week 1 Forum" [ref=e176] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366025
+                  - text: 
+                - treeitem "Produce ( 3 hours)" [ref=e177]:
+                  - link "Produce ( 3 hours)" [ref=e179] [cursor=pointer]:
+                    - /url: "#module-366026"
+                  - text: 
+          - 'treeitem "Collapse Apr 13 - 19: WEEK 2 - UNEMPLOYMENT" [ref=e180]':
+            - generic [ref=e181]:
+              - link "Collapse" [expanded] [ref=e182] [cursor=pointer]:
+                - /url: "#courseindexcollapse2"
+                - text:  
+                - generic "Collapse" [ref=e183]:
+                  - generic [ref=e184]: 
+                  - generic [ref=e185]: Collapse
+              - 'link "Apr 13 - 19: WEEK 2 - UNEMPLOYMENT" [ref=e186] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71265
+              - text: 
+            - 'group "Collapse Apr 13 - 19: WEEK 2 - UNEMPLOYMENT" [ref=e187]':
+              - group [ref=e188]:
+                - 'treeitem "Read ( 3 hours)Chapter 7: Unemployment" [ref=e189]':
+                  - 'link "Read ( 3 hours)Chapter 7: Unemployment" [ref=e191] [cursor=pointer]':
+                    - /url: "#module-366027"
+                  - text: 
+                - treeitem "Chapter 7 Unemployment Lecture Notes" [ref=e192]:
+                  - link "Chapter 7 Unemployment Lecture Notes" [ref=e194] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366028
+                  - text: 
+                - treeitem "Watch ( 1 hours)" [ref=e195]:
+                  - link "Watch ( 1 hours)" [ref=e197] [cursor=pointer]:
+                    - /url: "#module-366029"
+                  - text: 
+                - treeitem "Unemployment and Output" [ref=e198]:
+                  - link "Unemployment and Output" [ref=e200] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366030
+                  - text: 
+                - treeitem "Cost of Unemployment" [ref=e201]:
+                  - link "Cost of Unemployment" [ref=e203] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366031
+                  - text: 
+                - treeitem "Unemployment Rates" [ref=e204]:
+                  - link "Unemployment Rates" [ref=e206] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366032
+                  - text: 
+                - treeitem "Economic Unemployment Rates Defined" [ref=e207]:
+                  - link "Economic Unemployment Rates Defined" [ref=e209] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366033
+                  - text: 
+                - treeitem "Participate ( 3 hours)" [ref=e210]:
+                  - link "Participate ( 3 hours)" [ref=e212] [cursor=pointer]:
+                    - /url: "#module-366034"
+                  - text: 
+                - treeitem "Week 2 Forum" [ref=e213]:
+                  - link "Week 2 Forum" [ref=e215] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366035
+                  - text: 
+                - treeitem "Produce ( 4 hours)" [ref=e216]:
+                  - link "Produce ( 4 hours)" [ref=e218] [cursor=pointer]:
+                    - /url: "#module-366036"
+                  - text: 
+                - treeitem "Week 2 Questions and Problems" [ref=e219]:
+                  - link "Week 2 Questions and Problems" [ref=e221] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366037
+                  - text: 
+                - treeitem "On-ground weekend participation" [ref=e222]:
+                  - link "On-ground weekend participation" [ref=e224] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366038
+                  - text: 
+          - 'treeitem "Collapse Apr 20 - 26: WEEK 3 - INFLATION" [ref=e225]':
+            - generic [ref=e226]:
+              - link "Collapse" [expanded] [ref=e227] [cursor=pointer]:
+                - /url: "#courseindexcollapse3"
+                - text:  
+                - generic "Collapse" [ref=e228]:
+                  - generic [ref=e229]: 
+                  - generic [ref=e230]: Collapse
+              - 'link "Apr 20 - 26: WEEK 3 - INFLATION" [ref=e231] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71266
+              - text: 
+            - 'group "Collapse Apr 20 - 26: WEEK 3 - INFLATION"':
+              - group
+          - 'treeitem "Collapse Apr 27 - May 03: WEEK 4 - CONSUMPTION AND SAVING" [ref=e232]':
+            - generic [ref=e233]:
+              - link "Collapse" [expanded] [ref=e234] [cursor=pointer]:
+                - /url: "#courseindexcollapse4"
+                - text:  
+                - generic "Collapse" [ref=e235]:
+                  - generic [ref=e236]: 
+                  - generic [ref=e237]: Collapse
+              - 'link "Apr 27 - May 03: WEEK 4 - CONSUMPTION AND SAVING" [ref=e238] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71267
+              - text: 
+            - 'group "Collapse Apr 27 - May 03: WEEK 4 - CONSUMPTION AND SAVING"':
+              - group
+          - 'treeitem "Collapse May 04 - 10: WEEK 5 - ECONOMIC VIDEO AND MIDTERM REVIEW" [ref=e239]':
+            - generic [ref=e240]:
+              - link "Collapse" [expanded] [ref=e241] [cursor=pointer]:
+                - /url: "#courseindexcollapse5"
+                - text:  
+                - generic "Collapse" [ref=e242]:
+                  - generic [ref=e243]: 
+                  - generic [ref=e244]: Collapse
+              - 'link "May 04 - 10: WEEK 5 - ECONOMIC VIDEO AND MIDTERM REVIEW" [ref=e245] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71268
+              - text: 
+            - 'group "Collapse May 04 - 10: WEEK 5 - ECONOMIC VIDEO AND MIDTERM REVIEW"':
+              - group
+          - 'treeitem "Collapse May 11 - 17: WEEK 6 - MIDTERM" [ref=e246]':
+            - generic [ref=e247]:
+              - link "Collapse" [expanded] [ref=e248] [cursor=pointer]:
+                - /url: "#courseindexcollapse6"
+                - text:  
+                - generic "Collapse" [ref=e249]:
+                  - generic [ref=e250]: 
+                  - generic [ref=e251]: Collapse
+              - 'link "May 11 - 17: WEEK 6 - MIDTERM" [ref=e252] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71269
+              - text: 
+            - 'group "Collapse May 11 - 17: WEEK 6 - MIDTERM"':
+              - group
+          - 'treeitem "Collapse May 18 - 24: WEEK 7 - THE DEMAND FOR MONEY" [ref=e253]':
+            - generic [ref=e254]:
+              - link "Collapse" [expanded] [ref=e255] [cursor=pointer]:
+                - /url: "#courseindexcollapse7"
+                - text:  
+                - generic "Collapse" [ref=e256]:
+                  - generic [ref=e257]: 
+                  - generic [ref=e258]: Collapse
+              - 'link "May 18 - 24: WEEK 7 - THE DEMAND FOR MONEY" [ref=e259] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71270
+              - text: 
+            - 'group "Collapse May 18 - 24: WEEK 7 - THE DEMAND FOR MONEY"':
+              - group
+          - 'treeitem "Collapse May 25 - 31: Week 8 - The Fed, Money, and Credit" [ref=e260]':
+            - generic [ref=e261]:
+              - link "Collapse" [expanded] [ref=e262] [cursor=pointer]:
+                - /url: "#courseindexcollapse8"
+                - text:  
+                - generic "Collapse" [ref=e263]:
+                  - generic [ref=e264]: 
+                  - generic [ref=e265]: Collapse
+              - 'link "May 25 - 31: Week 8 - The Fed, Money, and Credit" [ref=e266] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71271
+              - text: 
+            - 'group "Collapse May 25 - 31: Week 8 - The Fed, Money, and Credit"':
+              - group
+          - 'treeitem "Collapse Jun 01 - 07: WEEK 9 - The National Debt" [ref=e267]':
+            - generic [ref=e268]:
+              - link "Collapse" [expanded] [ref=e269] [cursor=pointer]:
+                - /url: "#courseindexcollapse9"
+                - text:  
+                - generic "Collapse" [ref=e270]:
+                  - generic [ref=e271]: 
+                  - generic [ref=e272]: Collapse
+              - 'link "Jun 01 - 07: WEEK 9 - The National Debt" [ref=e273] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71272
+              - text: 
+            - 'group "Collapse Jun 01 - 07: WEEK 9 - The National Debt"':
+              - group
+          - 'treeitem "Collapse Jun 08 - 14: WEEK 10 - Recession and Depreciation" [ref=e274]':
+            - generic [ref=e275]:
+              - link "Collapse" [expanded] [ref=e276] [cursor=pointer]:
+                - /url: "#courseindexcollapse10"
+                - text:  
+                - generic "Collapse" [ref=e277]:
+                  - generic [ref=e278]: 
+                  - generic [ref=e279]: Collapse
+              - 'link "Jun 08 - 14: WEEK 10 - Recession and Depreciation" [ref=e280] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71273
+              - text: 
+            - 'group "Collapse Jun 08 - 14: WEEK 10 - Recession and Depreciation"':
+              - group
+          - 'treeitem "Collapse Jun 15 - 21: WEEK 11" [ref=e281]':
+            - generic [ref=e282]:
+              - link "Collapse" [expanded] [ref=e283] [cursor=pointer]:
+                - /url: "#courseindexcollapse11"
+                - text:  
+                - generic "Collapse" [ref=e284]:
+                  - generic [ref=e285]: 
+                  - generic [ref=e286]: Collapse
+              - 'link "Jun 15 - 21: WEEK 11" [ref=e287] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71274
+              - text: 
+            - 'group "Collapse Jun 15 - 21: WEEK 11"':
+              - group
+    - generic [ref=e288]:
+      - generic [ref=e289]:
+        - generic: 
+        - banner [ref=e290]:
+          - generic [ref=e291]:
+            - navigation "Breadcrumb" [ref=e294]:
+              - list [ref=e295]:
+                - listitem [ref=e296]:
+                  - link "2026SP" [ref=e297] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/index.php?categoryid=535
+                - listitem [ref=e298]:
+                  - text: /
+                  - link "2026SP-MBA306B" [ref=e299] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/view.php?id=5522
+                - listitem [ref=e300]:
+                  - text: /
+                  - 'link "Apr 06 - 12: WEEK 1 - INTRODUCTION TO MACROECONOMICS" [ref=e301] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71264
+                - listitem [ref=e302]: / Syllabus
+            - generic [ref=e306]:
+              - img [ref=e309]
+              - heading "Syllabus" [level=1] [ref=e311]
+        - generic [ref=e314]:
+          - generic [ref=e316]:
+            - generic [ref=e317]: Completion requirements
+            - button "Mark Syllabus as done" [ref=e320] [cursor=pointer]: Mark as done
+          - main [ref=e321]:
+            - generic [ref=e322]:
+              - text: Click
+              - link "MBA 306 syllabus.pdf" [ref=e323] [cursor=pointer]:
+                - /url: https://moodle.humphreys.edu/pluginfile.php/1208073/mod_resource/content/21/MBA%20306%20syllabus.pdf
+              - text: link to view the file.
+      - contentinfo:
+        - button "Show footer" [ref=e324] [cursor=pointer]:
+          - generic [ref=e325]: "?"
+        - text: 

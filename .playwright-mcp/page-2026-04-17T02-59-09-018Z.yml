@@ -1,0 +1,905 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - button "Close course index" [ref=e35] [cursor=pointer]:
+          - generic [ref=e36]: 
+        - generic [ref=e38]:
+          - button "Course index options" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]: 
+          - text:   
+      - navigation [ref=e42]:
+        - tree [ref=e44]:
+          - treeitem "Collapse General Course Info, Textbook purchase, Research & Citation links" [selected] [ref=e45]:
+            - generic [ref=e46]:
+              - link "Collapse" [expanded] [ref=e47] [cursor=pointer]:
+                - /url: "#courseindexcollapse0"
+                - text:  
+                - generic "Collapse" [ref=e48]:
+                  - generic [ref=e49]: 
+                  - generic [ref=e50]: Collapse
+              - link "General Course Info, Textbook purchase, Research & Citation links" [ref=e51] [cursor=pointer]:
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71263
+              - text: 
+            - group "Collapse General Course Info, Textbook purchase, Research & Citation links" [ref=e52]:
+              - group [ref=e53]:
+                - treeitem "To do GENERAL COURSE INFORMATION" [ref=e54]:
+                  - img "To do" [ref=e56]: 
+                  - link "GENERAL COURSE INFORMATION" [ref=e57] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-365986
+                  - text: 
+                - treeitem "To do Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023" [ref=e58]:
+                  - img "To do" [ref=e60]: 
+                  - link "Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023" [ref=e61] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=365987
+                  - text: 
+                - treeitem "To do Generative Artificial Intelligence (AI) Policy" [ref=e62]:
+                  - img "To do" [ref=e64]: 
+                  - link "Generative Artificial Intelligence (AI) Policy" [ref=e65] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=365988
+                  - text: 
+                - treeitem "To do Make-Up/ Late Work Policy" [ref=e66]:
+                  - img "To do" [ref=e68]: 
+                  - link "Make-Up/ Late Work Policy" [ref=e69] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=365989
+                  - text: 
+                - treeitem "To do Announcements" [ref=e70]:
+                  - img "To do" [ref=e72]: 
+                  - link "Announcements" [ref=e73] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=365990
+                  - text: 
+                - treeitem "To do Forum/Discussion Rubric" [ref=e74]:
+                  - img "To do" [ref=e76]: 
+                  - link "Forum/Discussion Rubric" [ref=e77] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=365991
+                  - text: 
+                - treeitem "To do If you have your pop-up blocker turned on, you may..." [ref=e78]:
+                  - img "To do" [ref=e80]: 
+                  - link "If you have your pop-up blocker turned on, you may..." [ref=e81] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-365992
+                  - text: 
+                - treeitem "To do Course Text" [ref=e82]:
+                  - img "To do" [ref=e84]: 
+                  - link "Course Text" [ref=e85] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-365993
+                  - text: 
+                - treeitem "To do Link to Buy Textbook on eCampus" [ref=e86]:
+                  - img "To do" [ref=e88]: 
+                  - link "Link to Buy Textbook on eCampus" [ref=e89] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=365994
+                  - text: 
+                - treeitem "To do Research" [ref=e90]:
+                  - img "To do" [ref=e92]: 
+                  - link "Research" [ref=e93] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-365995
+                  - text: 
+                - treeitem "To do Library and Learning Center Resources" [ref=e94]:
+                  - img "To do" [ref=e96]: 
+                  - link "Library and Learning Center Resources" [ref=e97] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-365996
+                  - text: 
+                - treeitem "To do Link and Log-In Information for Online EBSCO Research Databases" [ref=e98]:
+                  - img "To do" [ref=e100]: 
+                  - link "Link and Log-In Information for Online EBSCO Research Databases" [ref=e101] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=365997
+                  - text: 
+                - treeitem "To do Online Workshops (How to Succeed in College)" [ref=e102]:
+                  - img "To do" [ref=e104]: 
+                  - link "Online Workshops (How to Succeed in College)" [ref=e105] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=365998
+                  - text: 
+                - treeitem "To do Tutoring Service" [ref=e106]:
+                  - img "To do" [ref=e108]: 
+                  - link "Tutoring Service" [ref=e109] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=365999
+                  - text: 
+                - treeitem "To do Jacob Grafius, General Reference & Databases Tutor- Video" [ref=e110]:
+                  - img "To do" [ref=e112]: 
+                  - link "Jacob Grafius, General Reference & Databases Tutor- Video" [ref=e113] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366000
+                  - text: 
+                - treeitem "To do Alberto Castello, Math & Accounting Tutor- Video" [ref=e114]:
+                  - img "To do" [ref=e116]: 
+                  - link "Alberto Castello, Math & Accounting Tutor- Video" [ref=e117] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366001
+                  - text: 
+                - treeitem "To do Jordan Joyner, English Grammar & Writing Tutor- Video" [ref=e118]:
+                  - img "To do" [ref=e120]: 
+                  - link "Jordan Joyner, English Grammar & Writing Tutor- Video" [ref=e121] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366002
+                  - text: 
+                - treeitem "To do APA Formatting" [ref=e122]:
+                  - img "To do" [ref=e124]: 
+                  - link "APA Formatting" [ref=e125] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-366003
+                  - text: 
+                - 'treeitem "To do Plagiarism, Citations, and References: Links to Excellent APA videos" [ref=e126]':
+                  - img "To do" [ref=e128]: 
+                  - 'link "Plagiarism, Citations, and References: Links to Excellent APA videos" [ref=e129] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366004
+                  - text: 
+                - treeitem "To do Hanging Indent on References Pages (5 min)" [ref=e130]:
+                  - img "To do" [ref=e132]: 
+                  - link "Hanging Indent on References Pages (5 min)" [ref=e133] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366005
+                  - text: 
+                - treeitem "To do How to Cite (and Reference) a Quote in a Quote" [ref=e134]:
+                  - img "To do" [ref=e136]: 
+                  - link "How to Cite (and Reference) a Quote in a Quote" [ref=e137] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366006
+                  - text: 
+                - treeitem "To do Video on Erasing Background Colors on References" [ref=e138]:
+                  - img "To do" [ref=e140]: 
+                  - link "Video on Erasing Background Colors on References" [ref=e141] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366007
+                  - text: 
+                - treeitem "To do Purdue University Online Writing Lab (OWL)" [ref=e142]:
+                  - img "To do" [ref=e144]: 
+                  - link "Purdue University Online Writing Lab (OWL)" [ref=e145] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366008
+                  - text: 
+                - treeitem "To do Students with Disabilities" [ref=e146]:
+                  - img "To do" [ref=e148]: 
+                  - link "Students with Disabilities" [ref=e149] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-366009
+                  - text: 
+                - treeitem "To do Humphreys University welcomes students with disab..." [ref=e150]:
+                  - img "To do" [ref=e152]: 
+                  - link "Humphreys University welcomes students with disab..." [ref=e153] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-366010
+                  - text: 
+                - treeitem "To do Instructor Bio and Contact Info" [ref=e154]:
+                  - img "To do" [ref=e156]: 
+                  - link "Instructor Bio and Contact Info" [ref=e157] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-366011
+                  - text: 
+                - treeitem "To do Introduction to your instructor - Samrat B. Kunwar, PhD" [ref=e158]:
+                  - img "To do" [ref=e160]: 
+                  - link "Introduction to your instructor - Samrat B. Kunwar, PhD" [ref=e161] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366012
+                  - text: 
+                - 'treeitem "To do Contact Your Professor with Questions:E-Mail: samr..." [ref=e162]':
+                  - img "To do" [ref=e164]: 
+                  - 'link "Contact Your Professor with Questions:E-Mail: samr..." [ref=e165] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71263#module-366013
+                  - text: 
+                - treeitem "Announcements" [ref=e166]:
+                  - link "Announcements" [ref=e168] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366014
+                  - text: 
+          - 'treeitem "Collapse Apr 06 - 12: WEEK 1 - INTRODUCTION TO MACROECONOMICS" [ref=e169]':
+            - generic [ref=e170]:
+              - link "Collapse" [expanded] [ref=e171] [cursor=pointer]:
+                - /url: "#courseindexcollapse1"
+                - text:  
+                - generic "Collapse" [ref=e172]:
+                  - generic [ref=e173]: 
+                  - generic [ref=e174]: Collapse
+              - 'link "Apr 06 - 12: WEEK 1 - INTRODUCTION TO MACROECONOMICS" [ref=e175] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71264
+              - text: 
+            - 'group "Collapse Apr 06 - 12: WEEK 1 - INTRODUCTION TO MACROECONOMICS" [ref=e176]':
+              - group [ref=e177]:
+                - treeitem "To do Syllabus" [ref=e178]:
+                  - img "To do" [ref=e180]: 
+                  - link "Syllabus" [ref=e181] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366015
+                  - text: 
+                - treeitem "Read (3 hours)Chapter 1 - Introduction to Macroeco..." [ref=e182]:
+                  - link "Read (3 hours)Chapter 1 - Introduction to Macroeco..." [ref=e184] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71264#module-366016
+                  - text: 
+                - treeitem "To do Chapter 1 Lecture Notes - Introduction" [ref=e185]:
+                  - img "To do" [ref=e187]: 
+                  - link "Chapter 1 Lecture Notes - Introduction" [ref=e188] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366017
+                  - text: 
+                - treeitem "Watch ( 1 hours)" [ref=e189]:
+                  - link "Watch ( 1 hours)" [ref=e191] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71264#module-366018
+                  - text: 
+                - treeitem "To do Aggregate Supply and Demand" [ref=e192]:
+                  - img "To do" [ref=e194]: 
+                  - link "Aggregate Supply and Demand" [ref=e195] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366019
+                  - text: 
+                - treeitem "To do Short and Long Run Behavior of the Economy" [ref=e196]:
+                  - img "To do" [ref=e198]: 
+                  - link "Short and Long Run Behavior of the Economy" [ref=e199] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366020
+                  - text: 
+                - treeitem "To do Long Run - Productivity Capacity of the Economy" [ref=e200]:
+                  - img "To do" [ref=e202]: 
+                  - link "Long Run - Productivity Capacity of the Economy" [ref=e203] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366021
+                  - text: 
+                - treeitem "To do Aggregate Demand and the Short Run Economy" [ref=e204]:
+                  - img "To do" [ref=e206]: 
+                  - link "Aggregate Demand and the Short Run Economy" [ref=e207] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366022
+                  - text: 
+                - treeitem "To do Practice Aggregate Supply and Demand Practice" [ref=e208]:
+                  - img "To do" [ref=e210]: 
+                  - link "Practice Aggregate Supply and Demand Practice" [ref=e211] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366023
+                  - text: 
+                - treeitem "Participate ( 3 hours)" [ref=e212]:
+                  - link "Participate ( 3 hours)" [ref=e214] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71264#module-366024
+                  - text: 
+                - treeitem "Done Week 1 Forum" [ref=e215]:
+                  - img "Done" [ref=e217]: 
+                  - link "Week 1 Forum" [ref=e218] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366025
+                  - text: 
+                - treeitem "Produce ( 3 hours)" [ref=e219]:
+                  - link "Produce ( 3 hours)" [ref=e221] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71264#module-366026
+                  - text: 
+          - 'treeitem "Collapse Apr 13 - 19: WEEK 2 - UNEMPLOYMENT" [ref=e222]':
+            - generic [ref=e223]:
+              - link "Collapse" [expanded] [ref=e224] [cursor=pointer]:
+                - /url: "#courseindexcollapse2"
+                - text:  
+                - generic "Collapse" [ref=e225]:
+                  - generic [ref=e226]: 
+                  - generic [ref=e227]: Collapse
+              - 'link "Apr 13 - 19: WEEK 2 - UNEMPLOYMENT" [ref=e228] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71265
+              - text: 
+            - 'group "Collapse Apr 13 - 19: WEEK 2 - UNEMPLOYMENT" [ref=e229]':
+              - group [ref=e230]:
+                - 'treeitem "Read ( 3 hours)Chapter 7: Unemployment" [ref=e231]':
+                  - 'link "Read ( 3 hours)Chapter 7: Unemployment" [ref=e233] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71265#module-366027
+                  - text: 
+                - treeitem "To do Chapter 7 Unemployment Lecture Notes" [ref=e234]:
+                  - img "To do" [ref=e236]: 
+                  - link "Chapter 7 Unemployment Lecture Notes" [ref=e237] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366028
+                  - text: 
+                - treeitem "Watch ( 1 hours)" [ref=e238]:
+                  - link "Watch ( 1 hours)" [ref=e240] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71265#module-366029
+                  - text: 
+                - treeitem "To do Unemployment and Output" [ref=e241]:
+                  - img "To do" [ref=e243]: 
+                  - link "Unemployment and Output" [ref=e244] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366030
+                  - text: 
+                - treeitem "To do Cost of Unemployment" [ref=e245]:
+                  - img "To do" [ref=e247]: 
+                  - link "Cost of Unemployment" [ref=e248] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366031
+                  - text: 
+                - treeitem "To do Unemployment Rates" [ref=e249]:
+                  - img "To do" [ref=e251]: 
+                  - link "Unemployment Rates" [ref=e252] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366032
+                  - text: 
+                - treeitem "To do Economic Unemployment Rates Defined" [ref=e253]:
+                  - img "To do" [ref=e255]: 
+                  - link "Economic Unemployment Rates Defined" [ref=e256] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366033
+                  - text: 
+                - treeitem "Participate ( 3 hours)" [ref=e257]:
+                  - link "Participate ( 3 hours)" [ref=e259] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71265#module-366034
+                  - text: 
+                - treeitem "To do Week 2 Forum" [ref=e260]:
+                  - img "To do" [ref=e262]: 
+                  - link "Week 2 Forum" [ref=e263] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366035
+                  - text: 
+                - treeitem "Produce ( 4 hours)" [ref=e264]:
+                  - link "Produce ( 4 hours)" [ref=e266] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71265#module-366036
+                  - text: 
+                - treeitem "To do Week 2 Questions and Problems" [ref=e267]:
+                  - img "To do" [ref=e269]: 
+                  - link "Week 2 Questions and Problems" [ref=e270] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366037
+                  - text: 
+                - treeitem "Done On-ground weekend participation" [ref=e271]:
+                  - img "Done" [ref=e273]: 
+                  - link "On-ground weekend participation" [ref=e274] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366038
+                  - text: 
+          - 'treeitem "Collapse Apr 20 - 26: WEEK 3 - INFLATION" [ref=e275]':
+            - generic [ref=e276]:
+              - link "Collapse" [expanded] [ref=e277] [cursor=pointer]:
+                - /url: "#courseindexcollapse3"
+                - text:  
+                - generic "Collapse" [ref=e278]:
+                  - generic [ref=e279]: 
+                  - generic [ref=e280]: Collapse
+              - 'link "Apr 20 - 26: WEEK 3 - INFLATION" [ref=e281] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71266
+              - text: 
+            - 'group "Collapse Apr 20 - 26: WEEK 3 - INFLATION"':
+              - group
+          - 'treeitem "Collapse Apr 27 - May 03: WEEK 4 - CONSUMPTION AND SAVING" [ref=e282]':
+            - generic [ref=e283]:
+              - link "Collapse" [expanded] [ref=e284] [cursor=pointer]:
+                - /url: "#courseindexcollapse4"
+                - text:  
+                - generic "Collapse" [ref=e285]:
+                  - generic [ref=e286]: 
+                  - generic [ref=e287]: Collapse
+              - 'link "Apr 27 - May 03: WEEK 4 - CONSUMPTION AND SAVING" [ref=e288] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71267
+              - text: 
+            - 'group "Collapse Apr 27 - May 03: WEEK 4 - CONSUMPTION AND SAVING"':
+              - group
+          - 'treeitem "Collapse May 04 - 10: WEEK 5 - ECONOMIC VIDEO AND MIDTERM REVIEW" [ref=e289]':
+            - generic [ref=e290]:
+              - link "Collapse" [expanded] [ref=e291] [cursor=pointer]:
+                - /url: "#courseindexcollapse5"
+                - text:  
+                - generic "Collapse" [ref=e292]:
+                  - generic [ref=e293]: 
+                  - generic [ref=e294]: Collapse
+              - 'link "May 04 - 10: WEEK 5 - ECONOMIC VIDEO AND MIDTERM REVIEW" [ref=e295] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71268
+              - text: 
+            - 'group "Collapse May 04 - 10: WEEK 5 - ECONOMIC VIDEO AND MIDTERM REVIEW"':
+              - group
+          - 'treeitem "Collapse May 11 - 17: WEEK 6 - MIDTERM" [ref=e296]':
+            - generic [ref=e297]:
+              - link "Collapse" [expanded] [ref=e298] [cursor=pointer]:
+                - /url: "#courseindexcollapse6"
+                - text:  
+                - generic "Collapse" [ref=e299]:
+                  - generic [ref=e300]: 
+                  - generic [ref=e301]: Collapse
+              - 'link "May 11 - 17: WEEK 6 - MIDTERM" [ref=e302] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71269
+              - text: 
+            - 'group "Collapse May 11 - 17: WEEK 6 - MIDTERM"':
+              - group
+          - 'treeitem "Collapse May 18 - 24: WEEK 7 - THE DEMAND FOR MONEY" [ref=e303]':
+            - generic [ref=e304]:
+              - link "Collapse" [expanded] [ref=e305] [cursor=pointer]:
+                - /url: "#courseindexcollapse7"
+                - text:  
+                - generic "Collapse" [ref=e306]:
+                  - generic [ref=e307]: 
+                  - generic [ref=e308]: Collapse
+              - 'link "May 18 - 24: WEEK 7 - THE DEMAND FOR MONEY" [ref=e309] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71270
+              - text: 
+            - 'group "Collapse May 18 - 24: WEEK 7 - THE DEMAND FOR MONEY"':
+              - group
+          - 'treeitem "Collapse May 25 - 31: Week 8 - The Fed, Money, and Credit" [ref=e310]':
+            - generic [ref=e311]:
+              - link "Collapse" [expanded] [ref=e312] [cursor=pointer]:
+                - /url: "#courseindexcollapse8"
+                - text:  
+                - generic "Collapse" [ref=e313]:
+                  - generic [ref=e314]: 
+                  - generic [ref=e315]: Collapse
+              - 'link "May 25 - 31: Week 8 - The Fed, Money, and Credit" [ref=e316] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71271
+              - text: 
+            - 'group "Collapse May 25 - 31: Week 8 - The Fed, Money, and Credit"':
+              - group
+          - 'treeitem "Collapse Jun 01 - 07: WEEK 9 - The National Debt" [ref=e317]':
+            - generic [ref=e318]:
+              - link "Collapse" [expanded] [ref=e319] [cursor=pointer]:
+                - /url: "#courseindexcollapse9"
+                - text:  
+                - generic "Collapse" [ref=e320]:
+                  - generic [ref=e321]: 
+                  - generic [ref=e322]: Collapse
+              - 'link "Jun 01 - 07: WEEK 9 - The National Debt" [ref=e323] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71272
+              - text: 
+            - 'group "Collapse Jun 01 - 07: WEEK 9 - The National Debt"':
+              - group
+          - 'treeitem "Collapse Jun 08 - 14: WEEK 10 - Recession and Depreciation" [ref=e324]':
+            - generic [ref=e325]:
+              - link "Collapse" [expanded] [ref=e326] [cursor=pointer]:
+                - /url: "#courseindexcollapse10"
+                - text:  
+                - generic "Collapse" [ref=e327]:
+                  - generic [ref=e328]: 
+                  - generic [ref=e329]: Collapse
+              - 'link "Jun 08 - 14: WEEK 10 - Recession and Depreciation" [ref=e330] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71273
+              - text: 
+            - 'group "Collapse Jun 08 - 14: WEEK 10 - Recession and Depreciation"':
+              - group
+          - 'treeitem "Collapse Jun 15 - 21: WEEK 11" [ref=e331]':
+            - generic [ref=e332]:
+              - link "Collapse" [expanded] [ref=e333] [cursor=pointer]:
+                - /url: "#courseindexcollapse11"
+                - text:  
+                - generic "Collapse" [ref=e334]:
+                  - generic [ref=e335]: 
+                  - generic [ref=e336]: Collapse
+              - 'link "Jun 15 - 21: WEEK 11" [ref=e337] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71274
+              - text: 
+            - 'group "Collapse Jun 15 - 21: WEEK 11"':
+              - group
+    - generic [ref=e338]:
+      - generic [ref=e339]:
+        - generic: 
+        - banner [ref=e340]:
+          - generic [ref=e341]:
+            - navigation "Breadcrumb" [ref=e344]:
+              - list [ref=e345]:
+                - listitem [ref=e346]:
+                  - link "2026SP" [ref=e347] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/index.php?categoryid=535
+                - listitem [ref=e348]:
+                  - text: /
+                  - link "2026SP-MBA306B" [ref=e349] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/view.php?id=5522
+                - listitem [ref=e350]:
+                  - text: /
+                  - 'link "Apr 13 - 19: WEEK 2 - UNEMPLOYMENT" [ref=e351] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71265
+                - listitem [ref=e352]: / Week 2 Forum
+            - generic [ref=e356]:
+              - img [ref=e359]
+              - heading "Week 2 Forum" [level=1] [ref=e361]
+        - navigation [ref=e363]:
+          - menubar [ref=e364]:
+            - menuitem "Forum" [ref=e365] [cursor=pointer]
+            - menuitem "Don't track unread posts" [ref=e366] [cursor=pointer]
+            - text: 
+        - generic [ref=e369]:
+          - generic [ref=e371]:
+            - generic [ref=e372]: Completion requirements
+            - generic [ref=e373]:
+              - button "Mark Week 2 Forum as done" [ref=e375] [cursor=pointer]: Mark as done
+              - generic [ref=e377]:
+                - strong [ref=e378]: "Due:"
+                - text: Saturday, April 18, 2026, 11:59 PM
+            - generic [ref=e380]:
+              - paragraph [ref=e381]: What factors make it difficult to determine the unemployment rate? Why is it difficult to distinguish between frictional, structural, and cyclical unemployment? Why is unemployment an economic problem? What are the noneconomic effects of unemployment?
+              - paragraph [ref=e382]: Please complete your original post(s) by the end of day on Wednesday. Remember-at least two (2) subsequent posts must be completed prior to the end of day on Saturday.
+              - paragraph
+              - paragraph
+          - main [ref=e383]:
+            - generic [ref=e385]:
+              - generic [ref=e386]:
+                - button "Help" [ref=e387] [cursor=pointer]:
+                  - img "Help with Search" [ref=e388]: 
+                - generic [ref=e391]:
+                  - generic [ref=e392]: Search forums
+                  - textbox "Search forums" [ref=e393]
+                  - button "Search forums" [ref=e395] [cursor=pointer]:
+                    - generic [ref=e396]: 
+                    - generic [ref=e397]: Search forums
+              - link "Add discussion topic" [ref=e399] [cursor=pointer]:
+                - /url: "#collapseAddForm"
+              - link "Subscribe to forum" [ref=e401] [cursor=pointer]:
+                - /url: https://moodle.humphreys.edu/mod/forum/subscribe.php?id=38061&sesskey=N1WBZKzDos&returnurl=https%3A%2F%2Fmoodle.humphreys.edu%2Fmod%2Fforum%2Fview.php%3Fid%3D366035
+            - generic [ref=e402]:
+              - button "View grades" [ref=e404] [cursor=pointer]
+              - text:   
+              - table "List of discussions. Showing 11 of 11 discussions" [ref=e407]:
+                - caption [ref=e408]: List of discussions. Showing 11 of 11 discussions
+                - rowgroup [ref=e409]:
+                  - row "Status Sort by discussion name in descending order Sort by discussion starter name in descending order Sort by last post creation date in descending order Ascending Sort by number of replies in descending order Mark all posts in this forum read. Subscribe Actions" [ref=e410]:
+                    - columnheader "Status" [ref=e411]:
+                      - generic [ref=e412]: Status
+                    - columnheader "Sort by discussion name in descending order" [ref=e413]:
+                      - link "Sort by discussion name in descending order" [ref=e414] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366035&o=7
+                        - text: Discussion
+                    - columnheader "Sort by discussion starter name in descending order" [ref=e415]:
+                      - link "Sort by discussion starter name in descending order" [ref=e416] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366035&o=9
+                        - text: Started by
+                    - columnheader "Sort by last post creation date in descending order Ascending" [ref=e417]:
+                      - link "Sort by last post creation date in descending order" [ref=e418] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366035&o=1
+                        - text: Last post
+                      - img "Ascending" [ref=e420]: 
+                    - columnheader "Sort by number of replies in descending order Mark all posts in this forum read." [ref=e421]:
+                      - link "Sort by number of replies in descending order" [ref=e422] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366035&o=5
+                        - text: Replies
+                      - link "Mark all posts in this forum read." [ref=e423] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/markposts.php?f=38061&mark=read&sesskey=N1WBZKzDos&return=https%3A%2F%2Fmoodle.humphreys.edu%2Fmod%2Fforum%2Fview.php%3Fid%3D366035
+                        - img "Mark all posts in this forum read." [ref=e424]: 
+                    - columnheader "Subscribe" [ref=e425]
+                    - columnheader "Actions" [ref=e426]:
+                      - generic [ref=e427]: Actions
+                - rowgroup [ref=e428]:
+                  - row "Star this discussion Week 2 Forum Picture of Sitashma Singh Sitashma Singh 14 Apr 2026 Picture of Aarathi Rachuri Aarathi Rachuri 15 Apr 2026 1 2 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e429]:
+                    - cell "Star this discussion" [ref=e430]:
+                      - button "Star this discussion" [ref=e431] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e433]: 
+                    - rowheader "Week 2 Forum" [ref=e434]:
+                      - link "Week 2 Forum" [ref=e437] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196594
+                    - cell "Picture of Sitashma Singh Sitashma Singh 14 Apr 2026" [ref=e438]:
+                      - generic [ref=e439]:
+                        - img "Picture of Sitashma Singh" [ref=e441]
+                        - generic [ref=e442]:
+                          - generic [ref=e443]: Sitashma Singh
+                          - time [ref=e445]: 14 Apr 2026
+                    - cell "Picture of Aarathi Rachuri Aarathi Rachuri 15 Apr 2026" [ref=e446]:
+                      - generic [ref=e447]:
+                        - img "Picture of Aarathi Rachuri" [ref=e449]
+                        - generic [ref=e450]:
+                          - generic [ref=e451]: Aarathi Rachuri
+                          - link "15 Apr 2026" [ref=e453] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196594&parent=565027
+                            - time [ref=e454]: 15 Apr 2026
+                    - cell "1 2 unread posts" [ref=e455]:
+                      - text: "1"
+                      - link "2 unread posts" [ref=e457] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196594#unread
+                        - text: "2"
+                    - cell "Subscribe to this discussion" [ref=e458]:
+                      - generic [ref=e459]:
+                        - checkbox "Subscribe to this discussion" [ref=e460]
+                        - generic [ref=e461]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e462]:
+                      - button "Toggle the discussion menu" [ref=e466] [cursor=pointer]:
+                        - generic [ref=e467]: 
+                  - row "Star this discussion Week2_Forum Picture of Muzammil Mohammed Muzammil Mohammed 14 Apr 2026 Picture of Sitashma Singh Sitashma Singh 15 Apr 2026 1 2 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e468]:
+                    - cell "Star this discussion" [ref=e469]:
+                      - button "Star this discussion" [ref=e470] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e472]: 
+                    - rowheader "Week2_Forum" [ref=e473]:
+                      - link "Week2_Forum" [ref=e476] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196603
+                    - cell "Picture of Muzammil Mohammed Muzammil Mohammed 14 Apr 2026" [ref=e477]:
+                      - generic [ref=e478]:
+                        - img "Picture of Muzammil Mohammed" [ref=e480]
+                        - generic [ref=e481]:
+                          - generic [ref=e482]: Muzammil Mohammed
+                          - time [ref=e484]: 14 Apr 2026
+                    - cell "Picture of Sitashma Singh Sitashma Singh 15 Apr 2026" [ref=e485]:
+                      - generic [ref=e486]:
+                        - img "Picture of Sitashma Singh" [ref=e488]
+                        - generic [ref=e489]:
+                          - generic [ref=e490]: Sitashma Singh
+                          - link "15 Apr 2026" [ref=e492] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196603&parent=565100
+                            - time [ref=e493]: 15 Apr 2026
+                    - cell "1 2 unread posts" [ref=e494]:
+                      - text: "1"
+                      - link "2 unread posts" [ref=e496] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196603#unread
+                        - text: "2"
+                    - cell "Subscribe to this discussion" [ref=e497]:
+                      - generic [ref=e498]:
+                        - checkbox "Subscribe to this discussion" [ref=e499]
+                        - generic [ref=e500]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e501]:
+                      - button "Toggle the discussion menu" [ref=e505] [cursor=pointer]:
+                        - generic [ref=e506]: 
+                  - row "Star this discussion Week 2 Forum - Spandana Sunkara Picture of Spandana Sunkara Spandana Sunkara 15 Apr 2026 Picture of Jingyan Ma Jingyan Ma 15 Apr 2026 2 3 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e507]:
+                    - cell "Star this discussion" [ref=e508]:
+                      - button "Star this discussion" [ref=e509] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e511]: 
+                    - rowheader "Week 2 Forum - Spandana Sunkara" [ref=e512]:
+                      - link "Week 2 Forum - Spandana Sunkara" [ref=e515] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196634
+                    - cell "Picture of Spandana Sunkara Spandana Sunkara 15 Apr 2026" [ref=e516]:
+                      - generic [ref=e517]:
+                        - img "Picture of Spandana Sunkara" [ref=e519]
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: Spandana Sunkara
+                          - time [ref=e523]: 15 Apr 2026
+                    - cell "Picture of Jingyan Ma Jingyan Ma 15 Apr 2026" [ref=e524]:
+                      - generic [ref=e525]:
+                        - img "Picture of Jingyan Ma" [ref=e527]
+                        - generic [ref=e528]:
+                          - generic [ref=e529]: Jingyan Ma
+                          - link "15 Apr 2026" [ref=e531] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196634&parent=565248
+                            - time [ref=e532]: 15 Apr 2026
+                    - cell "2 3 unread posts" [ref=e533]:
+                      - text: "2"
+                      - link "3 unread posts" [ref=e535] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196634#unread
+                        - text: "3"
+                    - cell "Subscribe to this discussion" [ref=e536]:
+                      - generic [ref=e537]:
+                        - checkbox "Subscribe to this discussion" [ref=e538]
+                        - generic [ref=e539]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e540]:
+                      - button "Toggle the discussion menu" [ref=e544] [cursor=pointer]:
+                        - generic [ref=e545]: 
+                  - row "Star this discussion Forum week 2 Picture of Aarathi Rachuri Aarathi Rachuri 15 Apr 2026 Picture of Sitashma Singh Sitashma Singh 15 Apr 2026 1 2 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e546]:
+                    - cell "Star this discussion" [ref=e547]:
+                      - button "Star this discussion" [ref=e548] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e550]: 
+                    - rowheader "Forum week 2" [ref=e551]:
+                      - link "Forum week 2" [ref=e554] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196683
+                    - cell "Picture of Aarathi Rachuri Aarathi Rachuri 15 Apr 2026" [ref=e555]:
+                      - generic [ref=e556]:
+                        - img "Picture of Aarathi Rachuri" [ref=e558]
+                        - generic [ref=e559]:
+                          - generic [ref=e560]: Aarathi Rachuri
+                          - time [ref=e562]: 15 Apr 2026
+                    - cell "Picture of Sitashma Singh Sitashma Singh 15 Apr 2026" [ref=e563]:
+                      - generic [ref=e564]:
+                        - img "Picture of Sitashma Singh" [ref=e566]
+                        - generic [ref=e567]:
+                          - generic [ref=e568]: Sitashma Singh
+                          - link "15 Apr 2026" [ref=e570] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196683&parent=565095
+                            - time [ref=e571]: 15 Apr 2026
+                    - cell "1 2 unread posts" [ref=e572]:
+                      - text: "1"
+                      - link "2 unread posts" [ref=e574] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196683#unread
+                        - text: "2"
+                    - cell "Subscribe to this discussion" [ref=e575]:
+                      - generic [ref=e576]:
+                        - checkbox "Subscribe to this discussion" [ref=e577]
+                        - generic [ref=e578]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e579]:
+                      - button "Toggle the discussion menu" [ref=e583] [cursor=pointer]:
+                        - generic [ref=e584]: 
+                  - row "Star this discussion Week 2 - Unemployment Picture of Ailin Vilches Ailin Vilches 15 Apr 2026 Picture of Jingyan Ma Jingyan Ma 15 Apr 2026 1 2 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e585]:
+                    - cell "Star this discussion" [ref=e586]:
+                      - button "Star this discussion" [ref=e587] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e589]: 
+                    - rowheader "Week 2 - Unemployment" [ref=e590]:
+                      - link "Week 2 - Unemployment" [ref=e593] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196718
+                    - cell "Picture of Ailin Vilches Ailin Vilches 15 Apr 2026" [ref=e594]:
+                      - generic [ref=e595]:
+                        - img "Picture of Ailin Vilches" [ref=e597]
+                        - generic [ref=e598]:
+                          - generic [ref=e599]: Ailin Vilches
+                          - time [ref=e601]: 15 Apr 2026
+                    - cell "Picture of Jingyan Ma Jingyan Ma 15 Apr 2026" [ref=e602]:
+                      - generic [ref=e603]:
+                        - img "Picture of Jingyan Ma" [ref=e605]
+                        - generic [ref=e606]:
+                          - generic [ref=e607]: Jingyan Ma
+                          - link "15 Apr 2026" [ref=e609] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196718&parent=565239
+                            - time [ref=e610]: 15 Apr 2026
+                    - cell "1 2 unread posts" [ref=e611]:
+                      - text: "1"
+                      - link "2 unread posts" [ref=e613] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196718#unread
+                        - text: "2"
+                    - cell "Subscribe to this discussion" [ref=e614]:
+                      - generic [ref=e615]:
+                        - checkbox "Subscribe to this discussion" [ref=e616]
+                        - generic [ref=e617]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e618]:
+                      - button "Toggle the discussion menu" [ref=e622] [cursor=pointer]:
+                        - generic [ref=e623]: 
+                  - row "Star this discussion Week 2 Forum Picture of Akshay Sharma Akshay Sharma 15 Apr 2026 Picture of Akshay Sharma Akshay Sharma 15 Apr 2026 0 1 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e624]:
+                    - cell "Star this discussion" [ref=e625]:
+                      - button "Star this discussion" [ref=e626] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e628]: 
+                    - rowheader "Week 2 Forum" [ref=e629]:
+                      - link "Week 2 Forum" [ref=e632] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196791
+                    - cell "Picture of Akshay Sharma Akshay Sharma 15 Apr 2026" [ref=e633]:
+                      - generic [ref=e634]:
+                        - img "Picture of Akshay Sharma" [ref=e636]
+                        - generic [ref=e637]:
+                          - generic [ref=e638]: Akshay Sharma
+                          - time [ref=e640]: 15 Apr 2026
+                    - cell "Picture of Akshay Sharma Akshay Sharma 15 Apr 2026" [ref=e641]:
+                      - generic [ref=e642]:
+                        - img "Picture of Akshay Sharma" [ref=e644]
+                        - generic [ref=e645]:
+                          - generic [ref=e646]: Akshay Sharma
+                          - link "15 Apr 2026" [ref=e648] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196791&parent=565265
+                            - time [ref=e649]: 15 Apr 2026
+                    - cell "0 1 unread posts" [ref=e650]:
+                      - text: "0"
+                      - link "1 unread posts" [ref=e652] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196791#unread
+                        - text: "1"
+                    - cell "Subscribe to this discussion" [ref=e653]:
+                      - generic [ref=e654]:
+                        - checkbox "Subscribe to this discussion" [ref=e655]
+                        - generic [ref=e656]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e657]:
+                      - button "Toggle the discussion menu" [ref=e661] [cursor=pointer]:
+                        - generic [ref=e662]: 
+                  - row "Star this discussion Week 2 Forum Picture of Chenke Wei Chenke Wei 15 Apr 2026 Picture of Chenke Wei Chenke Wei 15 Apr 2026 0 1 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e663]:
+                    - cell "Star this discussion" [ref=e664]:
+                      - button "Star this discussion" [ref=e665] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e667]: 
+                    - rowheader "Week 2 Forum" [ref=e668]:
+                      - link "Week 2 Forum" [ref=e671] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196701
+                    - cell "Picture of Chenke Wei Chenke Wei 15 Apr 2026" [ref=e672]:
+                      - generic [ref=e673]:
+                        - img "Picture of Chenke Wei" [ref=e675]
+                        - generic [ref=e676]:
+                          - generic [ref=e677]: Chenke Wei
+                          - time [ref=e679]: 15 Apr 2026
+                    - cell "Picture of Chenke Wei Chenke Wei 15 Apr 2026" [ref=e680]:
+                      - generic [ref=e681]:
+                        - img "Picture of Chenke Wei" [ref=e683]
+                        - generic [ref=e684]:
+                          - generic [ref=e685]: Chenke Wei
+                          - link "15 Apr 2026" [ref=e687] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196701&parent=565056
+                            - time [ref=e688]: 15 Apr 2026
+                    - cell "0 1 unread posts" [ref=e689]:
+                      - text: "0"
+                      - link "1 unread posts" [ref=e691] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196701#unread
+                        - text: "1"
+                    - cell "Subscribe to this discussion" [ref=e692]:
+                      - generic [ref=e693]:
+                        - checkbox "Subscribe to this discussion" [ref=e694]
+                        - generic [ref=e695]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e696]:
+                      - button "Toggle the discussion menu" [ref=e700] [cursor=pointer]:
+                        - generic [ref=e701]: 
+                  - row "Star this discussion Week 2 Forum Picture of Hayder Saad Hayder Saad 15 Apr 2026 Picture of Hayder Saad Hayder Saad 15 Apr 2026 0 1 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e702]:
+                    - cell "Star this discussion" [ref=e703]:
+                      - button "Star this discussion" [ref=e704] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e706]: 
+                    - rowheader "Week 2 Forum" [ref=e707]:
+                      - link "Week 2 Forum" [ref=e710] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196711
+                    - cell "Picture of Hayder Saad Hayder Saad 15 Apr 2026" [ref=e711]:
+                      - generic [ref=e712]:
+                        - img "Picture of Hayder Saad" [ref=e714]
+                        - generic [ref=e715]:
+                          - generic [ref=e716]: Hayder Saad
+                          - time [ref=e718]: 15 Apr 2026
+                    - cell "Picture of Hayder Saad Hayder Saad 15 Apr 2026" [ref=e719]:
+                      - generic [ref=e720]:
+                        - img "Picture of Hayder Saad" [ref=e722]
+                        - generic [ref=e723]:
+                          - generic [ref=e724]: Hayder Saad
+                          - link "15 Apr 2026" [ref=e726] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196711&parent=565069
+                            - time [ref=e727]: 15 Apr 2026
+                    - cell "0 1 unread posts" [ref=e728]:
+                      - text: "0"
+                      - link "1 unread posts" [ref=e730] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196711#unread
+                        - text: "1"
+                    - cell "Subscribe to this discussion" [ref=e731]:
+                      - generic [ref=e732]:
+                        - checkbox "Subscribe to this discussion" [ref=e733]
+                        - generic [ref=e734]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e735]:
+                      - button "Toggle the discussion menu" [ref=e739] [cursor=pointer]:
+                        - generic [ref=e740]: 
+                  - row "Star this discussion Week 2 Forum Picture of Jingyan Ma Jingyan Ma 15 Apr 2026 Picture of Jingyan Ma Jingyan Ma 15 Apr 2026 0 1 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e741]:
+                    - cell "Star this discussion" [ref=e742]:
+                      - button "Star this discussion" [ref=e743] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e745]: 
+                    - rowheader "Week 2 Forum" [ref=e746]:
+                      - link "Week 2 Forum" [ref=e749] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196779
+                    - cell "Picture of Jingyan Ma Jingyan Ma 15 Apr 2026" [ref=e750]:
+                      - generic [ref=e751]:
+                        - img "Picture of Jingyan Ma" [ref=e753]
+                        - generic [ref=e754]:
+                          - generic [ref=e755]: Jingyan Ma
+                          - time [ref=e757]: 15 Apr 2026
+                    - cell "Picture of Jingyan Ma Jingyan Ma 15 Apr 2026" [ref=e758]:
+                      - generic [ref=e759]:
+                        - img "Picture of Jingyan Ma" [ref=e761]
+                        - generic [ref=e762]:
+                          - generic [ref=e763]: Jingyan Ma
+                          - link "15 Apr 2026" [ref=e765] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196779&parent=565236
+                            - time [ref=e766]: 15 Apr 2026
+                    - cell "0 1 unread posts" [ref=e767]:
+                      - text: "0"
+                      - link "1 unread posts" [ref=e769] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196779#unread
+                        - text: "1"
+                    - cell "Subscribe to this discussion" [ref=e770]:
+                      - generic [ref=e771]:
+                        - checkbox "Subscribe to this discussion" [ref=e772]
+                        - generic [ref=e773]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e774]:
+                      - button "Toggle the discussion menu" [ref=e778] [cursor=pointer]:
+                        - generic [ref=e779]: 
+                  - row "Star this discussion Week 2 Forum Picture of Ruijie Huang Ruijie Huang 15 Apr 2026 Picture of Ruijie Huang Ruijie Huang 15 Apr 2026 0 1 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e780]:
+                    - cell "Star this discussion" [ref=e781]:
+                      - button "Star this discussion" [ref=e782] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e784]: 
+                    - rowheader "Week 2 Forum" [ref=e785]:
+                      - link "Week 2 Forum" [ref=e788] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196809
+                    - cell "Picture of Ruijie Huang Ruijie Huang 15 Apr 2026" [ref=e789]:
+                      - generic [ref=e790]:
+                        - img "Picture of Ruijie Huang" [ref=e792]
+                        - generic [ref=e793]:
+                          - generic [ref=e794]: Ruijie Huang
+                          - time [ref=e796]: 15 Apr 2026
+                    - cell "Picture of Ruijie Huang Ruijie Huang 15 Apr 2026" [ref=e797]:
+                      - generic [ref=e798]:
+                        - img "Picture of Ruijie Huang" [ref=e800]
+                        - generic [ref=e801]:
+                          - generic [ref=e802]: Ruijie Huang
+                          - link "15 Apr 2026" [ref=e804] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196809&parent=565310
+                            - time [ref=e805]: 15 Apr 2026
+                    - cell "0 1 unread posts" [ref=e806]:
+                      - text: "0"
+                      - link "1 unread posts" [ref=e808] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196809#unread
+                        - text: "1"
+                    - cell "Subscribe to this discussion" [ref=e809]:
+                      - generic [ref=e810]:
+                        - checkbox "Subscribe to this discussion" [ref=e811]
+                        - generic [ref=e812]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e813]:
+                      - button "Toggle the discussion menu" [ref=e817] [cursor=pointer]:
+                        - generic [ref=e818]: 
+                  - row "Star this discussion Week 2 Forum Picture of Raja Burle Raja Burle 16 Apr 2026 Picture of Raja Burle Raja Burle 16 Apr 2026 0 1 unread posts Subscribe to this discussion Toggle the discussion menu" [ref=e819]:
+                    - cell "Star this discussion" [ref=e820]:
+                      - button "Star this discussion" [ref=e821] [cursor=pointer]:
+                        - img "Star this discussion" [ref=e823]: 
+                    - rowheader "Week 2 Forum" [ref=e824]:
+                      - link "Week 2 Forum" [ref=e827] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196847
+                    - cell "Picture of Raja Burle Raja Burle 16 Apr 2026" [ref=e828]:
+                      - generic [ref=e829]:
+                        - img "Picture of Raja Burle" [ref=e831]
+                        - generic [ref=e832]:
+                          - generic [ref=e833]: Raja Burle
+                          - time [ref=e835]: 16 Apr 2026
+                    - cell "Picture of Raja Burle Raja Burle 16 Apr 2026" [ref=e836]:
+                      - generic [ref=e837]:
+                        - img "Picture of Raja Burle" [ref=e839]
+                        - generic [ref=e840]:
+                          - generic [ref=e841]: Raja Burle
+                          - link "16 Apr 2026" [ref=e843] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196847&parent=565431
+                            - time [ref=e844]: 16 Apr 2026
+                    - cell "0 1 unread posts" [ref=e845]:
+                      - text: "0"
+                      - link "1 unread posts" [ref=e847] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/discuss.php?d=196847#unread
+                        - text: "1"
+                    - cell "Subscribe to this discussion" [ref=e848]:
+                      - generic [ref=e849]:
+                        - checkbox "Subscribe to this discussion" [ref=e850]
+                        - generic [ref=e851]: Subscribe to this discussion
+                    - cell "Toggle the discussion menu" [ref=e852]:
+                      - button "Toggle the discussion menu" [ref=e856] [cursor=pointer]:
+                        - generic [ref=e857]: 
+      - contentinfo:
+        - button "Show footer" [ref=e858] [cursor=pointer]:
+          - generic [ref=e859]: "?"
+        - text: 

@@ -1,0 +1,370 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - button "Open block drawer" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: Open block drawer
+          - generic [ref=e39]: 
+          - text: 
+        - banner [ref=e40]:
+          - generic [ref=e41]:
+            - generic:
+              - generic:
+                - navigation "Breadcrumb":
+                  - list
+            - heading "Calendar" [level=1] [ref=e47]
+        - main [ref=e51]:
+          - generic [ref=e53]:
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - button "Upcoming events " [ref=e58] [cursor=pointer]:
+                  - generic [ref=e59]: Upcoming events
+                  - text: 
+                - generic [ref=e60]: List of courses
+                - combobox "List of courses" [ref=e61]:
+                  - option "All courses" [selected]
+                  - 'option "2026SP-MBA306: B - Macroeconomics: Business Con..."'
+                  - option "2026SP-MBA392- CPT Practicum - V.Claus"
+                  - 'option "2026SP-MBA394: B - Data in Business Environment..."'
+                  - option "MBA April Week 1 Spring 2026 Weekend Presentati..."
+                - button "New event" [ref=e62] [cursor=pointer]
+              - generic [ref=e64]:
+                - text: 
+                - heading "Upcoming events" [level=2] [ref=e65]
+                - generic [ref=e66]:
+                  - generic [ref=e68]:
+                    - generic [ref=e69]:
+                      - img "Activity event" [ref=e71]
+                      - heading "Upload Presentation Slide Here is due" [level=3] [ref=e73]
+                    - generic [ref=e74]:
+                      - generic [ref=e75]:
+                        - img "When" [ref=e77]: 
+                        - generic [ref=e78]:
+                          - link "Tomorrow" [ref=e79] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/calendar/view.php?view=day&time=1776470400
+                          - text: ", 5:00 PM"
+                      - generic [ref=e80]:
+                        - img "Event type" [ref=e82]: 
+                        - generic [ref=e83]: Course event
+                      - generic [ref=e84]:
+                        - img "Course" [ref=e86]: 
+                        - link "MBA April Week 1 Spring 2026 Weekend Presentation Slide Upload" [ref=e88] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/course/view.php?id=5541
+                    - link "Go to activity" [ref=e90] [cursor=pointer]:
+                      - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=367851
+                  - generic [ref=e92]:
+                    - generic [ref=e93]:
+                      - img "Activity event" [ref=e95]
+                      - heading "Week 2 Forum is due" [level=3] [ref=e97]
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - img "When" [ref=e101]: 
+                        - generic [ref=e102]:
+                          - link "Saturday, April 18" [ref=e103] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/calendar/view.php?view=day&time=1776581940
+                          - text: ", 11:59 PM"
+                      - generic [ref=e104]:
+                        - img "Event type" [ref=e106]: 
+                        - generic [ref=e107]: Course event
+                      - generic [ref=e108]:
+                        - img "Description" [ref=e110]: 
+                        - generic [ref=e112]:
+                          - paragraph [ref=e113]: What factors make it difficult to determine the unemployment rate? Why is it difficult to distinguish between frictional, structural, and cyclical unemployment? Why is unemployment an economic problem? What are the noneconomic effects of unemployment?
+                          - paragraph [ref=e114]: Please complete your original post(s) by the end of day on Wednesday. Remember-at least two (2) subsequent posts must be completed prior to the end of day on Saturday.
+                          - paragraph
+                          - paragraph
+                      - generic [ref=e115]:
+                        - img "Course" [ref=e117]: 
+                        - 'link "2026SP-MBA306: B - Macroeconomics: Business Condition - S.Kunwar" [ref=e119] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/course/view.php?id=5522
+                    - link "View" [ref=e121] [cursor=pointer]:
+                      - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366035
+                  - generic [ref=e123]:
+                    - generic [ref=e124]:
+                      - img "Activity event" [ref=e126]
+                      - heading "Week 2 Questions and Problems is due" [level=3] [ref=e128]
+                    - generic [ref=e129]:
+                      - generic [ref=e130]:
+                        - img "When" [ref=e132]: 
+                        - generic [ref=e133]:
+                          - link "Sunday, April 19" [ref=e134] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/calendar/view.php?view=day&time=1776668340
+                          - text: ", 11:59 PM"
+                      - generic [ref=e135]:
+                        - img "Event type" [ref=e137]: 
+                        - generic [ref=e138]: Course event
+                      - generic [ref=e139]:
+                        - img "Description" [ref=e141]: 
+                        - generic [ref=e142]:
+                          - paragraph
+                          - paragraph [ref=e143]: "READ: Chapter 1: Introduction to Macroeconomics- (CLO 1,2,3)"
+                          - paragraph [ref=e144]: "Chapter 1 Homework: Conceptual Q. 1 and Technical Q 1, Pg. 21"
+                          - paragraph
+                          - paragraph [ref=e145]: "Read Chapter 7: Unemployment"
+                          - paragraph [ref=e146]: "Chapter 7 Homework: Conceptual Q. 1- 5 Pg. 175 – 176"
+                          - paragraph
+                      - generic [ref=e147]:
+                        - img "Course" [ref=e149]: 
+                        - 'link "2026SP-MBA306: B - Macroeconomics: Business Condition - S.Kunwar" [ref=e151] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/course/view.php?id=5522
+                    - link "Add submission" [ref=e153] [cursor=pointer]:
+                      - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366037&action=editsubmission
+                  - generic [ref=e155]:
+                    - generic [ref=e156]:
+                      - img "Activity event" [ref=e158]
+                      - heading "On-ground weekend participation is due" [level=3] [ref=e160]
+                    - generic [ref=e161]:
+                      - generic [ref=e162]:
+                        - img "When" [ref=e164]: 
+                        - generic [ref=e165]:
+                          - link "Sunday, April 19" [ref=e166] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/calendar/view.php?view=day&time=1776668340
+                          - text: ", 11:59 PM"
+                      - generic [ref=e167]:
+                        - img "Event type" [ref=e169]: 
+                        - generic [ref=e170]: Course event
+                      - generic [ref=e171]:
+                        - img "Description" [ref=e173]: 
+                        - generic [ref=e174]:
+                          - paragraph
+                          - paragraph [ref=e175]: Please upload the powerpoint presentation that you made during the in-person weekend.
+                          - paragraph
+                      - generic [ref=e176]:
+                        - img "Course" [ref=e178]: 
+                        - 'link "2026SP-MBA306: B - Macroeconomics: Business Condition - S.Kunwar" [ref=e180] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/course/view.php?id=5522
+                    - link "Go to activity" [ref=e182] [cursor=pointer]:
+                      - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366038
+                  - generic [ref=e184]:
+                    - generic [ref=e185]:
+                      - img "Activity event" [ref=e187]
+                      - heading "On_Ground Submission is due" [level=3] [ref=e189]
+                    - generic [ref=e190]:
+                      - generic [ref=e191]:
+                        - img "When" [ref=e193]: 
+                        - generic [ref=e194]:
+                          - link "Sunday, April 19" [ref=e195] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/calendar/view.php?view=day&time=1776668340
+                          - text: ", 11:59 PM"
+                      - generic [ref=e196]:
+                        - img "Event type" [ref=e198]: 
+                        - generic [ref=e199]: Course event
+                      - generic [ref=e200]:
+                        - img "Description" [ref=e202]: 
+                        - paragraph [ref=e204]: Any On-Ground submission should be made here
+                      - generic [ref=e205]:
+                        - img "Course" [ref=e207]: 
+                        - 'link "2026SP-MBA394: B - Data in Business Environments: A.Khan" [ref=e209] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/course/view.php?id=5525
+                    - link "Go to activity" [ref=e211] [cursor=pointer]:
+                      - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366343
+                  - generic [ref=e213]:
+                    - generic [ref=e214]:
+                      - img "Activity event" [ref=e216]
+                      - 'heading "Assignment #1 (Wk2: Case Study - Ethics) is due" [level=3] [ref=e218]'
+                    - generic [ref=e219]:
+                      - generic [ref=e220]:
+                        - img "When" [ref=e222]: 
+                        - generic [ref=e223]:
+                          - link "Sunday, April 19" [ref=e224] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/calendar/view.php?view=day&time=1776668340
+                          - text: ", 11:59 PM"
+                      - generic [ref=e225]:
+                        - img "Event type" [ref=e227]: 
+                        - generic [ref=e228]: Course event
+                      - generic [ref=e229]:
+                        - img "Description" [ref=e231]: 
+                        - generic [ref=e232]:
+                          - paragraph [ref=e233]:
+                            - text: Write a short review of an ethical issue that an organization has faced. Your
+                            - strong [ref=e234]: two-page, double-spaced
+                            - text: "submission should include the following:"
+                          - list [ref=e235]:
+                            - listitem [ref=e236]: Overview of the selected organization
+                            - listitem [ref=e237]: Summary of the ethical issue faced by the organization
+                            - listitem [ref=e238]: Impact on the organization
+                            - listitem [ref=e239]: Two alternatives for addressing/resolving the issue
+                            - listitem [ref=e240]: Solution proposed and its justification
+                          - paragraph [ref=e241]: This assignment will teach you how to present a business brief or case study, highlight key issues, and propose a solution, in a short and to-the-point response.
+                          - paragraph [ref=e242]: Keep the cover page separate from the assignment content. It should include your name and identify the assignment. Place the references on a separate page, unless in-text references are used.
+                          - paragraph [ref=e243]:
+                            - text: The file you upload must include your first or last name in the filename. Failure to do so will result in a
+                            - strong [ref=e244]: 3-point penalty
+                            - text: . This requirement applies to all assignment submissions.
+                          - paragraph [ref=e245]:
+                            - strong [ref=e246]: "Note from the instructor:"
+                            - text: I am very .particular about following the specified requirements for each and every assignment throughout this course. In case you need any clarification, please do not hesitate to reach out.
+                      - generic [ref=e247]:
+                        - img "Course" [ref=e249]: 
+                        - 'link "2026SP-MBA394: B - Data in Business Environments: A.Khan" [ref=e251] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/course/view.php?id=5525
+                    - link "Add submission" [ref=e253] [cursor=pointer]:
+                      - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366350&action=editsubmission
+                  - generic [ref=e255]:
+                    - generic [ref=e256]:
+                      - img "Activity event" [ref=e258]
+                      - 'heading "DF (Wk2: Ethics) is due" [level=3] [ref=e260]'
+                    - generic [ref=e261]:
+                      - generic [ref=e262]:
+                        - img "When" [ref=e264]: 
+                        - generic [ref=e265]:
+                          - link "Sunday, April 19" [ref=e266] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/calendar/view.php?view=day&time=1776668340
+                          - text: ", 11:59 PM"
+                      - generic [ref=e267]:
+                        - img "Event type" [ref=e269]: 
+                        - generic [ref=e270]: Course event
+                      - generic [ref=e271]:
+                        - img "Description" [ref=e273]: 
+                        - generic [ref=e275]:
+                          - paragraph [ref=e276]: Start the discussion with an explanation of the term “ethics.” What is meant by “ethics” and why has ethics become a central component of an organization’s success and/or failure?
+                          - paragraph [ref=e277]: Provide one original post, along with 2 responses to the posts made by other students. Each response should be a minimum of 2 paragraphs. Your original post must include at least two citations.
+                      - generic [ref=e278]:
+                        - img "Course" [ref=e280]: 
+                        - 'link "2026SP-MBA394: B - Data in Business Environments: A.Khan" [ref=e282] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/course/view.php?id=5525
+                    - link "View" [ref=e284] [cursor=pointer]:
+                      - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366348
+                  - generic [ref=e286]:
+                    - generic [ref=e287]:
+                      - img "Activity event" [ref=e289]
+                      - 'heading "MBA385: Strategic Management - Paper is due" [level=3] [ref=e291]'
+                    - generic [ref=e292]:
+                      - generic [ref=e293]:
+                        - img "When" [ref=e295]: 
+                        - generic [ref=e296]:
+                          - link "Sunday, April 26" [ref=e297] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/calendar/view.php?view=day&time=1777273140
+                          - text: ", 11:59 PM"
+                      - generic [ref=e298]:
+                        - img "Event type" [ref=e300]: 
+                        - generic [ref=e301]: Course event
+                      - generic [ref=e302]:
+                        - img "Description" [ref=e304]: 
+                        - generic [ref=e305]:
+                          - paragraph [ref=e306]:
+                            - strong [ref=e307]: IF YOU ARE ENROLLED IN MBA385, YOU ARE LIKELY ONLY TAKING ONE COURSE. THEREFORE, YOUR PAPER IS DUE ON
+                            - strong [ref=e308]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e309]:
+                            - strong [ref=e311]: "NOTE: IF YOU ARE NOT ENROLLED IN MBA385, PLEASE DO NOT COMPLETE THIS PAPER."
+                          - paragraph [ref=e312]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e313]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e314]:
+                            - listitem [ref=e315]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e316]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA385.PAPER1)"
+                            - listitem [ref=e317]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e318]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e319]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e320]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e321]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                      - generic [ref=e322]:
+                        - img "Course" [ref=e324]: 
+                        - link "2026SP-MBA392- CPT Practicum - V.Claus" [ref=e326] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/course/view.php?id=5476
+                    - link "Add submission" [ref=e328] [cursor=pointer]:
+                      - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361520&action=editsubmission
+                  - generic [ref=e330]:
+                    - generic [ref=e331]:
+                      - img "Activity event" [ref=e333]
+                      - 'heading "Assignment #2 (Wk3: Exec Summary) is due" [level=3] [ref=e335]'
+                    - generic [ref=e336]:
+                      - generic [ref=e337]:
+                        - img "When" [ref=e339]: 
+                        - generic [ref=e340]:
+                          - link "Sunday, April 26" [ref=e341] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/calendar/view.php?view=day&time=1777273140
+                          - text: ", 11:59 PM"
+                      - generic [ref=e342]:
+                        - img "Event type" [ref=e344]: 
+                        - generic [ref=e345]: Course event
+                      - generic [ref=e346]:
+                        - img "Description" [ref=e348]: 
+                        - generic [ref=e349]:
+                          - paragraph [ref=e350]: You are the top advisor to your country’s president. Citizens have voiced growing concerns about the loss of privacy in today’s technology-driven society. They feel increasingly monitored—through cameras, phone usage, and online activity—and believe this erosion of privacy is affecting their quality of life.
+                          - paragraph [ref=e351]:
+                            - text: With a presidential election approaching in six months, the president plans to release a policy paper titled
+                            - emphasis [ref=e352]: “The Rights of Our Citizens.”
+                            - text: This policy will address privacy related to financial, health, and other personal data. However, it must also ensure that businesses can continue to access consumer data needed to understand purchasing behavior and sustain economic growth. The policy must therefore strike a careful balance between individual privacy and business needs.
+                          - paragraph [ref=e353]:
+                            - text: As the top advisor, you are required to write a
+                            - strong [ref=e354]: 2-3 page
+                            - text: "policy paper that addresses the following:"
+                          - list [ref=e355]:
+                            - listitem [ref=e356]: "Issue background: Overview of the current privacy landscape"
+                            - listitem [ref=e357]: "Impact on citizens: How the perceived loss of data privacy affects individuals"
+                            - listitem [ref=e358]: "Impact on business: Why access to personal data is important for businesses"
+                            - listitem [ref=e359]: "Rights of citizens: Define consumer rights related to data privacy"
+                            - listitem [ref=e360]: "Rights of businesses: Define consumer rights related to data privacy"
+                            - listitem [ref=e361]: "Proposed law: Recommend a balanced policy that protects sensitive data while allowing appropriate data use to support business and economic growth"
+                          - paragraph [ref=e362]: "Your paper should meet the following structural requirements:"
+                          - list [ref=e363]:
+                            - listitem [ref=e364]: 2-3 pages in length (excluding the title and reference pages)
+                            - listitem [ref=e365]:
+                              - text: Support your statements with
+                              - strong [ref=e366]: in-text
+                              - text: citations from a minimum of 2 scholarly articles from class readings, textbook, or lectures
+                      - generic [ref=e367]:
+                        - img "Course" [ref=e369]: 
+                        - 'link "2026SP-MBA394: B - Data in Business Environments: A.Khan" [ref=e371] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/course/view.php?id=5525
+                    - link "Add submission" [ref=e373] [cursor=pointer]:
+                      - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366356&action=editsubmission
+                  - generic [ref=e375]:
+                    - generic [ref=e376]:
+                      - img "Activity event" [ref=e378]
+                      - 'heading "DF (Wk3: Privacy) is due" [level=3] [ref=e380]'
+                    - generic [ref=e381]:
+                      - generic [ref=e382]:
+                        - img "When" [ref=e384]: 
+                        - generic [ref=e385]:
+                          - link "Sunday, April 26" [ref=e386] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/calendar/view.php?view=day&time=1777273140
+                          - text: ", 11:59 PM"
+                      - generic [ref=e387]:
+                        - img "Event type" [ref=e389]: 
+                        - generic [ref=e390]: Course event
+                      - generic [ref=e391]:
+                        - img "Description" [ref=e393]: 
+                        - generic [ref=e395]:
+                          - paragraph [ref=e396]: This week's topic pertains to privacy. As consumers, we demand privacy. On the other hand, producers want to collect as much information as they can about their potential customers for targeted consumer marketing.
+                          - paragraph [ref=e397]: Facebook has done this very effectively. It has created systems that can track a user's online activity and, subsequently, tailor their advertisements. You may have noticed that, shortly after you search for plane fares, airline advertisements popup on Google and Facebook.
+                          - paragraph [ref=e398]: Discuss what is meant by the term “privacy” in relation to customers (and people in general). What is the level of privacy and confidentiality one should expect or have? Do we need to waive our privacy rights when we perform an online search or use a phone app?
+                          - paragraph [ref=e399]: Provide one original post, along with 2 responses to the posts made by other students. Each response should be a minimum of 2 paragraphs. Your original post must include at least two citations.
+                      - generic [ref=e400]:
+                        - img "Course" [ref=e402]: 
+                        - 'link "2026SP-MBA394: B - Data in Business Environments: A.Khan" [ref=e404] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/course/view.php?id=5525
+                    - link "View" [ref=e406] [cursor=pointer]:
+                      - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366354
+            - link "Import or export calendars" [ref=e409] [cursor=pointer]:
+              - /url: https://moodle.humphreys.edu/calendar/managesubscriptions.php?course=1
+      - contentinfo:
+        - button "Show footer" [ref=e410] [cursor=pointer]:
+          - generic [ref=e411]: "?"
+        - text: 

@@ -1,0 +1,243 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:     
+      - navigation [ref=e36]:
+        - tree [ref=e38]:
+          - treeitem "Collapse MBA392 - MUST READ!" [ref=e39]:
+            - generic [ref=e40]:
+              - link "Collapse" [expanded] [ref=e41] [cursor=pointer]:
+                - /url: "#courseindexcollapse0"
+                - text:  
+                - generic "Collapse" [ref=e42]:
+                  - generic [ref=e43]: 
+                  - generic [ref=e44]: Collapse
+              - link "MBA392 - MUST READ!" [ref=e45] [cursor=pointer]:
+                - /url: https://moodle.humphreys.edu/course/section.php?id=70709
+              - text: 
+            - group "Collapse MBA392 - MUST READ!" [ref=e46]:
+              - group [ref=e47]:
+                - treeitem "MBA392 APA TEMPLATE" [ref=e48]:
+                  - link "MBA392 APA TEMPLATE" [ref=e50] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=361498
+                  - text: 
+                - treeitem "MBA392 FREQUENTLY ASKED QUESTIONS" [ref=e51]:
+                  - link "MBA392 FREQUENTLY ASKED QUESTIONS" [ref=e53] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=361499
+                  - text: 
+                - treeitem "MBA392 VIDEO EXPLANATION" [ref=e54]:
+                  - link "MBA392 VIDEO EXPLANATION" [ref=e56] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=361500
+                  - text: 
+                - treeitem "GENERATIVE ARTIFICIAL INTELLIGENCE (AI) POLICY (Ef..." [ref=e57]:
+                  - link "GENERATIVE ARTIFICIAL INTELLIGENCE (AI) POLICY (Ef..." [ref=e59] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=70709#module-361501
+                  - text: 
+                - treeitem "CHEATING AND PLAGIARISM (Effective July 3, 2023) ..." [ref=e60]:
+                  - link "CHEATING AND PLAGIARISM (Effective July 3, 2023) ..." [ref=e62] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=70709#module-361502
+                  - text: 
+                - treeitem "EBSCO DATABASE USER ID AND PASSWORD" [ref=e63]:
+                  - link "EBSCO DATABASE USER ID AND PASSWORD" [ref=e65] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=70709#module-361503
+                  - text: 
+          - treeitem "Collapse MBA392 DEADLINES AND MORE" [ref=e66]:
+            - generic [ref=e67]:
+              - link "Collapse" [expanded] [ref=e68] [cursor=pointer]:
+                - /url: "#courseindexcollapse1"
+                - text:  
+                - generic "Collapse" [ref=e69]:
+                  - generic [ref=e70]: 
+                  - generic [ref=e71]: Collapse
+              - link "MBA392 DEADLINES AND MORE" [ref=e72] [cursor=pointer]:
+                - /url: https://moodle.humphreys.edu/course/section.php?id=70710
+              - text: 
+            - group "Collapse MBA392 DEADLINES AND MORE" [ref=e73]:
+              - group [ref=e74]:
+                - treeitem "Writing Support and Library Resources" [ref=e75]:
+                  - link "Writing Support and Library Resources" [ref=e77] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=367707
+                  - text: 
+                - treeitem "How to Access the Online Databases" [ref=e78]:
+                  - link "How to Access the Online Databases" [ref=e80] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=367708
+                  - text: 
+                - treeitem "How to Succeed in College" [ref=e81]:
+                  - link "How to Succeed in College" [ref=e83] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=367709
+                  - text: 
+                - treeitem "Library Workshops - Spring 2026" [ref=e84]:
+                  - link "Library Workshops - Spring 2026" [ref=e86] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=367710
+                  - text: 
+                - treeitem "Tutoring Services - Spring 2026" [ref=e87]:
+                  - link "Tutoring Services - Spring 2026" [ref=e89] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=367711
+                  - text: 
+          - treeitem "Collapse CPT PAPER UPLOAD" [ref=e90]:
+            - generic [ref=e91]:
+              - link "Collapse" [expanded] [ref=e92] [cursor=pointer]:
+                - /url: "#courseindexcollapse2"
+                - text:  
+                - generic "Collapse" [ref=e93]:
+                  - generic [ref=e94]: 
+                  - generic [ref=e95]: Collapse
+              - link "CPT PAPER UPLOAD" [ref=e96] [cursor=pointer]:
+                - /url: https://moodle.humphreys.edu/course/section.php?id=70711
+              - text: 
+            - group "Collapse CPT PAPER UPLOAD" [ref=e97]:
+              - group [ref=e98]:
+                - 'treeitem "MBA301: Financial Accounting - Paper" [ref=e99]':
+                  - 'link "MBA301: Financial Accounting - Paper" [ref=e101] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361505
+                  - text: 
+                - 'treeitem "MBA303: Managerial Accounting for Decision-Making - Paper" [ref=e102]':
+                  - 'link "MBA303: Managerial Accounting for Decision-Making - Paper" [ref=e104] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361506
+                  - text: 
+                - 'treeitem "MBA305: Marketing Management - Paper" [ref=e105]':
+                  - 'link "MBA305: Marketing Management - Paper" [ref=e107] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361507
+                  - text: 
+                - 'treeitem "MBA306: Macroeconomics: Business Conditions - Paper" [ref=e108]':
+                  - 'link "MBA306: Macroeconomics: Business Conditions - Paper" [ref=e110] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361508
+                  - text: 
+                - 'treeitem "MBA307: Microeconomics: Decision-Making - Paper" [ref=e111]':
+                  - 'link "MBA307: Microeconomics: Decision-Making - Paper" [ref=e113] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361509
+                  - text: 
+                - 'treeitem "MBA317: Internet Marketing - Paper" [ref=e114]':
+                  - 'link "MBA317: Internet Marketing - Paper" [ref=e116] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361510
+                  - text: 
+                - 'treeitem "MBA320: Organizational Behavior - Paper" [ref=e117]':
+                  - 'link "MBA320: Organizational Behavior - Paper" [ref=e119] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361511
+                  - text: 
+                - 'treeitem "MBA321: Data Analysis for Decision Making - Paper" [ref=e120]':
+                  - 'link "MBA321: Data Analysis for Decision Making - Paper" [ref=e122] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361512
+                  - text: 
+                - 'treeitem "MBA322: Fundamentals of Project Management - Paper" [ref=e123]':
+                  - 'link "MBA322: Fundamentals of Project Management - Paper" [ref=e125] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361513
+                  - text: 
+                - 'treeitem "MBA323: Risk Management - Paper" [ref=e126]':
+                  - 'link "MBA323: Risk Management - Paper" [ref=e128] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361514
+                  - text: 
+                - 'treeitem "MBA324: Global Project Management - Paper" [ref=e129]':
+                  - 'link "MBA324: Global Project Management - Paper" [ref=e131] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361515
+                  - text: 
+                - 'treeitem "MBA325: Process Improvement - Paper" [ref=e132]':
+                  - 'link "MBA325: Process Improvement - Paper" [ref=e134] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361516
+                  - text: 
+                - 'treeitem "MBA326: Project Planning - Paper" [ref=e135]':
+                  - 'link "MBA326: Project Planning - Paper" [ref=e137] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=367712
+                  - text: 
+                - 'treeitem "MBA330: Human Resource Management - Paper" [ref=e138]':
+                  - 'link "MBA330: Human Resource Management - Paper" [ref=e140] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361517
+                  - text: 
+                - 'treeitem "MBA345: Operations and Supply Chain Management - Paper" [ref=e141]':
+                  - 'link "MBA345: Operations and Supply Chain Management - Paper" [ref=e143] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361518
+                  - text: 
+                - 'treeitem "MBA370: Corporate Financial Management - Paper" [ref=e144]':
+                  - 'link "MBA370: Corporate Financial Management - Paper" [ref=e146] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361519
+                  - text: 
+                - 'treeitem "MBA385: Strategic Management - Paper" [ref=e147]':
+                  - 'link "MBA385: Strategic Management - Paper" [ref=e149] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361520
+                  - text: 
+                - 'treeitem "MBA389: Negotiation and Conflict Resolution - Paper" [ref=e150]':
+                  - 'link "MBA389: Negotiation and Conflict Resolution - Paper" [ref=e152] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361521
+                  - text: 
+                - 'treeitem "MBA390: Change Management - Paper" [ref=e153]':
+                  - 'link "MBA390: Change Management - Paper" [ref=e155] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361522
+                  - text: 
+                - 'treeitem "MBA391: Business Leadership - Paper" [ref=e156]':
+                  - 'link "MBA391: Business Leadership - Paper" [ref=e158] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361523
+                  - text: 
+                - 'treeitem "MBA393: Networking in Business Environments - Paper" [ref=e159]':
+                  - 'link "MBA393: Networking in Business Environments - Paper" [ref=e161] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361524
+                  - text: 
+                - 'treeitem "MBA394: Data in Business Environments - Paper" [ref=e162]':
+                  - 'link "MBA394: Data in Business Environments - Paper" [ref=e164] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361525
+                  - text: 
+                - 'treeitem "MBA395: International Management - Paper" [ref=e165]':
+                  - 'link "MBA395: International Management - Paper" [ref=e167] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361526
+                  - text: 
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - generic: 
+        - banner [ref=e170]:
+          - generic [ref=e171]:
+            - navigation "Breadcrumb" [ref=e174]:
+              - list [ref=e175]:
+                - listitem [ref=e176]:
+                  - link "2026SP" [ref=e177] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/index.php?categoryid=535
+                - listitem [ref=e178]:
+                  - text: /
+                  - link "2026SP-MBA392" [ref=e179] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/view.php?id=5476
+                - listitem [ref=e180]:
+                  - text: /
+                  - link "MBA392 - MUST READ!" [ref=e181] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=70709
+                - listitem [ref=e182]: / MBA392 FREQUENTLY ASKED QUESTIONS
+            - generic [ref=e186]:
+              - img [ref=e189]
+              - heading "MBA392 FREQUENTLY ASKED QUESTIONS" [level=1] [ref=e191]
+        - generic [ref=e194]:
+          - generic [ref=e196]:
+            - generic [ref=e197]: Completion requirements
+            - button "Mark MBA392 FREQUENTLY ASKED QUESTIONS as done" [ref=e200] [cursor=pointer]: Mark as done
+          - main [ref=e201]:
+            - generic [ref=e202]:
+              - text: Click
+              - link "FAQ Document.pdf" [ref=e203] [cursor=pointer]:
+                - /url: https://moodle.humphreys.edu/pluginfile.php/1199533/mod_resource/content/4/FAQ%20Document.pdf
+              - text: link to view the file.
+      - contentinfo:
+        - button "Show footer" [ref=e204] [cursor=pointer]:
+          - generic [ref=e205]: "?"
+        - text: 

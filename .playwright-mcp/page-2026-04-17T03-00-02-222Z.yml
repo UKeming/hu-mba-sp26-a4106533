@@ -1,0 +1,116 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:     
+      - navigation [ref=e36]:
+        - list [ref=e39]:
+          - listitem [ref=e40]
+          - listitem [ref=e44]
+          - listitem [ref=e48]
+          - listitem [ref=e52]
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic: 
+        - banner [ref=e58]:
+          - generic [ref=e59]:
+            - navigation "Breadcrumb" [ref=e62]:
+              - list [ref=e63]:
+                - listitem [ref=e64]:
+                  - link "2026SP" [ref=e65] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/index.php?categoryid=535
+                - listitem [ref=e66]:
+                  - text: /
+                  - link "2026SP-MBA394B" [ref=e67] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/course/view.php?id=5525
+                - listitem [ref=e68]:
+                  - text: /
+                  - 'link "Week 2: April 13-19" [ref=e69] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/course/section.php?id=71301
+                - listitem [ref=e70]: "/ Assignment #1 (Wk2: Case Study - Ethics)"
+            - generic [ref=e74]:
+              - img [ref=e77]
+              - 'heading "Assignment #1 (Wk2: Case Study - Ethics)" [level=1] [ref=e79]'
+        - generic [ref=e82]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: Completion requirements
+            - generic [ref=e86]:
+              - 'list "Completion requirements for Assignment #1 (Wk2: Case Study - Ethics)" [ref=e88]':
+                - listitem [ref=e89]:
+                  - generic [ref=e90]: 
+                  - strong [ref=e91]: "Done:"
+                  - text: View
+                - listitem [ref=e92]:
+                  - strong [ref=e93]: "To do:"
+                  - text: Make a submission
+              - generic [ref=e95]:
+                - strong [ref=e96]: "Due:"
+                - text: Sunday, April 19, 2026, 11:59 PM
+            - generic [ref=e99]:
+              - paragraph [ref=e100]:
+                - text: Write a short review of an ethical issue that an organization has faced. Your
+                - strong [ref=e101]: two-page, double-spaced
+                - text: "submission should include the following:"
+              - list [ref=e102]:
+                - listitem [ref=e103]: Overview of the selected organization
+                - listitem [ref=e104]: Summary of the ethical issue faced by the organization
+                - listitem [ref=e105]: Impact on the organization
+                - listitem [ref=e106]: Two alternatives for addressing/resolving the issue
+                - listitem [ref=e107]: Solution proposed and its justification
+              - paragraph [ref=e108]: This assignment will teach you how to present a business brief or case study, highlight key issues, and propose a solution, in a short and to-the-point response.
+              - paragraph [ref=e109]: Keep the cover page separate from the assignment content. It should include your name and identify the assignment. Place the references on a separate page, unless in-text references are used.
+              - paragraph [ref=e110]:
+                - text: The file you upload must include your first or last name in the filename. Failure to do so will result in a
+                - strong [ref=e111]: 3-point penalty
+                - text: . This requirement applies to all assignment submissions.
+              - paragraph [ref=e112]:
+                - strong [ref=e113]: "Note from the instructor:"
+                - text: I am very .particular about following the specified requirements for each and every assignment throughout this course. In case you need any clarification, please do not hesitate to reach out.
+          - main [ref=e114]:
+            - button "Add submission" [ref=e120] [cursor=pointer]
+            - generic [ref=e121]:
+              - heading "Submission status" [level=3] [ref=e122]
+              - table "Submission status" [ref=e125]:
+                - caption [ref=e126]: Submission status
+                - rowgroup [ref=e127]:
+                  - row "Submission status No submissions have been made yet" [ref=e128]:
+                    - rowheader "Submission status" [ref=e129]
+                    - cell "No submissions have been made yet" [ref=e130]
+                  - row "Grading status Not graded" [ref=e131]:
+                    - rowheader "Grading status" [ref=e132]
+                    - cell "Not graded" [ref=e133]
+                  - row "Time remaining 3 days 3 hours remaining" [ref=e134]:
+                    - rowheader "Time remaining" [ref=e135]
+                    - cell "3 days 3 hours remaining" [ref=e136]
+                  - row "Last modified -" [ref=e137]:
+                    - rowheader "Last modified" [ref=e138]
+                    - cell "-" [ref=e139]
+      - contentinfo:
+        - button "Show footer" [ref=e140] [cursor=pointer]:
+          - generic [ref=e141]: "?"
+        - text: 

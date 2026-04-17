@@ -1,0 +1,228 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - button "Open block drawer" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: Open block drawer
+          - generic [ref=e39]: 
+          - text: 
+        - banner [ref=e40]:
+          - generic [ref=e41]:
+            - generic:
+              - generic:
+                - navigation "Breadcrumb":
+                  - list
+            - heading "Calendar" [level=1] [ref=e47]
+        - main [ref=e51]:
+          - generic [ref=e53]:
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - button "Month " [ref=e58] [cursor=pointer]:
+                  - generic [ref=e59]: Month
+                  - text: 
+                - generic [ref=e60]: List of courses
+                - combobox "List of courses" [ref=e61]:
+                  - option "All courses" [selected]
+                  - 'option "2026SP-MBA306: B - Macroeconomics: Business Con..."'
+                  - option "2026SP-MBA392- CPT Practicum - V.Claus"
+                  - 'option "2026SP-MBA394: B - Data in Business Environment..."'
+                  - option "MBA April Week 1 Spring 2026 Weekend Presentati..."
+                - button "New event" [ref=e62] [cursor=pointer]
+              - generic [ref=e64]:
+                - generic:
+                  - generic:
+                    - 'link "Previous month: March" [ref=e65] [cursor=pointer]':
+                      - /url: https://moodle.humphreys.edu/calendar/view.php?view=month&time=1740816000
+                      - text: ◀︎ March
+                    - heading "April 2025" [level=2] [ref=e66]
+                    - 'link "Next month: May" [ref=e67] [cursor=pointer]':
+                      - /url: https://moodle.humphreys.edu/calendar/view.php?view=month&time=1746082800
+                      - text: May ▶︎
+                - text: 
+                - table [ref=e68]:
+                  - rowgroup [ref=e69]:
+                    - row "Sunday Monday Tuesday Wednesday Thursday Friday Saturday" [ref=e70]:
+                      - columnheader "Sunday" [ref=e71]:
+                        - generic [ref=e72]: Sunday
+                        - text: Sun
+                      - columnheader "Monday" [ref=e73]:
+                        - generic [ref=e74]: Monday
+                        - text: Mon
+                      - columnheader "Tuesday" [ref=e75]:
+                        - generic [ref=e76]: Tuesday
+                        - text: Tue
+                      - columnheader "Wednesday" [ref=e77]:
+                        - generic [ref=e78]: Wednesday
+                        - text: Wed
+                      - columnheader "Thursday" [ref=e79]:
+                        - generic [ref=e80]: Thursday
+                        - text: Thu
+                      - columnheader "Friday" [ref=e81]:
+                        - generic [ref=e82]: Friday
+                        - text: Fri
+                      - columnheader "Saturday" [ref=e83]:
+                        - generic [ref=e84]: Saturday
+                        - text: Sat
+                  - rowgroup [ref=e85]:
+                    - row "No events, Tuesday, April 1 No events, Wednesday, April 2 No events, Thursday, April 3 No events, Friday, April 4 No events, Saturday, April 5" [ref=e86]:
+                      - cell [ref=e87]
+                      - cell [ref=e88]
+                      - cell "No events, Tuesday, April 1" [ref=e89] [cursor=pointer]:
+                        - generic [ref=e90]:
+                          - generic [ref=e91]: No events, Tuesday, April 1
+                          - generic [ref=e94]: "1"
+                      - cell "No events, Wednesday, April 2" [ref=e95] [cursor=pointer]:
+                        - generic [ref=e96]:
+                          - generic [ref=e97]: No events, Wednesday, April 2
+                          - generic [ref=e100]: "2"
+                      - cell "No events, Thursday, April 3" [ref=e101] [cursor=pointer]:
+                        - generic [ref=e102]:
+                          - generic [ref=e103]: No events, Thursday, April 3
+                          - generic [ref=e106]: "3"
+                      - cell "No events, Friday, April 4" [ref=e107] [cursor=pointer]:
+                        - generic [ref=e108]:
+                          - generic [ref=e109]: No events, Friday, April 4
+                          - generic [ref=e112]: "4"
+                      - cell "No events, Saturday, April 5" [ref=e113] [cursor=pointer]:
+                        - generic [ref=e114]:
+                          - generic [ref=e115]: No events, Saturday, April 5
+                          - generic [ref=e118]: "5"
+                    - row "No events, Sunday, April 6 No events, Monday, April 7 No events, Tuesday, April 8 No events, Wednesday, April 9 No events, Thursday, April 10 No events, Friday, April 11 No events, Saturday, April 12" [ref=e119]:
+                      - cell "No events, Sunday, April 6" [ref=e120] [cursor=pointer]:
+                        - generic [ref=e121]:
+                          - generic [ref=e122]: No events, Sunday, April 6
+                          - generic [ref=e125]: "6"
+                      - cell "No events, Monday, April 7" [ref=e126] [cursor=pointer]:
+                        - generic [ref=e127]:
+                          - generic [ref=e128]: No events, Monday, April 7
+                          - generic [ref=e131]: "7"
+                      - cell "No events, Tuesday, April 8" [ref=e132] [cursor=pointer]:
+                        - generic [ref=e133]:
+                          - generic [ref=e134]: No events, Tuesday, April 8
+                          - generic [ref=e137]: "8"
+                      - cell "No events, Wednesday, April 9" [ref=e138] [cursor=pointer]:
+                        - generic [ref=e139]:
+                          - generic [ref=e140]: No events, Wednesday, April 9
+                          - generic [ref=e143]: "9"
+                      - cell "No events, Thursday, April 10" [ref=e144] [cursor=pointer]:
+                        - generic [ref=e145]:
+                          - generic [ref=e146]: No events, Thursday, April 10
+                          - generic [ref=e149]: "10"
+                      - cell "No events, Friday, April 11" [ref=e150] [cursor=pointer]:
+                        - generic [ref=e151]:
+                          - generic [ref=e152]: No events, Friday, April 11
+                          - generic [ref=e155]: "11"
+                      - cell "No events, Saturday, April 12" [ref=e156] [cursor=pointer]:
+                        - generic [ref=e157]:
+                          - generic [ref=e158]: No events, Saturday, April 12
+                          - generic [ref=e161]: "12"
+                    - row "No events, Sunday, April 13 No events, Monday, April 14 No events, Tuesday, April 15 No events, Wednesday, April 16 No events, Thursday, April 17 No events, Friday, April 18 No events, Saturday, April 19" [ref=e162]:
+                      - cell "No events, Sunday, April 13" [ref=e163] [cursor=pointer]:
+                        - generic [ref=e164]:
+                          - generic [ref=e165]: No events, Sunday, April 13
+                          - generic [ref=e168]: "13"
+                      - cell "No events, Monday, April 14" [ref=e169] [cursor=pointer]:
+                        - generic [ref=e170]:
+                          - generic [ref=e171]: No events, Monday, April 14
+                          - generic [ref=e174]: "14"
+                      - cell "No events, Tuesday, April 15" [ref=e175] [cursor=pointer]:
+                        - generic [ref=e176]:
+                          - generic [ref=e177]: No events, Tuesday, April 15
+                          - generic [ref=e180]: "15"
+                      - cell "No events, Wednesday, April 16" [ref=e181] [cursor=pointer]:
+                        - generic [ref=e182]:
+                          - generic [ref=e183]: No events, Wednesday, April 16
+                          - generic [ref=e186]: "16"
+                      - cell "No events, Thursday, April 17" [ref=e187] [cursor=pointer]:
+                        - generic [ref=e188]:
+                          - generic [ref=e189]: No events, Thursday, April 17
+                          - generic [ref=e192]: "17"
+                      - cell "No events, Friday, April 18" [ref=e193] [cursor=pointer]:
+                        - generic [ref=e194]:
+                          - generic [ref=e195]: No events, Friday, April 18
+                          - generic [ref=e198]: "18"
+                      - cell "No events, Saturday, April 19" [ref=e199] [cursor=pointer]:
+                        - generic [ref=e200]:
+                          - generic [ref=e201]: No events, Saturday, April 19
+                          - generic [ref=e204]: "19"
+                    - row "No events, Sunday, April 20 No events, Monday, April 21 No events, Tuesday, April 22 No events, Wednesday, April 23 No events, Thursday, April 24 No events, Friday, April 25 No events, Saturday, April 26" [ref=e205]:
+                      - cell "No events, Sunday, April 20" [ref=e206] [cursor=pointer]:
+                        - generic [ref=e207]:
+                          - generic [ref=e208]: No events, Sunday, April 20
+                          - generic [ref=e211]: "20"
+                      - cell "No events, Monday, April 21" [ref=e212] [cursor=pointer]:
+                        - generic [ref=e213]:
+                          - generic [ref=e214]: No events, Monday, April 21
+                          - generic [ref=e217]: "21"
+                      - cell "No events, Tuesday, April 22" [ref=e218] [cursor=pointer]:
+                        - generic [ref=e219]:
+                          - generic [ref=e220]: No events, Tuesday, April 22
+                          - generic [ref=e223]: "22"
+                      - cell "No events, Wednesday, April 23" [ref=e224] [cursor=pointer]:
+                        - generic [ref=e225]:
+                          - generic [ref=e226]: No events, Wednesday, April 23
+                          - generic [ref=e229]: "23"
+                      - cell "No events, Thursday, April 24" [ref=e230] [cursor=pointer]:
+                        - generic [ref=e231]:
+                          - generic [ref=e232]: No events, Thursday, April 24
+                          - generic [ref=e235]: "24"
+                      - cell "No events, Friday, April 25" [ref=e236] [cursor=pointer]:
+                        - generic [ref=e237]:
+                          - generic [ref=e238]: No events, Friday, April 25
+                          - generic [ref=e241]: "25"
+                      - cell "No events, Saturday, April 26" [ref=e242] [cursor=pointer]:
+                        - generic [ref=e243]:
+                          - generic [ref=e244]: No events, Saturday, April 26
+                          - generic [ref=e247]: "26"
+                    - row "No events, Sunday, April 27 No events, Monday, April 28 No events, Tuesday, April 29 No events, Wednesday, April 30" [ref=e248]:
+                      - cell "No events, Sunday, April 27" [ref=e249] [cursor=pointer]:
+                        - generic [ref=e250]:
+                          - generic [ref=e251]: No events, Sunday, April 27
+                          - generic [ref=e254]: "27"
+                      - cell "No events, Monday, April 28" [ref=e255] [cursor=pointer]:
+                        - generic [ref=e256]:
+                          - generic [ref=e257]: No events, Monday, April 28
+                          - generic [ref=e260]: "28"
+                      - cell "No events, Tuesday, April 29" [ref=e261] [cursor=pointer]:
+                        - generic [ref=e262]:
+                          - generic [ref=e263]: No events, Tuesday, April 29
+                          - generic [ref=e266]: "29"
+                      - cell "No events, Wednesday, April 30" [ref=e267] [cursor=pointer]:
+                        - generic [ref=e268]:
+                          - generic [ref=e269]: No events, Wednesday, April 30
+                          - generic [ref=e272]: "30"
+                      - cell [ref=e273]
+                      - cell [ref=e274]
+                      - cell [ref=e275]
+            - link "Import or export calendars" [ref=e278] [cursor=pointer]:
+              - /url: https://moodle.humphreys.edu/calendar/managesubscriptions.php?course=1
+      - contentinfo:
+        - button "Show footer" [ref=e279] [cursor=pointer]:
+          - generic [ref=e280]: "?"
+        - text: 

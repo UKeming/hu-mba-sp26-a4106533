@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:     
+      - navigation [ref=e36]:
+        - list [ref=e39]:
+          - listitem [ref=e40]
+          - listitem [ref=e44]
+          - listitem [ref=e48]
+          - listitem [ref=e52]
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic:
+          - text: 
+          - button "Open block drawer" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: Open block drawer
+            - generic [ref=e62]: 
+            - text: 
+        - banner [ref=e63]:
+          - generic [ref=e64]:
+            - generic:
+              - generic:
+                - navigation "Breadcrumb":
+                  - list
+            - heading "MBA April Week 1 Spring 2026 Weekend Presentation Slide Upload" [level=1] [ref=e70]
+        - navigation [ref=e72]:
+          - menubar [ref=e73]:
+            - menuitem "Course" [ref=e74] [cursor=pointer]
+            - menuitem "Participants" [ref=e75] [cursor=pointer]
+            - menuitem "Grades" [ref=e76] [cursor=pointer]
+            - menuitem "Competencies" [ref=e77] [cursor=pointer]
+            - text: 
+        - main [ref=e81]:
+          - generic [ref=e84]:
+            - heading "Section outline" [level=2] [ref=e85]
+            - list [ref=e86]:
+              - listitem [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]:
+                      - button "Instructions for Students" [expanded] [ref=e91] [cursor=pointer]:
+                        - generic "Collapse" [ref=e92]:
+                          - generic [ref=e93]: 
+                          - generic [ref=e94]: Collapse
+                        - text:  
+                      - heading "Instructions for Students" [level=3] [ref=e95]:
+                        - link "Instructions for Students" [ref=e96] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/course/section.php?id=71475
+                    - button "Collapse all" [expanded] [ref=e98] [cursor=pointer]:
+                      - generic [ref=e99]: Collapse all
+                  - generic [ref=e100]:
+                    - generic [ref=e103]:
+                      - generic [ref=e104]: EACH student must upload the group's presentation slides to get credit for participating during the weekend
+                      - generic [ref=e106]: You can access your slides here for your group's presentation on Sunday.
+                    - list [ref=e107]:
+                      - listitem [ref=e108]:
+                        - generic [ref=e110]:
+                          - link "Upload Presentation Slide Here Assignment" [ref=e115] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=367851
+                            - generic [ref=e116]:
+                              - text: Upload Presentation Slide Here
+                              - generic [ref=e117]: Assignment
+                          - button "Upload Presentation Slide Here is marked as done. Press to undo." [ref=e121] [cursor=pointer]:
+                            - generic [ref=e122]: 
+                            - text: Done
+                      - listitem [ref=e123]:
+                        - link "Announcements Forum" [ref=e130] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=367852
+                          - generic [ref=e131]:
+                            - text: Announcements
+                            - generic [ref=e132]: Forum
+      - contentinfo:
+        - button "Show footer" [ref=e135] [cursor=pointer]:
+          - generic [ref=e136]: "?"
+        - text: 

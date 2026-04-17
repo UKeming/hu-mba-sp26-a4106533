@@ -1,0 +1,916 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:     
+      - navigation [ref=e36]:
+        - list [ref=e39]:
+          - listitem [ref=e40]
+          - listitem [ref=e44]
+          - listitem [ref=e48]
+          - listitem [ref=e52]
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic:
+          - text: 
+          - button "Open block drawer" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: Open block drawer
+            - generic [ref=e62]: 
+            - text: 
+        - banner [ref=e63]:
+          - generic [ref=e64]:
+            - generic:
+              - generic:
+                - navigation "Breadcrumb":
+                  - list
+            - 'heading "2026SP-MBA306: B - Macroeconomics: Business Condition - S.Kunwar" [level=1] [ref=e70]'
+        - navigation [ref=e72]:
+          - menubar [ref=e73]:
+            - menuitem "Course" [ref=e74] [cursor=pointer]
+            - menuitem "Participants" [ref=e75] [cursor=pointer]
+            - menuitem "Grades" [ref=e76] [cursor=pointer]
+            - menuitem "Competencies" [ref=e77] [cursor=pointer]
+            - text: 
+        - main [ref=e81]:
+          - generic [ref=e84]:
+            - heading "Section outline" [level=2] [ref=e85]
+            - list [ref=e86]:
+              - listitem [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]:
+                      - button "General Course Info, Textbook purchase, Research &amp; Citation links" [expanded] [ref=e91] [cursor=pointer]:
+                        - generic "Collapse" [ref=e92]:
+                          - generic [ref=e93]: 
+                          - generic [ref=e94]: Collapse
+                        - text:  
+                      - heading "General Course Info, Textbook purchase, Research & Citation links" [level=3] [ref=e95]:
+                        - link "General Course Info, Textbook purchase, Research & Citation links" [ref=e96] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/course/section.php?id=71263
+                    - button "Collapse all" [expanded] [ref=e98] [cursor=pointer]:
+                      - generic [ref=e99]: Collapse all
+                  - list [ref=e101]:
+                    - listitem [ref=e102]:
+                      - generic [ref=e104]:
+                        - button "Mark GENERAL COURSE INFORMATION as done" [ref=e108] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e112]: GENERAL COURSE INFORMATION
+                    - listitem [ref=e113]:
+                      - generic [ref=e115]:
+                        - link "Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023 File" [ref=e120] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=365987
+                          - generic [ref=e121]:
+                            - text: Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023
+                            - generic [ref=e122]: File
+                        - button "Mark Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023 as done" [ref=e128] [cursor=pointer]: Mark as done
+                    - listitem [ref=e129]:
+                      - generic [ref=e131]:
+                        - link "Generative Artificial Intelligence (AI) Policy File" [ref=e136] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=365988
+                          - generic [ref=e137]:
+                            - text: Generative Artificial Intelligence (AI) Policy
+                            - generic [ref=e138]: File
+                        - button "Mark Generative Artificial Intelligence (AI) Policy as done" [ref=e144] [cursor=pointer]: Mark as done
+                    - listitem [ref=e145]:
+                      - generic [ref=e147]:
+                        - link "Make-Up/ Late Work Policy File" [ref=e152] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=365989
+                          - generic [ref=e153]:
+                            - text: Make-Up/ Late Work Policy
+                            - generic [ref=e154]: File
+                        - button "Mark Make-Up/ Late Work Policy as done" [ref=e160] [cursor=pointer]: Mark as done
+                    - listitem [ref=e161]:
+                      - generic [ref=e163]:
+                        - link "Announcements Forum" [ref=e168] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=365990
+                          - generic [ref=e169]:
+                            - text: Announcements
+                            - generic [ref=e170]: Forum
+                        - button "Mark Announcements as done" [ref=e176] [cursor=pointer]: Mark as done
+                    - listitem [ref=e177]:
+                      - generic [ref=e179]:
+                        - link "Forum/Discussion Rubric URL" [ref=e184] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/url/view.php?id=365991
+                          - generic [ref=e185]:
+                            - text: Forum/Discussion Rubric
+                            - generic [ref=e186]: URL
+                        - button "Mark Forum/Discussion Rubric as done" [ref=e190] [cursor=pointer]: Mark as done
+                    - listitem [ref=e191]:
+                      - generic [ref=e193]:
+                        - button "Mark If you have your pop-up blocker turned on, you may... as done" [ref=e197] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e201]: If you have your pop-up blocker turned on, you may need to turn it off to access Internet links from this course site.
+                    - listitem [ref=e202]:
+                      - generic [ref=e204]:
+                        - button "Mark Course Text as done" [ref=e208] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e212]: Course Text
+                    - listitem [ref=e213]:
+                      - generic [ref=e215]:
+                        - link "Link to Buy Textbook on eCampus URL" [ref=e220] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/url/view.php?id=365994
+                          - generic [ref=e221]:
+                            - text: Link to Buy Textbook on eCampus
+                            - generic [ref=e222]: URL
+                        - button "Mark Link to Buy Textbook on eCampus as done" [ref=e226] [cursor=pointer]: Mark as done
+                    - listitem [ref=e227]:
+                      - generic [ref=e229]:
+                        - button "Mark Research as done" [ref=e233] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e237]: Research
+                    - listitem [ref=e238]:
+                      - generic [ref=e240]:
+                        - button "Mark Library and Learning Center Resources as done" [ref=e244] [cursor=pointer]: Mark as done
+                        - generic [ref=e247]:
+                          - paragraph
+                          - heading "Library and Learning Center Resources" [level=3] [ref=e248]:
+                            - strong [ref=e249]: Library and Learning Center Resources
+                          - paragraph
+                    - listitem [ref=e250]:
+                      - generic [ref=e252]:
+                        - link "Link and Log-In Information for Online EBSCO Research Databases Page" [ref=e257] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/page/view.php?id=365997
+                          - generic [ref=e258]:
+                            - text: Link and Log-In Information for Online EBSCO Research Databases
+                            - generic [ref=e259]: Page
+                        - button "Mark Link and Log-In Information for Online EBSCO Research Databases as done" [ref=e263] [cursor=pointer]: Mark as done
+                    - listitem [ref=e264]:
+                      - generic [ref=e266]:
+                        - link "Online Workshops (How to Succeed in College) Page" [ref=e271] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/page/view.php?id=365998
+                          - generic [ref=e272]:
+                            - text: Online Workshops (How to Succeed in College)
+                            - generic [ref=e273]: Page
+                        - button "Mark Online Workshops (How to Succeed in College) as done" [ref=e277] [cursor=pointer]: Mark as done
+                    - listitem [ref=e278]:
+                      - generic [ref=e280]:
+                        - link "Tutoring Service Page" [ref=e285] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/page/view.php?id=365999
+                          - generic [ref=e286]:
+                            - text: Tutoring Service
+                            - generic [ref=e287]: Page
+                        - button "Mark Tutoring Service as done" [ref=e291] [cursor=pointer]: Mark as done
+                    - listitem [ref=e292]:
+                      - generic [ref=e294]:
+                        - link "Jacob Grafius, General Reference & Databases Tutor- Video Page" [ref=e299] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366000
+                          - generic [ref=e300]:
+                            - text: Jacob Grafius, General Reference & Databases Tutor- Video
+                            - generic [ref=e301]: Page
+                        - button "Mark Jacob Grafius, General Reference &amp; Databases Tutor- Video as done" [ref=e305] [cursor=pointer]: Mark as done
+                    - listitem [ref=e306]:
+                      - generic [ref=e308]:
+                        - link "Alberto Castello, Math & Accounting Tutor- Video Page" [ref=e313] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366001
+                          - generic [ref=e314]:
+                            - text: Alberto Castello, Math & Accounting Tutor- Video
+                            - generic [ref=e315]: Page
+                        - button "Mark Alberto Castello, Math &amp; Accounting Tutor- Video as done" [ref=e319] [cursor=pointer]: Mark as done
+                    - listitem [ref=e320]:
+                      - generic [ref=e322]:
+                        - link "Jordan Joyner, English Grammar & Writing Tutor- Video Page" [ref=e327] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366002
+                          - generic [ref=e328]:
+                            - text: Jordan Joyner, English Grammar & Writing Tutor- Video
+                            - generic [ref=e329]: Page
+                        - button "Mark Jordan Joyner, English Grammar &amp; Writing Tutor- Video as done" [ref=e333] [cursor=pointer]: Mark as done
+                    - listitem [ref=e334]:
+                      - generic [ref=e336]:
+                        - button "Mark APA Formatting as done" [ref=e340] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e344]: APA Formatting
+                    - listitem [ref=e345]:
+                      - generic [ref=e347]:
+                        - 'link "Plagiarism, Citations, and References: Links to Excellent APA videos Page" [ref=e352] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366004
+                          - generic [ref=e353]:
+                            - text: "Plagiarism, Citations, and References: Links to Excellent APA videos"
+                            - generic [ref=e354]: Page
+                        - 'button "Mark Plagiarism, Citations, and References: Links to Excellent APA videos as done" [ref=e358] [cursor=pointer]': Mark as done
+                    - listitem [ref=e359]:
+                      - generic [ref=e361]:
+                        - link "Hanging Indent on References Pages (5 min) File" [ref=e366] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366005
+                          - generic [ref=e367]:
+                            - text: Hanging Indent on References Pages (5 min)
+                            - generic [ref=e368]: File
+                        - button "Mark Hanging Indent on References Pages (5 min) as done" [ref=e374] [cursor=pointer]: Mark as done
+                    - listitem [ref=e375]:
+                      - generic [ref=e377]:
+                        - link "How to Cite (and Reference) a Quote in a Quote URL" [ref=e382] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366006
+                          - generic [ref=e383]:
+                            - text: How to Cite (and Reference) a Quote in a Quote
+                            - generic [ref=e384]: URL
+                        - button "Mark How to Cite (and Reference) a Quote in a Quote as done" [ref=e388] [cursor=pointer]: Mark as done
+                    - listitem [ref=e389]:
+                      - generic [ref=e391]:
+                        - link "Video on Erasing Background Colors on References File" [ref=e396] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366007
+                          - generic [ref=e397]:
+                            - text: Video on Erasing Background Colors on References
+                            - generic [ref=e398]: File
+                        - button "Mark Video on Erasing Background Colors on References as done" [ref=e404] [cursor=pointer]: Mark as done
+                    - listitem [ref=e405]:
+                      - generic [ref=e407]:
+                        - link "Purdue University Online Writing Lab (OWL) URL" [ref=e412] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366008
+                          - generic [ref=e413]:
+                            - text: Purdue University Online Writing Lab (OWL)
+                            - generic [ref=e414]: URL
+                        - button "Mark Purdue University Online Writing Lab (OWL) as done" [ref=e418] [cursor=pointer]: Mark as done
+                    - listitem [ref=e419]:
+                      - generic [ref=e421]:
+                        - button "Mark Students with Disabilities as done" [ref=e425] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e429]:
+                          - strong [ref=e430]: Students with Disabilities
+                    - listitem [ref=e431]:
+                      - generic [ref=e433]:
+                        - button "Mark Humphreys University welcomes students with disab... as done" [ref=e437] [cursor=pointer]: Mark as done
+                        - generic [ref=e440]:
+                          - paragraph
+                          - paragraph [ref=e441]: Humphreys University welcomes students with disabilities and is fully committed to complying with the laws regarding equal opportunity for all qualified students with disabilities and promoting the full participation of all qualified students in all aspects of campus life. All students are expected to meet the academic standards as developed by the faculty. It is only through a student’s voluntary disclosure of a documented disability or injury and a request for accommodation that Humphreys can support the student’s needs.
+                          - paragraph [ref=e442]: A student who wishes to request an accommodation or modification must do so by completing the Request for Accommodation Form on the University web site (search for Accommodation Request). The student's dean will contact the student and request appropriate documentation, which will not be shared with others. The dean (or designee) will communicate with the student to convey which, if any, accommodations or modifications would be most effective to help the student achieve academic success. Before completing the Request for Accommodation Form, the student should read and follow the directions in the University catalog (available online); see the section titled Student Services to find more information about how to seek accommodation and the type of documentation that is required.
+                          - paragraph
+                    - listitem [ref=e443]:
+                      - generic [ref=e445]:
+                        - button "Mark Instructor Bio and Contact Info as done" [ref=e449] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e453]:
+                          - strong [ref=e454]: Instructor Bio and Contact Info
+                    - listitem [ref=e455]:
+                      - generic [ref=e457]:
+                        - link "Introduction to your instructor - Samrat B. Kunwar, PhD File" [ref=e462] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366012
+                          - generic [ref=e463]:
+                            - text: Introduction to your instructor - Samrat B. Kunwar, PhD
+                            - generic [ref=e464]: File
+                        - button "Mark Introduction to your instructor - Samrat B. Kunwar, PhD as done" [ref=e470] [cursor=pointer]: Mark as done
+                    - listitem [ref=e471]:
+                      - generic [ref=e473]:
+                        - 'button "Mark Contact Your Professor with Questions:E-Mail: samr... as done" [ref=e477] [cursor=pointer]': Mark as done
+                        - generic [ref=e480]:
+                          - paragraph [ref=e481]:
+                            - strong [ref=e482]:
+                              - link "Contact Your Professor with Questions" [ref=e483] [cursor=pointer]:
+                                - /url: mailto:arlnoe@sbcglobal.net
+                              - text: ":"
+                          - paragraph [ref=e484]:
+                            - strong [ref=e485]:
+                              - strong [ref=e486]: "E-Mail: samrat.kunwar@humphreys.edu"
+                          - strong
+                          - paragraph
+                    - listitem [ref=e487]:
+                      - link "Announcements Forum" [ref=e494] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366014
+                        - generic [ref=e495]:
+                          - text: Announcements
+                          - generic [ref=e496]: Forum
+              - listitem [ref=e499]:
+                - generic [ref=e500]:
+                  - generic [ref=e502]:
+                    - 'button "Apr 06 - 12: WEEK 1 - INTRODUCTION TO MACROECONOMICS" [expanded] [ref=e503] [cursor=pointer]':
+                      - generic "Collapse" [ref=e504]:
+                        - generic [ref=e505]: 
+                        - generic [ref=e506]: Collapse
+                      - text:  
+                    - 'heading "Apr 06 - 12: WEEK 1 - INTRODUCTION TO MACROECONOMICS" [level=3] [ref=e507]':
+                      - 'link "Apr 06 - 12: WEEK 1 - INTRODUCTION TO MACROECONOMICS" [ref=e508] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71264
+                  - generic [ref=e509]:
+                    - generic [ref=e512]:
+                      - paragraph
+                      - paragraph
+                    - list [ref=e513]:
+                      - listitem [ref=e514]:
+                        - generic [ref=e516]:
+                          - link "Syllabus File" [ref=e521] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366015
+                            - generic [ref=e522]:
+                              - text: Syllabus
+                              - generic [ref=e523]: File
+                          - button "Mark Syllabus as done" [ref=e529] [cursor=pointer]: Mark as done
+                          - generic [ref=e532]:
+                            - paragraph
+                            - paragraph [ref=e533]:
+                              - strong [ref=e534]: Students,
+                            - paragraph [ref=e535]:
+                              - strong [ref=e536]: Please click on link above to view/download syllabus. Please make sure you review the MBA 306 Macroeconomics syllabus attached for CLOs, PLOs, student expectations, University policy/rules, course outline and chapters to be covered each week.
+                            - paragraph [ref=e537]
+                            - paragraph
+                      - listitem [ref=e538]:
+                        - generic [ref=e543]:
+                          - heading "Read (3 hours)" [level=4] [ref=e544]:
+                            - strong [ref=e546]: Read (3 hours)
+                          - heading "Chapter 1 - Introduction to Macroeconomics" [level=4] [ref=e547]:
+                            - strong [ref=e549]: Chapter 1 - Introduction to Macroeconomics
+                          - paragraph [ref=e550]
+                      - listitem [ref=e551]:
+                        - generic [ref=e553]:
+                          - link "Chapter 1 Lecture Notes - Introduction File" [ref=e558] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366017
+                            - generic [ref=e559]:
+                              - text: Chapter 1 Lecture Notes - Introduction
+                              - generic [ref=e560]: File
+                          - button "Mark Chapter 1 Lecture Notes - Introduction as done" [ref=e566] [cursor=pointer]: Mark as done
+                      - listitem [ref=e567]:
+                        - heading "Watch ( 1 hours)" [level=4] [ref=e573]:
+                          - strong [ref=e575]: Watch
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - strong [ref=e577]: ( 1 hours)
+                      - listitem [ref=e578]:
+                        - generic [ref=e580]:
+                          - link "Aggregate Supply and Demand URL" [ref=e585] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366019
+                            - generic [ref=e586]:
+                              - text: Aggregate Supply and Demand
+                              - generic [ref=e587]: URL
+                          - button "Mark Aggregate Supply and Demand as done" [ref=e591] [cursor=pointer]: Mark as done
+                      - listitem [ref=e592]:
+                        - generic [ref=e594]:
+                          - link "Short and Long Run Behavior of the Economy URL" [ref=e599] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366020
+                            - generic [ref=e600]:
+                              - text: Short and Long Run Behavior of the Economy
+                              - generic [ref=e601]: URL
+                          - button "Mark Short and Long Run Behavior of the Economy as done" [ref=e605] [cursor=pointer]: Mark as done
+                      - listitem [ref=e606]:
+                        - generic [ref=e608]:
+                          - link "Long Run - Productivity Capacity of the Economy URL" [ref=e613] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366021
+                            - generic [ref=e614]:
+                              - text: Long Run - Productivity Capacity of the Economy
+                              - generic [ref=e615]: URL
+                          - button "Mark Long Run - Productivity Capacity of the Economy as done" [ref=e619] [cursor=pointer]: Mark as done
+                      - listitem [ref=e620]:
+                        - generic [ref=e622]:
+                          - link "Aggregate Demand and the Short Run Economy URL" [ref=e627] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366022
+                            - generic [ref=e628]:
+                              - text: Aggregate Demand and the Short Run Economy
+                              - generic [ref=e629]: URL
+                          - button "Mark Aggregate Demand and the Short Run Economy as done" [ref=e633] [cursor=pointer]: Mark as done
+                      - listitem [ref=e634]:
+                        - generic [ref=e636]:
+                          - link "Practice Aggregate Supply and Demand Practice URL" [ref=e641] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366023
+                            - generic [ref=e642]:
+                              - text: Practice Aggregate Supply and Demand Practice
+                              - generic [ref=e643]: URL
+                          - button "Mark Practice Aggregate Supply and Demand Practice as done" [ref=e647] [cursor=pointer]: Mark as done
+                      - listitem [ref=e648]:
+                        - heading "Participate ( 3 hours)" [level=4] [ref=e654]:
+                          - strong [ref=e656]:
+                            - generic [ref=e657]: Participate ( 3 hours)
+                      - listitem [ref=e658]:
+                        - generic [ref=e660]:
+                          - generic [ref=e664]:
+                            - link "Week 1 Forum" [ref=e665] [cursor=pointer]:
+                              - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366025
+                            - generic [ref=e667]: 26 unread posts
+                          - generic [ref=e669]:
+                            - strong [ref=e670]: "Due:"
+                            - text: Sunday, April 12, 2026, 11:59 PM
+                          - button "Week 1 Forum is marked as done. Press to undo." [ref=e674] [cursor=pointer]:
+                            - generic [ref=e675]: 
+                            - text: Done
+                          - generic [ref=e678]:
+                            - paragraph
+                            - paragraph
+                            - paragraph
+                            - paragraph [ref=e679]: For the first week for discussion forum, we will do introductions. The goal is to enable students to connect with each other and with me to ask questions/post comments/share course related info.
+                            - paragraph [ref=e680]:
+                              - strong [ref=e681]: Please introduce yourself via this forum. Provide your name, how many units you are taking this quarter, and your favorite vacation destination.
+                            - paragraph [ref=e682]: For the remaining weeks please post any questions you may have as you read each chapter.
+                            - paragraph [ref=e683]: Post any useful links you would like to share with other students that ties to the Macroeconomics discussion for the week.
+                            - paragraph [ref=e684]: Use this class forum to have a question and answer session with other students and me.
+                            - paragraph [ref=e685]: Thanks
+                            - paragraph [ref=e686]: Prof. Kunwar
+                            - paragraph
+                            - paragraph [ref=e687]:
+                              - strong [ref=e688]:
+                                - strong [ref=e689]:
+                                  - emphasis [ref=e690]
+                            - paragraph [ref=e691]:
+                              - strong [ref=e692]
+                            - paragraph
+                      - listitem [ref=e693]:
+                        - heading "Produce ( 3 hours)" [level=4] [ref=e699]:
+                          - strong [ref=e702]:
+                            - generic [ref=e703]: Produce ( 3 hours)
+              - listitem [ref=e704]:
+                - generic [ref=e705]:
+                  - generic [ref=e707]:
+                    - 'button "Apr 13 - 19: WEEK 2 - UNEMPLOYMENT" [expanded] [ref=e708] [cursor=pointer]':
+                      - generic "Collapse" [ref=e709]:
+                        - generic [ref=e710]: 
+                        - generic [ref=e711]: Collapse
+                      - text:  
+                    - 'heading "Apr 13 - 19: WEEK 2 - UNEMPLOYMENT" [level=3] [ref=e712]':
+                      - 'link "Apr 13 - 19: WEEK 2 - UNEMPLOYMENT" [ref=e713] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71265
+                  - generic [ref=e714]:
+                    - generic [ref=e717]:
+                      - paragraph [ref=e718]:
+                        - strong [ref=e719]: Week 2
+                        - text: ": There is a Discussion/Forum this week, your initial response is due Wednesday by midnight. Your replies to the initial prompts of others is due Saturday by midnight. All other work for this week, including the homework Q&A and readings are due Sunday by midnight."
+                      - paragraph
+                      - table [ref=e720]:
+                        - rowgroup [ref=e721]:
+                          - 'row "READ: Chapter 7: Unemployment - (CLO 1,2,3) Chapter 7 Homework: Conceptual Q. 1- 5 Pg. 175 – 176" [ref=e722]':
+                            - 'cell "READ: Chapter 7: Unemployment - (CLO 1,2,3) Chapter 7 Homework: Conceptual Q. 1- 5 Pg. 175 – 176" [ref=e723]':
+                              - paragraph [ref=e724]: "READ: Chapter 7: Unemployment - (CLO 1,2,3)"
+                              - paragraph [ref=e725]: "Chapter 7 Homework: Conceptual Q. 1- 5"
+                              - paragraph [ref=e726]: Pg. 175 – 176
+                      - paragraph
+                      - paragraph
+                    - list [ref=e727]:
+                      - listitem [ref=e728]:
+                        - generic [ref=e733]:
+                          - heading "Read ( 3 hours)" [level=4] [ref=e734]:
+                            - strong [ref=e736]:
+                              - generic [ref=e737]: Read ( 3 hours)
+                          - paragraph [ref=e738]:
+                            - generic [ref=e740]: "Chapter 7: Unemployment"
+                      - listitem [ref=e741]:
+                        - generic [ref=e743]:
+                          - link "Chapter 7 Unemployment Lecture Notes File" [ref=e748] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366028
+                            - generic [ref=e749]:
+                              - text: Chapter 7 Unemployment Lecture Notes
+                              - generic [ref=e750]: File
+                          - button "Mark Chapter 7 Unemployment Lecture Notes as done" [ref=e756] [cursor=pointer]: Mark as done
+                      - listitem [ref=e757]:
+                        - heading "Watch ( 1 hours)" [level=4] [ref=e763]:
+                          - strong [ref=e765]:
+                            - generic [ref=e766]: Watch ( 1 hours)
+                      - listitem [ref=e767]:
+                        - generic [ref=e769]:
+                          - link "Unemployment and Output URL" [ref=e774] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366030
+                            - generic [ref=e775]:
+                              - text: Unemployment and Output
+                              - generic [ref=e776]: URL
+                          - button "Mark Unemployment and Output as done" [ref=e780] [cursor=pointer]: Mark as done
+                      - listitem [ref=e781]:
+                        - generic [ref=e783]:
+                          - link "Cost of Unemployment URL" [ref=e788] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366031
+                            - generic [ref=e789]:
+                              - text: Cost of Unemployment
+                              - generic [ref=e790]: URL
+                          - button "Mark Cost of Unemployment as done" [ref=e794] [cursor=pointer]: Mark as done
+                      - listitem [ref=e795]:
+                        - generic [ref=e797]:
+                          - link "Unemployment Rates URL" [ref=e802] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366032
+                            - generic [ref=e803]:
+                              - text: Unemployment Rates
+                              - generic [ref=e804]: URL
+                          - button "Mark Unemployment Rates as done" [ref=e808] [cursor=pointer]: Mark as done
+                      - listitem [ref=e809]:
+                        - generic [ref=e811]:
+                          - link "Economic Unemployment Rates Defined URL" [ref=e816] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366033
+                            - generic [ref=e817]:
+                              - text: Economic Unemployment Rates Defined
+                              - generic [ref=e818]: URL
+                          - button "Mark Economic Unemployment Rates Defined as done" [ref=e822] [cursor=pointer]: Mark as done
+                      - listitem [ref=e823]:
+                        - heading "Participate ( 3 hours)" [level=4] [ref=e829]:
+                          - strong [ref=e831]:
+                            - generic [ref=e832]: Participate ( 3 hours)
+                      - listitem [ref=e833]:
+                        - generic [ref=e835]:
+                          - generic [ref=e839]:
+                            - link "Week 2 Forum" [ref=e840] [cursor=pointer]:
+                              - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366035
+                            - generic [ref=e842]: 17 unread posts
+                          - generic [ref=e844]:
+                            - strong [ref=e845]: "Due:"
+                            - text: Saturday, April 18, 2026, 11:59 PM
+                          - button "Mark Week 2 Forum as done" [ref=e849] [cursor=pointer]: Mark as done
+                          - generic [ref=e852]:
+                            - paragraph [ref=e853]: What factors make it difficult to determine the unemployment rate? Why is it difficult to distinguish between frictional, structural, and cyclical unemployment? Why is unemployment an economic problem? What are the noneconomic effects of unemployment?
+                            - paragraph [ref=e854]: Please complete your original post(s) by the end of day on Wednesday. Remember-at least two (2) subsequent posts must be completed prior to the end of day on Saturday.
+                            - paragraph
+                            - paragraph
+                      - listitem [ref=e855]:
+                        - heading "Produce ( 4 hours)" [level=4] [ref=e861]:
+                          - strong [ref=e864]: Produce ( 4 hours)
+                      - listitem [ref=e865]:
+                        - generic [ref=e867]:
+                          - link "Week 2 Questions and Problems Assignment" [ref=e872] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366037
+                            - generic [ref=e873]:
+                              - text: Week 2 Questions and Problems
+                              - generic [ref=e874]: Assignment
+                          - generic [ref=e876]:
+                            - strong [ref=e877]: "Due:"
+                            - text: Sunday, April 19, 2026, 11:59 PM
+                          - button "Mark Week 2 Questions and Problems as done" [ref=e881] [cursor=pointer]: Mark as done
+                          - generic [ref=e884]:
+                            - paragraph
+                            - paragraph [ref=e885]: "READ: Chapter 1: Introduction to Macroeconomics- (CLO 1,2,3)"
+                            - paragraph [ref=e886]: "Chapter 1 Homework: Conceptual Q. 1 and Technical Q 1, Pg. 21"
+                            - paragraph
+                            - paragraph [ref=e887]: "Read Chapter 7: Unemployment"
+                            - paragraph [ref=e888]: "Chapter 7 Homework: Conceptual Q. 1- 5 Pg. 175 – 176"
+                            - paragraph
+                      - listitem [ref=e889]:
+                        - generic [ref=e891]:
+                          - link "On-ground weekend participation Assignment" [ref=e896] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366038
+                            - generic [ref=e897]:
+                              - text: On-ground weekend participation
+                              - generic [ref=e898]: Assignment
+                          - generic [ref=e900]:
+                            - strong [ref=e901]: "Due:"
+                            - text: Sunday, April 19, 2026, 11:59 PM
+                          - button "On-ground weekend participation is marked as done. Press to undo." [ref=e905] [cursor=pointer]:
+                            - generic [ref=e906]: 
+                            - text: Done
+                          - generic [ref=e909]:
+                            - paragraph
+                            - paragraph [ref=e910]: Please upload the powerpoint presentation that you made during the in-person weekend.
+                            - paragraph
+              - listitem [ref=e911]:
+                - generic [ref=e913]:
+                  - generic [ref=e914]:
+                    - 'button "Apr 20 - 26: WEEK 3 - INFLATION" [expanded] [ref=e915] [cursor=pointer]':
+                      - generic "Collapse" [ref=e916]:
+                        - generic [ref=e917]: 
+                        - generic [ref=e918]: Collapse
+                      - text:  
+                    - 'heading "Apr 20 - 26: WEEK 3 - INFLATION" [level=3] [ref=e919]':
+                      - 'link "Apr 20 - 26: WEEK 3 - INFLATION" [ref=e920] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71266
+                  - generic [ref=e922]: Not available
+              - listitem [ref=e923]:
+                - generic [ref=e925]:
+                  - generic [ref=e926]:
+                    - 'button "Apr 27 - May 03: WEEK 4 - CONSUMPTION AND SAVING" [expanded] [ref=e927] [cursor=pointer]':
+                      - generic "Collapse" [ref=e928]:
+                        - generic [ref=e929]: 
+                        - generic [ref=e930]: Collapse
+                      - text:  
+                    - 'heading "Apr 27 - May 03: WEEK 4 - CONSUMPTION AND SAVING" [level=3] [ref=e931]':
+                      - 'link "Apr 27 - May 03: WEEK 4 - CONSUMPTION AND SAVING" [ref=e932] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71267
+                  - generic [ref=e934]: Not available
+              - listitem [ref=e935]:
+                - generic [ref=e937]:
+                  - generic [ref=e938]:
+                    - 'button "May 04 - 10: WEEK 5 - ECONOMIC VIDEO AND MIDTERM REVIEW" [expanded] [ref=e939] [cursor=pointer]':
+                      - generic "Collapse" [ref=e940]:
+                        - generic [ref=e941]: 
+                        - generic [ref=e942]: Collapse
+                      - text:  
+                    - 'heading "May 04 - 10: WEEK 5 - ECONOMIC VIDEO AND MIDTERM REVIEW" [level=3] [ref=e943]':
+                      - 'link "May 04 - 10: WEEK 5 - ECONOMIC VIDEO AND MIDTERM REVIEW" [ref=e944] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71268
+                  - generic [ref=e946]: Not available
+              - listitem [ref=e947]:
+                - generic [ref=e949]:
+                  - generic [ref=e950]:
+                    - 'button "May 11 - 17: WEEK 6 - MIDTERM" [expanded] [ref=e951] [cursor=pointer]':
+                      - generic "Collapse" [ref=e952]:
+                        - generic [ref=e953]: 
+                        - generic [ref=e954]: Collapse
+                      - text:  
+                    - 'heading "May 11 - 17: WEEK 6 - MIDTERM" [level=3] [ref=e955]':
+                      - 'link "May 11 - 17: WEEK 6 - MIDTERM" [ref=e956] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71269
+                  - generic [ref=e958]: Not available
+              - listitem [ref=e959]:
+                - generic [ref=e961]:
+                  - generic [ref=e962]:
+                    - 'button "May 18 - 24: WEEK 7 - THE DEMAND FOR MONEY" [expanded] [ref=e963] [cursor=pointer]':
+                      - generic "Collapse" [ref=e964]:
+                        - generic [ref=e965]: 
+                        - generic [ref=e966]: Collapse
+                      - text:  
+                    - 'heading "May 18 - 24: WEEK 7 - THE DEMAND FOR MONEY" [level=3] [ref=e967]':
+                      - 'link "May 18 - 24: WEEK 7 - THE DEMAND FOR MONEY" [ref=e968] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71270
+                  - generic [ref=e970]: Not available
+              - listitem [ref=e971]:
+                - generic [ref=e973]:
+                  - generic [ref=e974]:
+                    - 'button "May 25 - 31: Week 8 - The Fed, Money, and Credit" [expanded] [ref=e975] [cursor=pointer]':
+                      - generic "Collapse" [ref=e976]:
+                        - generic [ref=e977]: 
+                        - generic [ref=e978]: Collapse
+                      - text:  
+                    - 'heading "May 25 - 31: Week 8 - The Fed, Money, and Credit" [level=3] [ref=e979]':
+                      - 'link "May 25 - 31: Week 8 - The Fed, Money, and Credit" [ref=e980] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71271
+                  - generic [ref=e982]: Not available
+              - listitem [ref=e983]:
+                - generic [ref=e985]:
+                  - generic [ref=e986]:
+                    - 'button "Jun 01 - 07: WEEK 9 - The National Debt" [expanded] [ref=e987] [cursor=pointer]':
+                      - generic "Collapse" [ref=e988]:
+                        - generic [ref=e989]: 
+                        - generic [ref=e990]: Collapse
+                      - text:  
+                    - 'heading "Jun 01 - 07: WEEK 9 - The National Debt" [level=3] [ref=e991]':
+                      - 'link "Jun 01 - 07: WEEK 9 - The National Debt" [ref=e992] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71272
+                  - generic [ref=e994]: Not available
+              - listitem [ref=e995]:
+                - generic [ref=e997]:
+                  - generic [ref=e998]:
+                    - 'button "Jun 08 - 14: WEEK 10 - Recession and Depreciation" [expanded] [ref=e999] [cursor=pointer]':
+                      - generic "Collapse" [ref=e1000]:
+                        - generic [ref=e1001]: 
+                        - generic [ref=e1002]: Collapse
+                      - text:  
+                    - 'heading "Jun 08 - 14: WEEK 10 - Recession and Depreciation" [level=3] [ref=e1003]':
+                      - 'link "Jun 08 - 14: WEEK 10 - Recession and Depreciation" [ref=e1004] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71273
+                  - generic [ref=e1006]: Not available
+              - listitem [ref=e1007]:
+                - generic [ref=e1009]:
+                  - generic [ref=e1010]:
+                    - 'button "Jun 15 - 21: WEEK 11" [expanded] [ref=e1011] [cursor=pointer]':
+                      - generic "Collapse" [ref=e1012]:
+                        - generic [ref=e1013]: 
+                        - generic [ref=e1014]: Collapse
+                      - text:  
+                    - 'heading "Jun 15 - 21: WEEK 11" [level=3] [ref=e1015]':
+                      - 'link "Jun 15 - 21: WEEK 11" [ref=e1016] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71274
+                  - generic [ref=e1018]: Not available
+      - contentinfo:
+        - button "Show footer" [ref=e1019] [cursor=pointer]:
+          - generic [ref=e1020]: "?"
+        - text: 

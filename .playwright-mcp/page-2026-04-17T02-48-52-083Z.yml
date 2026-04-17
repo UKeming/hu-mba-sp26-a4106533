@@ -1,0 +1,1747 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - button "Close course index" [ref=e1493] [cursor=pointer]:
+          - generic [ref=e1494]: 
+        - generic [ref=e1496]:
+          - button "Course index options" [ref=e1497] [cursor=pointer]:
+            - generic [ref=e1498]: 
+          - text:   
+      - navigation [ref=e36]:
+        - tree [ref=e1499]:
+          - treeitem "Collapse General" [selected] [ref=e1500]:
+            - generic [ref=e1501]:
+              - link "Collapse" [expanded] [ref=e1502] [cursor=pointer]:
+                - /url: "#courseindexcollapse0"
+                - text:  
+                - generic "Collapse" [ref=e1503]:
+                  - generic [ref=e1504]: 
+                  - generic [ref=e1505]: Collapse
+              - link "General" [ref=e1506] [cursor=pointer]:
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71299
+              - text: 
+            - group "Collapse General" [ref=e1507]:
+              - group [ref=e1508]:
+                - treeitem "To do Revised Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023" [ref=e1509]:
+                  - img "To do" [ref=e1511]: 
+                  - link "Revised Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023" [ref=e1512] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366321
+                  - text: 
+                - treeitem "To do Generative Artificial Intelligence (AI) Policy" [ref=e1513]:
+                  - img "To do" [ref=e1515]: 
+                  - link "Generative Artificial Intelligence (AI) Policy" [ref=e1516] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366322
+                  - text: 
+                - treeitem "Announcements" [ref=e1517]:
+                  - link "Announcements" [ref=e1519] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366323
+                  - text: 
+                - treeitem "To do Syllabus (2026 SPRING)" [ref=e1520]:
+                  - img "To do" [ref=e1522]: 
+                  - link "Syllabus (2026 SPRING)" [ref=e1523] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366324
+                  - text: 
+                - treeitem "ReadMe" [ref=e1524]:
+                  - link "ReadMe" [ref=e1526] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366325
+                  - text: 
+                - treeitem "To do If you have your pop-up blocker turned on, you may..." [ref=e1527]:
+                  - img "To do" [ref=e1529]: 
+                  - link "If you have your pop-up blocker turned on, you may..." [ref=e1530] [cursor=pointer]:
+                    - /url: "#module-366326"
+                  - text: 
+                - treeitem "To do Course Text" [ref=e1531]:
+                  - img "To do" [ref=e1533]: 
+                  - link "Course Text" [ref=e1534] [cursor=pointer]:
+                    - /url: "#module-366327"
+                  - text: 
+                - treeitem "To do Link to Buy Textbook on eCampus" [ref=e1535]:
+                  - img "To do" [ref=e1537]: 
+                  - link "Link to Buy Textbook on eCampus" [ref=e1538] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366328
+                  - text: 
+                - treeitem "To do Research" [ref=e1539]:
+                  - img "To do" [ref=e1541]: 
+                  - link "Research" [ref=e1542] [cursor=pointer]:
+                    - /url: "#module-366329"
+                  - text: 
+                - treeitem "To do Link and Log-In Information for Online EBSCO Research Databases" [ref=e1543]:
+                  - img "To do" [ref=e1545]: 
+                  - link "Link and Log-In Information for Online EBSCO Research Databases" [ref=e1546] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366330
+                  - text: 
+                - 'treeitem "To do 3/22/2025: EBSCO Database Password has been update..." [ref=e1547]':
+                  - img "To do" [ref=e1549]: 
+                  - 'link "3/22/2025: EBSCO Database Password has been update..." [ref=e1550] [cursor=pointer]':
+                    - /url: "#module-366331"
+                  - text: 
+                - treeitem "To do Tutorial on Using EBSCO Databases for Education Research (Dean of Graduate Studies) (30 min)" [ref=e1551]:
+                  - img "To do" [ref=e1553]: 
+                  - link "Tutorial on Using EBSCO Databases for Education Research (Dean of Graduate Studies) (30 min)" [ref=e1554] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366332
+                  - text: 
+                - treeitem "To do APA Formatting" [ref=e1555]:
+                  - img "To do" [ref=e1557]: 
+                  - link "APA Formatting" [ref=e1558] [cursor=pointer]:
+                    - /url: "#module-366333"
+                  - text: 
+                - 'treeitem "To do Plagiarism, Citations, and References: Links to Excellent APA videos" [ref=e1559]':
+                  - img "To do" [ref=e1561]: 
+                  - 'link "Plagiarism, Citations, and References: Links to Excellent APA videos" [ref=e1562] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366334
+                  - text: 
+                - treeitem "To do Hanging Indent on References Pages (5 min)" [ref=e1563]:
+                  - img "To do" [ref=e1565]: 
+                  - link "Hanging Indent on References Pages (5 min)" [ref=e1566] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366335
+                  - text: 
+                - treeitem "To do How to Cite (and Reference) a Quote in a Quote" [ref=e1567]:
+                  - img "To do" [ref=e1569]: 
+                  - link "How to Cite (and Reference) a Quote in a Quote" [ref=e1570] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366336
+                  - text: 
+                - treeitem "To do Video on Erasing Background Colors on References" [ref=e1571]:
+                  - img "To do" [ref=e1573]: 
+                  - link "Video on Erasing Background Colors on References" [ref=e1574] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366337
+                  - text: 
+                - treeitem "To do Each week of this course is organized by up to fou..." [ref=e1575]:
+                  - img "To do" [ref=e1577]: 
+                  - link "Each week of this course is organized by up to fou..." [ref=e1578] [cursor=pointer]:
+                    - /url: "#module-366338"
+                  - text: 
+          - 'treeitem "Collapse Week 1: April 6-12" [ref=e1579]':
+            - generic [ref=e1580]:
+              - link "Collapse" [expanded] [ref=e1581] [cursor=pointer]:
+                - /url: "#courseindexcollapse1"
+                - text:  
+                - generic "Collapse" [ref=e1582]:
+                  - generic [ref=e1583]: 
+                  - generic [ref=e1584]: Collapse
+              - 'link "Week 1: April 6-12" [ref=e1585] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71300
+              - text: 
+            - 'group "Collapse Week 1: April 6-12" [ref=e1586]':
+              - group [ref=e1587]:
+                - treeitem "Read (4 hours)IntroductionChapter 1" [ref=e1588]:
+                  - link "Read (4 hours)IntroductionChapter 1" [ref=e1590] [cursor=pointer]:
+                    - /url: "#module-366339"
+                  - text: 
+                - treeitem "Watch (1 hour)" [ref=e1591]:
+                  - link "Watch (1 hour)" [ref=e1593] [cursor=pointer]:
+                    - /url: "#module-366340"
+                  - text: 
+                - 'treeitem "To do The Good, The Bad, and The Creepy: Why Data Scientists Need to Understand Ethics" [ref=e1594]':
+                  - img "To do" [ref=e1596]: 
+                  - 'link "The Good, The Bad, and The Creepy: Why Data Scientists Need to Understand Ethics" [ref=e1597] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366341
+                  - text: 
+                - 'treeitem "Done DF (Wk1: Algorithms)" [ref=e1598]':
+                  - img "Done" [ref=e1600]: 
+                  - 'link "DF (Wk1: Algorithms)" [ref=e1601] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366342
+                  - text: 
+                - treeitem "Done On_Ground Submission" [ref=e1602]:
+                  - img "Done" [ref=e1604]: 
+                  - link "On_Ground Submission" [ref=e1605] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366343
+                  - text: 
+          - 'treeitem "Collapse Week 2: April 13-19 Current week" [ref=e1606]':
+            - generic [ref=e1607]:
+              - link "Collapse" [expanded] [ref=e1608] [cursor=pointer]:
+                - /url: "#courseindexcollapse2"
+                - text:  
+                - generic "Collapse" [ref=e1609]:
+                  - generic [ref=e1610]: 
+                  - generic [ref=e1611]: Collapse
+              - 'link "Week 2: April 13-19" [ref=e1612] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71301
+              - generic [ref=e1613]: Current week
+              - text: 
+            - 'group "Collapse Week 2: April 13-19 Current week" [ref=e1614]':
+              - group [ref=e1615]:
+                - treeitem "Read (4 hours)Chapter 2" [ref=e1616]:
+                  - link "Read (4 hours)Chapter 2" [ref=e1618] [cursor=pointer]:
+                    - /url: "#module-366344"
+                  - text: 
+                - treeitem "Watch (1 hour)" [ref=e1619]:
+                  - link "Watch (1 hour)" [ref=e1621] [cursor=pointer]:
+                    - /url: "#module-366345"
+                  - text: 
+                - treeitem "To do Data Science Ethics – What Could Go Wrong and How to Avoid It" [ref=e1622]:
+                  - img "To do" [ref=e1624]: 
+                  - link "Data Science Ethics – What Could Go Wrong and How to Avoid It" [ref=e1625] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366346
+                  - text: 
+                - treeitem "Participate (2 hours)" [ref=e1626]:
+                  - link "Participate (2 hours)" [ref=e1628] [cursor=pointer]:
+                    - /url: "#module-366347"
+                  - text: 
+                - 'treeitem "To do DF (Wk2: Ethics)" [ref=e1629]':
+                  - img "To do" [ref=e1631]: 
+                  - 'link "DF (Wk2: Ethics)" [ref=e1632] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366348
+                  - text: 
+                - treeitem "Produce (5 hours)" [ref=e1633]:
+                  - link "Produce (5 hours)" [ref=e1635] [cursor=pointer]:
+                    - /url: "#module-366349"
+                  - text: 
+                - 'treeitem "To do Assignment #1 (Wk2: Case Study - Ethics)" [ref=e1636]':
+                  - img "To do" [ref=e1638]: 
+                  - 'link "Assignment #1 (Wk2: Case Study - Ethics)" [ref=e1639] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366350
+                  - text: 
+          - 'treeitem "Collapse Week 3: April 20-26" [ref=e1640]':
+            - generic [ref=e1641]:
+              - link "Collapse" [expanded] [ref=e1642] [cursor=pointer]:
+                - /url: "#courseindexcollapse3"
+                - text:  
+                - generic "Collapse" [ref=e1643]:
+                  - generic [ref=e1644]: 
+                  - generic [ref=e1645]: Collapse
+              - 'link "Week 3: April 20-26" [ref=e1646] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71302
+              - text: 
+            - 'group "Collapse Week 3: April 20-26" [ref=e1647]':
+              - group [ref=e1648]:
+                - treeitem "Read (5 hours)Chapter 3" [ref=e1649]:
+                  - link "Read (5 hours)Chapter 3" [ref=e1651] [cursor=pointer]:
+                    - /url: "#module-366351"
+                  - text: 
+                - treeitem "Watch (1 hour)" [ref=e1652]:
+                  - link "Watch (1 hour)" [ref=e1654] [cursor=pointer]:
+                    - /url: "#module-366352"
+                  - text: 
+                - treeitem "Participate (2 hours)" [ref=e1655]:
+                  - link "Participate (2 hours)" [ref=e1657] [cursor=pointer]:
+                    - /url: "#module-366353"
+                  - text: 
+                - 'treeitem "To do DF (Wk3: Privacy)" [ref=e1658]':
+                  - img "To do" [ref=e1660]: 
+                  - 'link "DF (Wk3: Privacy)" [ref=e1661] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366354
+                  - text: 
+                - treeitem "Produce (5 hours)" [ref=e1662]:
+                  - link "Produce (5 hours)" [ref=e1664] [cursor=pointer]:
+                    - /url: "#module-366355"
+                  - text: 
+                - 'treeitem "To do Assignment #2 (Wk3: Exec Summary)" [ref=e1665]':
+                  - img "To do" [ref=e1667]: 
+                  - 'link "Assignment #2 (Wk3: Exec Summary)" [ref=e1668] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366356
+                  - text: 
+          - 'treeitem "Collapse Week 4: April 27-May 3" [ref=e1669]':
+            - generic [ref=e1670]:
+              - link "Collapse" [expanded] [ref=e1671] [cursor=pointer]:
+                - /url: "#courseindexcollapse4"
+                - text:  
+                - generic "Collapse" [ref=e1672]:
+                  - generic [ref=e1673]: 
+                  - generic [ref=e1674]: Collapse
+              - 'link "Week 4: April 27-May 3" [ref=e1675] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71303
+              - text: 
+            - 'group "Collapse Week 4: April 27-May 3" [ref=e1676]':
+              - group [ref=e1677]:
+                - treeitem "Read (4 hours)Chapter 4" [ref=e1678]:
+                  - link "Read (4 hours)Chapter 4" [ref=e1680] [cursor=pointer]:
+                    - /url: "#module-366357"
+                  - text: 
+                - treeitem "Watch (1 hour)" [ref=e1681]:
+                  - link "Watch (1 hour)" [ref=e1683] [cursor=pointer]:
+                    - /url: "#module-366358"
+                  - text: 
+                - treeitem "Participate (2 hours)" [ref=e1684]:
+                  - link "Participate (2 hours)" [ref=e1686] [cursor=pointer]:
+                    - /url: "#module-366359"
+                  - text: 
+                - 'treeitem "To do DF (Wk4: Power)" [ref=e1687]':
+                  - img "To do" [ref=e1689]: 
+                  - 'link "DF (Wk4: Power)" [ref=e1690] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366360
+                  - text: 
+                - treeitem "Produce (5 hours)" [ref=e1691]:
+                  - link "Produce (5 hours)" [ref=e1693] [cursor=pointer]:
+                    - /url: "#module-366361"
+                  - text: 
+                - 'treeitem "To do Assignment #3 (Wk4: Infographic)" [ref=e1694]':
+                  - img "To do" [ref=e1696]: 
+                  - 'link "Assignment #3 (Wk4: Infographic)" [ref=e1697] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366362
+                  - text: 
+                - 'treeitem "Exam #1" [ref=e1698]':
+                  - 'link "Exam #1" [ref=e1700] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/quiz/view.php?id=366363
+                  - text: 
+          - 'treeitem "Collapse Week 5: May 4-10" [ref=e1701]':
+            - generic [ref=e1702]:
+              - link "Collapse" [expanded] [ref=e1703] [cursor=pointer]:
+                - /url: "#courseindexcollapse5"
+                - text:  
+                - generic "Collapse" [ref=e1704]:
+                  - generic [ref=e1705]: 
+                  - generic [ref=e1706]: Collapse
+              - 'link "Week 5: May 4-10" [ref=e1707] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71304
+              - text: 
+            - 'group "Collapse Week 5: May 4-10" [ref=e1708]':
+              - group [ref=e1709]:
+                - treeitem "Read (7 hours)Chapter 5Chapter 6" [ref=e1710]:
+                  - link "Read (7 hours)Chapter 5Chapter 6" [ref=e1712] [cursor=pointer]:
+                    - /url: "#module-366364"
+                  - text: 
+                - treeitem "Participate (2 hours)" [ref=e1713]:
+                  - link "Participate (2 hours)" [ref=e1715] [cursor=pointer]:
+                    - /url: "#module-366365"
+                  - text: 
+                - 'treeitem "To do DF (Wk5: Fairness)" [ref=e1716]':
+                  - img "To do" [ref=e1718]: 
+                  - 'link "DF (Wk5: Fairness)" [ref=e1719] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366366
+                  - text: 
+                - treeitem "Produce (4 hours)" [ref=e1720]:
+                  - link "Produce (4 hours)" [ref=e1722] [cursor=pointer]:
+                    - /url: "#module-366367"
+                  - text: 
+                - 'treeitem "To do This is Part #1 of a two-part assignment, in which..." [ref=e1723]':
+                  - img "To do" [ref=e1725]: 
+                  - 'link "This is Part #1 of a two-part assignment, in which..." [ref=e1726] [cursor=pointer]':
+                    - /url: "#module-366368"
+                  - text: 
+                - treeitem "To do Slides of Chapter 5 or 6" [ref=e1727]:
+                  - img "To do" [ref=e1729]: 
+                  - link "Slides of Chapter 5 or 6" [ref=e1730] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366369
+                  - text: 
+          - 'treeitem "Collapse Week 6: May 11-17" [ref=e1731]':
+            - generic [ref=e1732]:
+              - link "Collapse" [expanded] [ref=e1733] [cursor=pointer]:
+                - /url: "#courseindexcollapse6"
+                - text:  
+                - generic "Collapse" [ref=e1734]:
+                  - generic [ref=e1735]: 
+                  - generic [ref=e1736]: Collapse
+              - 'link "Week 6: May 11-17" [ref=e1737] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71305
+              - text: 
+            - 'group "Collapse Week 6: May 11-17" [ref=e1738]':
+              - group [ref=e1739]:
+                - treeitem "Read (4 hours)Chapter 7" [ref=e1740]:
+                  - link "Read (4 hours)Chapter 7" [ref=e1742] [cursor=pointer]:
+                    - /url: "#module-366370"
+                  - text: 
+                - treeitem "Watch ( hours) (copy) (copy)" [ref=e1743]:
+                  - link "Watch ( hours) (copy) (copy)" [ref=e1745] [cursor=pointer]:
+                    - /url: "#module-366371"
+                  - text: 
+                - treeitem "Participate (2 hours)" [ref=e1746]:
+                  - link "Participate (2 hours)" [ref=e1748] [cursor=pointer]:
+                    - /url: "#module-366372"
+                  - text: 
+                - 'treeitem "To do DF (Wk6: Biases)" [ref=e1749]':
+                  - img "To do" [ref=e1751]: 
+                  - 'link "DF (Wk6: Biases)" [ref=e1752] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366373
+                  - text: 
+                - treeitem "Produce (5 hours)" [ref=e1753]:
+                  - link "Produce (5 hours)" [ref=e1755] [cursor=pointer]:
+                    - /url: "#module-366374"
+                  - text: 
+                - 'treeitem "To do Assignment #4 (Wk6: Article Review)" [ref=e1756]':
+                  - img "To do" [ref=e1758]: 
+                  - 'link "Assignment #4 (Wk6: Article Review)" [ref=e1759] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366375
+                  - text: 
+          - 'treeitem "Collapse Week 7: May 18-24" [ref=e1760]':
+            - generic [ref=e1761]:
+              - link "Collapse" [expanded] [ref=e1762] [cursor=pointer]:
+                - /url: "#courseindexcollapse7"
+                - text:  
+                - generic "Collapse" [ref=e1763]:
+                  - generic [ref=e1764]: 
+                  - generic [ref=e1765]: Collapse
+              - 'link "Week 7: May 18-24" [ref=e1766] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71306
+              - text: 
+            - 'group "Collapse Week 7: May 18-24" [ref=e1767]':
+              - group [ref=e1768]:
+                - treeitem "Read (3 hours)Chapter 8" [ref=e1769]:
+                  - link "Read (3 hours)Chapter 8" [ref=e1771] [cursor=pointer]:
+                    - /url: "#module-366376"
+                  - text: 
+                - treeitem "Watch ( hours) (copy) (copy) (copy)" [ref=e1772]:
+                  - link "Watch ( hours) (copy) (copy) (copy)" [ref=e1774] [cursor=pointer]:
+                    - /url: "#module-366377"
+                  - text: 
+                - treeitem "Participate (2 hours)" [ref=e1775]:
+                  - link "Participate (2 hours)" [ref=e1777] [cursor=pointer]:
+                    - /url: "#module-366378"
+                  - text: 
+                - 'treeitem "To do DF (Wk7: Metrics)" [ref=e1778]':
+                  - img "To do" [ref=e1780]: 
+                  - 'link "DF (Wk7: Metrics)" [ref=e1781] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366379
+                  - text: 
+                - treeitem "Produce (5 hours)" [ref=e1782]:
+                  - link "Produce (5 hours)" [ref=e1784] [cursor=pointer]:
+                    - /url: "#module-366380"
+                  - text: 
+                - 'treeitem "To do Assignment #5 (Wk7: eMail)" [ref=e1785]':
+                  - img "To do" [ref=e1787]: 
+                  - 'link "Assignment #5 (Wk7: eMail)" [ref=e1788] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366381
+                  - text: 
+          - 'treeitem "Collapse Week 8: May 24-31" [ref=e1789]':
+            - generic [ref=e1790]:
+              - link "Collapse" [expanded] [ref=e1791] [cursor=pointer]:
+                - /url: "#courseindexcollapse8"
+                - text:  
+                - generic "Collapse" [ref=e1792]:
+                  - generic [ref=e1793]: 
+                  - generic [ref=e1794]: Collapse
+              - 'link "Week 8: May 24-31" [ref=e1795] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71307
+              - text: 
+            - 'group "Collapse Week 8: May 24-31" [ref=e1796]':
+              - group [ref=e1797]:
+                - treeitem "Read (1 hour)" [ref=e1798]:
+                  - link "Read (1 hour)" [ref=e1800] [cursor=pointer]:
+                    - /url: "#module-366382"
+                  - text: 
+                - treeitem "To do How to Record and Upload your Videorecorded Slide Presentation using Zoom" [ref=e1801]:
+                  - img "To do" [ref=e1803]: 
+                  - link "How to Record and Upload your Videorecorded Slide Presentation using Zoom" [ref=e1804] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366383
+                  - text: 
+                - treeitem "Watch (2 hour)Take some time to watch some videos ..." [ref=e1805]:
+                  - link "Watch (2 hour)Take some time to watch some videos ..." [ref=e1807] [cursor=pointer]:
+                    - /url: "#module-366384"
+                  - text: 
+                - treeitem "Participate (10 hours)" [ref=e1808]:
+                  - link "Participate (10 hours)" [ref=e1810] [cursor=pointer]:
+                    - /url: "#module-366385"
+                  - text: 
+                - 'treeitem "To do This is Part #2 of the two-part assignment, whic..." [ref=e1811]':
+                  - img "To do" [ref=e1813]: 
+                  - 'link "This is Part #2 of the two-part assignment, whic..." [ref=e1814] [cursor=pointer]':
+                    - /url: "#module-366386"
+                  - text: 
+                - treeitem "Upload Your 10-Minute Videorecorded Presentation" [ref=e1815]:
+                  - link "Upload Your 10-Minute Videorecorded Presentation" [ref=e1817] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366387
+                  - text: 
+                - 'treeitem "To do EBSCO Password Update (Effective 11/22/2023): ..." [ref=e1818]':
+                  - img "To do" [ref=e1820]: 
+                  - 'link "EBSCO Password Update (Effective 11/22/2023): ..." [ref=e1821] [cursor=pointer]':
+                    - /url: "#module-366388"
+                  - text: 
+                - 'treeitem "Exam #2" [ref=e1822]':
+                  - 'link "Exam #2" [ref=e1824] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/quiz/view.php?id=366389
+                  - text: 
+          - 'treeitem "Collapse Week 9: June 1-7" [ref=e1825]':
+            - generic [ref=e1826]:
+              - link "Collapse" [expanded] [ref=e1827] [cursor=pointer]:
+                - /url: "#courseindexcollapse9"
+                - text:  
+                - generic "Collapse" [ref=e1828]:
+                  - generic [ref=e1829]: 
+                  - generic [ref=e1830]: Collapse
+              - 'link "Week 9: June 1-7" [ref=e1831] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71308
+              - text: 
+            - 'group "Collapse Week 9: June 1-7" [ref=e1832]':
+              - group [ref=e1833]:
+                - treeitem "Read (4 hours)Chapter 9" [ref=e1834]:
+                  - link "Read (4 hours)Chapter 9" [ref=e1836] [cursor=pointer]:
+                    - /url: "#module-366390"
+                  - text: 
+                - treeitem "Watch ( hours) (copy) (copy) (copy) (copy) (copy)" [ref=e1837]:
+                  - link "Watch ( hours) (copy) (copy) (copy) (copy) (copy)" [ref=e1839] [cursor=pointer]:
+                    - /url: "#module-366391"
+                  - text: 
+                - treeitem "Participate (2 hours)" [ref=e1840]:
+                  - link "Participate (2 hours)" [ref=e1842] [cursor=pointer]:
+                    - /url: "#module-366392"
+                  - text: 
+                - 'treeitem "To do DF (Wk9: Social Media)" [ref=e1843]':
+                  - img "To do" [ref=e1845]: 
+                  - 'link "DF (Wk9: Social Media)" [ref=e1846] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366393
+                  - text: 
+                - treeitem "Produce (5 hours)" [ref=e1847]:
+                  - link "Produce (5 hours)" [ref=e1849] [cursor=pointer]:
+                    - /url: "#module-366394"
+                  - text: 
+                - 'treeitem "To do Assignment #6 (Wk 9: Blog)" [ref=e1850]':
+                  - img "To do" [ref=e1852]: 
+                  - 'link "Assignment #6 (Wk 9: Blog)" [ref=e1853] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366395
+                  - text: 
+          - 'treeitem "Collapse Week 10: June 8-14" [ref=e1854]':
+            - generic [ref=e1855]:
+              - link "Collapse" [expanded] [ref=e1856] [cursor=pointer]:
+                - /url: "#courseindexcollapse10"
+                - text:  
+                - generic "Collapse" [ref=e1857]:
+                  - generic [ref=e1858]: 
+                  - generic [ref=e1859]: Collapse
+              - 'link "Week 10: June 8-14" [ref=e1860] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71309
+              - text: 
+            - 'group "Collapse Week 10: June 8-14" [ref=e1861]':
+              - group [ref=e1862]:
+                - treeitem "Read (3 hours)Chapter 10" [ref=e1863]:
+                  - link "Read (3 hours)Chapter 10" [ref=e1865] [cursor=pointer]:
+                    - /url: "#module-366396"
+                  - text: 
+                - treeitem "Watch ( hours) (copy) (copy) (copy) (copy)" [ref=e1866]:
+                  - link "Watch ( hours) (copy) (copy) (copy) (copy)" [ref=e1868] [cursor=pointer]:
+                    - /url: "#module-366397"
+                  - text: 
+                - treeitem "Participate (2 hours)" [ref=e1869]:
+                  - link "Participate (2 hours)" [ref=e1871] [cursor=pointer]:
+                    - /url: "#module-366398"
+                  - text: 
+                - 'treeitem "To do DF (Wk10: Top 3 Lessons)" [ref=e1872]':
+                  - img "To do" [ref=e1874]: 
+                  - 'link "DF (Wk10: Top 3 Lessons)" [ref=e1875] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366399
+                  - text: 
+                - treeitem "Produce (5 hours)" [ref=e1876]:
+                  - link "Produce (5 hours)" [ref=e1878] [cursor=pointer]:
+                    - /url: "#module-366400"
+                  - text: 
+                - 'treeitem "To do Assignment #7 (Wk10: Safeguard Data)" [ref=e1879]':
+                  - img "To do" [ref=e1881]: 
+                  - 'link "Assignment #7 (Wk10: Safeguard Data)" [ref=e1882] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366401
+                  - text: 
+          - 'treeitem "Collapse Week 11: June 15-19" [ref=e1883]':
+            - generic [ref=e1884]:
+              - link "Collapse" [expanded] [ref=e1885] [cursor=pointer]:
+                - /url: "#courseindexcollapse11"
+                - text:  
+                - generic "Collapse" [ref=e1886]:
+                  - generic [ref=e1887]: 
+                  - generic [ref=e1888]: Collapse
+              - 'link "Week 11: June 15-19" [ref=e1889] [cursor=pointer]':
+                - /url: https://moodle.humphreys.edu/course/section.php?id=71310
+              - text: 
+            - 'group "Collapse Week 11: June 15-19" [ref=e1890]':
+              - group [ref=e1891]:
+                - treeitem "Read (3 hours)Chapter 11" [ref=e1892]:
+                  - link "Read (3 hours)Chapter 11" [ref=e1894] [cursor=pointer]:
+                    - /url: "#module-366402"
+                  - text: 
+                - treeitem "Watch ( hours) (copy) (copy) (copy) (copy) (copy)" [ref=e1895]:
+                  - link "Watch ( hours) (copy) (copy) (copy) (copy) (copy)" [ref=e1897] [cursor=pointer]:
+                    - /url: "#module-366403"
+                  - text: 
+                - treeitem "Participate (2 hours)" [ref=e1898]:
+                  - link "Participate (2 hours)" [ref=e1900] [cursor=pointer]:
+                    - /url: "#module-366404"
+                  - text: 
+                - treeitem "Produce (5 hours)" [ref=e1901]:
+                  - link "Produce (5 hours)" [ref=e1903] [cursor=pointer]:
+                    - /url: "#module-366405"
+                  - text: 
+                - 'treeitem "To do DF (Wk11: Reflection)" [ref=e1904]':
+                  - img "To do" [ref=e1906]: 
+                  - 'link "DF (Wk11: Reflection)" [ref=e1907] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366406
+                  - text: 
+                - 'treeitem "Exam #3" [ref=e1908]':
+                  - 'link "Exam #3" [ref=e1910] [cursor=pointer]':
+                    - /url: https://moodle.humphreys.edu/mod/quiz/view.php?id=366407
+                  - text: 
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic:
+          - text: 
+          - button "Open block drawer" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: Open block drawer
+            - generic [ref=e62]: 
+            - text: 
+        - banner [ref=e63]:
+          - generic [ref=e64]:
+            - generic:
+              - generic:
+                - navigation "Breadcrumb":
+                  - list
+            - 'heading "2026SP-MBA394: B - Data in Business Environments: A.Khan" [level=1] [ref=e70]'
+        - navigation [ref=e72]:
+          - menubar [ref=e73]:
+            - menuitem "Course" [ref=e74] [cursor=pointer]
+            - menuitem "Participants" [ref=e75] [cursor=pointer]
+            - menuitem "Grades" [ref=e76] [cursor=pointer]
+            - menuitem "Competencies" [ref=e77] [cursor=pointer]
+            - text: 
+        - main [ref=e81]:
+          - generic [ref=e84]:
+            - heading "Section outline" [level=2] [ref=e85]
+            - list [ref=e86]:
+              - listitem [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]:
+                      - button "General" [expanded] [ref=e91] [cursor=pointer]:
+                        - generic "Collapse" [ref=e92]:
+                          - generic [ref=e93]: 
+                          - generic [ref=e94]: Collapse
+                        - text:  
+                      - heading "General" [level=3] [ref=e95]:
+                        - link "General" [ref=e96] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/course/section.php?id=71299
+                    - button "Collapse all" [expanded] [ref=e98] [cursor=pointer]:
+                      - generic [ref=e99]: Collapse all
+                  - list [ref=e101]:
+                    - listitem [ref=e102]:
+                      - generic [ref=e104]:
+                        - link "Revised Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023 File" [ref=e109] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366321
+                          - generic [ref=e110]:
+                            - text: Revised Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023
+                            - generic [ref=e111]: File
+                        - button "Mark Revised Cheating and Plagiarism Policy MBA IT Program--Effective 7/3/2023 as done" [ref=e117] [cursor=pointer]: Mark as done
+                    - listitem [ref=e118]:
+                      - generic [ref=e120]:
+                        - link "Generative Artificial Intelligence (AI) Policy File" [ref=e125] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366322
+                          - generic [ref=e126]:
+                            - text: Generative Artificial Intelligence (AI) Policy
+                            - generic [ref=e127]: File
+                        - button "Mark Generative Artificial Intelligence (AI) Policy as done" [ref=e133] [cursor=pointer]: Mark as done
+                    - listitem [ref=e134]:
+                      - link "Announcements Forum" [ref=e141] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366323
+                        - generic [ref=e142]:
+                          - text: Announcements
+                          - generic [ref=e143]: Forum
+                    - listitem [ref=e146]:
+                      - generic [ref=e148]:
+                        - link "Syllabus (2026 SPRING) File" [ref=e153] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366324
+                          - generic [ref=e154]:
+                            - text: Syllabus (2026 SPRING)
+                            - generic [ref=e155]: File
+                        - button "Mark Syllabus (2026 SPRING) as done" [ref=e161] [cursor=pointer]: Mark as done
+                    - listitem [ref=e162]:
+                      - link "ReadMe File" [ref=e169] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366325
+                        - generic [ref=e170]:
+                          - text: ReadMe
+                          - generic [ref=e171]: File
+                    - listitem [ref=e174]:
+                      - generic [ref=e176]:
+                        - button "Mark If you have your pop-up blocker turned on, you may... as done" [ref=e180] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e184]: If you have your pop-up blocker turned on, you may need to turn it off to access Internet links from this course site.
+                    - listitem [ref=e185]:
+                      - generic [ref=e187]:
+                        - button "Mark Course Text as done" [ref=e191] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e195]: Course Text
+                    - listitem [ref=e196]:
+                      - generic [ref=e198]:
+                        - link "Link to Buy Textbook on eCampus URL" [ref=e203] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366328
+                          - generic [ref=e204]:
+                            - text: Link to Buy Textbook on eCampus
+                            - generic [ref=e205]: URL
+                        - button "Mark Link to Buy Textbook on eCampus as done" [ref=e209] [cursor=pointer]: Mark as done
+                    - listitem [ref=e210]:
+                      - generic [ref=e212]:
+                        - button "Mark Research as done" [ref=e216] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e220]: Research
+                    - listitem [ref=e221]:
+                      - generic [ref=e223]:
+                        - link "Link and Log-In Information for Online EBSCO Research Databases Page" [ref=e228] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366330
+                          - generic [ref=e229]:
+                            - text: Link and Log-In Information for Online EBSCO Research Databases
+                            - generic [ref=e230]: Page
+                        - button "Mark Link and Log-In Information for Online EBSCO Research Databases as done" [ref=e234] [cursor=pointer]: Mark as done
+                    - listitem [ref=e235]:
+                      - generic [ref=e237]:
+                        - 'button "Mark 3/22/2025: EBSCO Database Password has been update... as done" [ref=e241] [cursor=pointer]': Mark as done
+                        - generic [ref=e244]:
+                          - paragraph
+                          - 'heading "3/22/2025: EBSCO Database Password has been updated to HU2025!" [level=3] [ref=e245]':
+                            - strong [ref=e246]: "3/22/2025: EBSCO Database Password has been updated to HU2025!"
+                          - paragraph
+                    - listitem [ref=e247]:
+                      - generic [ref=e249]:
+                        - link "Tutorial on Using EBSCO Databases for Education Research (Dean of Graduate Studies) (30 min) File" [ref=e254] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366332
+                          - generic [ref=e255]:
+                            - text: Tutorial on Using EBSCO Databases for Education Research (Dean of Graduate Studies) (30 min)
+                            - generic [ref=e256]: File
+                        - button "Mark Tutorial on Using EBSCO Databases for Education Research (Dean of Graduate Studies) (30 min) as done" [ref=e262] [cursor=pointer]: Mark as done
+                    - listitem [ref=e263]:
+                      - generic [ref=e265]:
+                        - button "Mark APA Formatting as done" [ref=e269] [cursor=pointer]: Mark as done
+                        - paragraph [ref=e273]: APA Formatting
+                    - listitem [ref=e274]:
+                      - generic [ref=e276]:
+                        - 'link "Plagiarism, Citations, and References: Links to Excellent APA videos Page" [ref=e281] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/page/view.php?id=366334
+                          - generic [ref=e282]:
+                            - text: "Plagiarism, Citations, and References: Links to Excellent APA videos"
+                            - generic [ref=e283]: Page
+                        - 'button "Mark Plagiarism, Citations, and References: Links to Excellent APA videos as done" [ref=e287] [cursor=pointer]': Mark as done
+                    - listitem [ref=e288]:
+                      - generic [ref=e290]:
+                        - link "Hanging Indent on References Pages (5 min) File" [ref=e295] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366335
+                          - generic [ref=e296]:
+                            - text: Hanging Indent on References Pages (5 min)
+                            - generic [ref=e297]: File
+                        - button "Mark Hanging Indent on References Pages (5 min) as done" [ref=e303] [cursor=pointer]: Mark as done
+                    - listitem [ref=e304]:
+                      - generic [ref=e306]:
+                        - link "How to Cite (and Reference) a Quote in a Quote URL" [ref=e311] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366336
+                          - generic [ref=e312]:
+                            - text: How to Cite (and Reference) a Quote in a Quote
+                            - generic [ref=e313]: URL
+                        - button "Mark How to Cite (and Reference) a Quote in a Quote as done" [ref=e317] [cursor=pointer]: Mark as done
+                    - listitem [ref=e318]:
+                      - generic [ref=e320]:
+                        - link "Video on Erasing Background Colors on References File" [ref=e325] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366337
+                          - generic [ref=e326]:
+                            - text: Video on Erasing Background Colors on References
+                            - generic [ref=e327]: File
+                        - button "Mark Video on Erasing Background Colors on References as done" [ref=e333] [cursor=pointer]: Mark as done
+                    - listitem [ref=e334]:
+                      - generic [ref=e336]:
+                        - button "Mark Each week of this course is organized by up to fou... as done" [ref=e340] [cursor=pointer]: Mark as done
+                        - generic [ref=e343]:
+                          - paragraph [ref=e344]: "Each week of this course is organized by up to four assignment types: Read, Watch, Participate, and Produce."
+                          - paragraph [ref=e345]: For each type, in parentheses, there is an estimate of how many hours you are likely to spend. The total number of hours you are expected to spend each week is typically between 11-13 hours. This is the minimum required number of hours that students are expected to work on assignments each week for the University to justify assigning 4 units of credit to a course.
+              - listitem [ref=e346]:
+                - generic [ref=e347]:
+                  - generic [ref=e349]:
+                    - 'button "Week 1: April 6-12" [expanded] [ref=e350] [cursor=pointer]':
+                      - generic "Collapse" [ref=e351]:
+                        - generic [ref=e352]: 
+                        - generic [ref=e353]: Collapse
+                      - text:  
+                    - 'heading "Week 1: April 6-12" [level=3] [ref=e354]':
+                      - 'link "Week 1: April 6-12" [ref=e355] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71300
+                  - generic [ref=e356]:
+                    - generic [ref=e359]:
+                      - paragraph [ref=e360]:
+                        - strong [ref=e361]: Week 1
+                        - text: ": Due to the requirement for international students to attend an on-campus weekend in Stockton (on Saturday and Sunday of this week), the schedule for forum posting this week is different compared to the subsequent weeks."
+                      - paragraph [ref=e362]:
+                        - text: Post your findings based on the questions listed in this week's forum, Chapter 1 (Algorithms), by Sunday. This week's forum is
+                        - strong [ref=e363]: not
+                        - text: graded.
+                      - paragraph [ref=e364]: This week, you must make your original forum post by Sunday (11:59pm). For all other weeks, the posting deadline for your original forum post is Thursday (11:59pm).
+                      - paragraph [ref=e365]:
+                        - strong [ref=e366]:
+                          - emphasis [ref=e367]: For this week only, you need not respond to posts made by other students.
+                    - list [ref=e368]:
+                      - listitem [ref=e369]:
+                        - generic [ref=e374]:
+                          - heading "Read (4 hours)" [level=4] [ref=e375]:
+                            - strong [ref=e377]: Read (4 hours)
+                          - list [ref=e379]:
+                            - listitem [ref=e380]: Introduction
+                            - listitem [ref=e381]: Chapter 1
+                      - listitem [ref=e382]:
+                        - heading "Watch (1 hour)" [level=4] [ref=e388]:
+                          - strong [ref=e390]: Watch
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - generic:
+                            - strong
+                          - strong [ref=e392]:
+                            - generic [ref=e393]: (1 hour)
+                      - listitem [ref=e394]:
+                        - generic [ref=e396]:
+                          - 'link "The Good, The Bad, and The Creepy: Why Data Scientists Need to Understand Ethics URL" [ref=e401] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366341
+                            - generic [ref=e402]:
+                              - text: "The Good, The Bad, and The Creepy: Why Data Scientists Need to Understand Ethics"
+                              - generic [ref=e403]: URL
+                          - 'button "Mark The Good, The Bad, and The Creepy: Why Data Scientists Need to Understand Ethics as done" [ref=e407] [cursor=pointer]': Mark as done
+                      - listitem [ref=e408]:
+                        - generic [ref=e410]:
+                          - generic [ref=e414]:
+                            - 'link "DF (Wk1: Algorithms) Forum" [ref=e415] [cursor=pointer]':
+                              - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366342
+                              - generic [ref=e416]:
+                                - text: "DF (Wk1: Algorithms)"
+                                - generic [ref=e417]: Forum
+                            - generic [ref=e419]: 33 unread posts
+                          - 'button "DF (Wk1: Algorithms) is marked as done. Press to undo." [ref=e423] [cursor=pointer]':
+                            - generic [ref=e424]: 
+                            - text: Done
+                      - listitem [ref=e425]:
+                        - generic [ref=e427]:
+                          - link "On_Ground Submission Assignment" [ref=e432] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366343
+                            - generic [ref=e433]:
+                              - text: On_Ground Submission
+                              - generic [ref=e434]: Assignment
+                          - generic "Completion requirements for On_Ground Submission" [ref=e438]:
+                            - generic [ref=e439]:
+                              - button "Done " [ref=e440] [cursor=pointer]:
+                                - generic [ref=e441]: 
+                                - text: Done 
+                              - text:  
+              - listitem [ref=e442]:
+                - generic [ref=e443]:
+                  - generic [ref=e444]:
+                    - generic [ref=e445]:
+                      - 'button "Week 2: April 13-19" [expanded] [ref=e446] [cursor=pointer]':
+                        - generic "Collapse" [ref=e447]:
+                          - generic [ref=e448]: 
+                          - generic [ref=e449]: Collapse
+                        - text:  
+                      - 'heading "Week 2: April 13-19" [level=3] [ref=e450]':
+                        - 'link "Week 2: April 13-19" [ref=e451] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/course/section.php?id=71301
+                    - generic [ref=e453]: Current week
+                  - generic [ref=e454]:
+                    - generic [ref=e457]:
+                      - paragraph
+                      - paragraph [ref=e458]:
+                        - strong [ref=e459]: Week 2
+                        - text: ": For this week's Discussion Forum, your initial post is due by"
+                        - strong [ref=e460]: 11:59pm on Thursday.
+                        - text: However, your two responses to the initial posts made by others is due by
+                        - strong [ref=e461]: 11:59pm on Sunday
+                        - strong [ref=e462]: .
+                      - paragraph [ref=e463]:
+                        - strong [ref=e464]: "Important note:"
+                        - text: Your initial post will be graded out of 50 points. Your two responses will account for the remaining 50 points.
+                      - paragraph [ref=e465]:
+                        - text: No late responses will be accepted for your
+                        - strong [ref=e466]: initial post
+                        - text: ", which is due by Thursday. No exceptions!"
+                      - paragraph [ref=e467]: No points will be earned for your 2 responses to initial posts made by others if they are posted after Sunday.
+                      - paragraph
+                    - list [ref=e468]:
+                      - listitem [ref=e469]:
+                        - generic [ref=e474]:
+                          - heading "Read (4 hours)" [level=4] [ref=e475]:
+                            - strong [ref=e477]: Read (4 hours)
+                          - list [ref=e479]:
+                            - listitem [ref=e480]: Chapter 2
+                      - listitem [ref=e481]:
+                        - heading "Watch (1 hour)" [level=4] [ref=e487]:
+                          - strong [ref=e489]:
+                            - generic [ref=e490]: Watch (1 hour)
+                      - listitem [ref=e491]:
+                        - generic [ref=e493]:
+                          - link "Data Science Ethics – What Could Go Wrong and How to Avoid It URL" [ref=e498] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/url/view.php?id=366346
+                            - generic [ref=e499]:
+                              - text: Data Science Ethics – What Could Go Wrong and How to Avoid It
+                              - generic [ref=e500]: URL
+                          - button "Mark Data Science Ethics – What Could Go Wrong and How to Avoid It as done" [ref=e504] [cursor=pointer]: Mark as done
+                      - listitem [ref=e505]:
+                        - heading "Participate (2 hours)" [level=4] [ref=e511]:
+                          - strong [ref=e513]:
+                            - generic [ref=e514]: Participate (2 hours)
+                      - listitem [ref=e515]:
+                        - generic [ref=e517]:
+                          - generic [ref=e521]:
+                            - 'link "DF (Wk2: Ethics) Forum" [ref=e522] [cursor=pointer]':
+                              - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366348
+                              - generic [ref=e523]:
+                                - text: "DF (Wk2: Ethics)"
+                                - generic [ref=e524]: Forum
+                            - generic [ref=e526]: 28 unread posts
+                          - 'generic "Completion requirements for DF (Wk2: Ethics)" [ref=e530]':
+                            - generic [ref=e531]:
+                              - button "To do " [ref=e532] [cursor=pointer]
+                              - text: 
+                      - listitem [ref=e533]:
+                        - heading "Produce (5 hours)" [level=4] [ref=e539]:
+                          - strong [ref=e542]:
+                            - generic [ref=e543]: Produce (5 hours)
+                      - listitem [ref=e544]:
+                        - generic [ref=e546]:
+                          - 'link "Assignment #1 (Wk2: Case Study - Ethics)" [ref=e551] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366350
+                          - 'generic "Completion requirements for Assignment #1 (Wk2: Case Study - Ethics)" [ref=e555]':
+                            - button "To do " [ref=e557] [cursor=pointer]
+              - listitem [ref=e558]:
+                - generic [ref=e559]:
+                  - generic [ref=e561]:
+                    - 'button "Week 3: April 20-26" [expanded] [ref=e562] [cursor=pointer]':
+                      - generic "Collapse" [ref=e563]:
+                        - generic [ref=e564]: 
+                        - generic [ref=e565]: Collapse
+                      - text:  
+                    - 'heading "Week 3: April 20-26" [level=3] [ref=e566]':
+                      - 'link "Week 3: April 20-26" [ref=e567] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71302
+                  - generic [ref=e568]:
+                    - generic [ref=e571]:
+                      - paragraph [ref=e572]:
+                        - strong [ref=e573]: Week 3
+                        - text: ": For this week's Discussion Forum this week, your initial post is due"
+                        - strong [ref=e574]: 11:59pm on T
+                        - strong [ref=e575]: hursday.
+                        - text: However, your two responses to the initial posts made by others is due by
+                        - strong [ref=e576]: 11:59pm on
+                        - strong [ref=e577]: Sunday.
+                      - paragraph [ref=e578]:
+                        - strong [ref=e579]: "Important note:"
+                        - text: Your initial post will be graded out of 50 points. Your two responses will account for the remaining 50 points.
+                      - paragraph [ref=e580]:
+                        - text: No late responses will be accepted for your
+                        - strong [ref=e581]: initial post
+                        - text: ", which is due by Thursday. No exceptions!"
+                      - paragraph [ref=e582]: No points will be earned for your 2 responses to initial posts made by others if they are posted after Sunday.
+                      - paragraph
+                    - list [ref=e583]:
+                      - listitem [ref=e584]:
+                        - generic [ref=e589]:
+                          - heading "Read (5 hours)" [level=4] [ref=e590]:
+                            - strong [ref=e592]: Read
+                            - strong [ref=e594]: (5 hours)
+                          - list [ref=e596]:
+                            - listitem [ref=e597]: Chapter 3
+                      - listitem [ref=e598]:
+                        - heading "Watch (1 hour)" [level=4] [ref=e604]:
+                          - strong [ref=e606]:
+                            - generic [ref=e607]: Watch (1 hour)
+                      - listitem [ref=e608]:
+                        - heading "Participate (2 hours)" [level=4] [ref=e614]:
+                          - strong [ref=e616]:
+                            - generic [ref=e617]: Participate (2 hours)
+                      - listitem [ref=e618]:
+                        - generic [ref=e620]:
+                          - 'link "DF (Wk3: Privacy) Forum" [ref=e625] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366354
+                            - generic [ref=e626]:
+                              - text: "DF (Wk3: Privacy)"
+                              - generic [ref=e627]: Forum
+                          - 'generic "Completion requirements for DF (Wk3: Privacy)" [ref=e633]':
+                            - button "To do " [ref=e635] [cursor=pointer]
+                      - listitem [ref=e636]:
+                        - heading "Produce (5 hours)" [level=4] [ref=e642]:
+                          - strong [ref=e645]:
+                            - generic [ref=e646]: Produce (5 hours)
+                      - listitem [ref=e647]:
+                        - generic [ref=e649]:
+                          - 'link "Assignment #2 (Wk3: Exec Summary)" [ref=e654] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366356
+                          - 'generic "Completion requirements for Assignment #2 (Wk3: Exec Summary)" [ref=e658]':
+                            - button "To do " [ref=e660] [cursor=pointer]
+              - listitem [ref=e661]:
+                - generic [ref=e662]:
+                  - generic [ref=e664]:
+                    - 'button "Week 4: April 27-May 3" [expanded] [ref=e665] [cursor=pointer]':
+                      - generic "Collapse" [ref=e666]:
+                        - generic [ref=e667]: 
+                        - generic [ref=e668]: Collapse
+                      - text:  
+                    - 'heading "Week 4: April 27-May 3" [level=3] [ref=e669]':
+                      - 'link "Week 4: April 27-May 3" [ref=e670] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71303
+                  - generic [ref=e671]:
+                    - generic [ref=e674]:
+                      - paragraph [ref=e675]:
+                        - strong [ref=e676]: Week 4
+                        - text: ": For this week's Discussion Forum, your initial post is due by"
+                        - strong [ref=e677]: 11:59pm on Thursday.
+                        - text: However, your two responses to the initial posts by others is due
+                        - strong [ref=e678]: by 11:59pm on Sunday.
+                      - paragraph [ref=e679]:
+                        - strong [ref=e680]: "Important note:"
+                        - text: Your initial post will be graded out of 50 points. Your two responses will account for the remaining 50 points.
+                      - paragraph [ref=e681]:
+                        - text: No late responses will be accepted for your
+                        - strong [ref=e682]: initial post
+                        - text: ", which is due by Thursday. No exceptions!"
+                      - paragraph [ref=e683]: No points will be earned for your 2 responses to initial posts made by others if they are posted after Sunday.
+                      - paragraph
+                    - list [ref=e684]:
+                      - listitem [ref=e685]:
+                        - generic [ref=e690]:
+                          - heading "Read (4 hours)" [level=4] [ref=e691]:
+                            - strong [ref=e693]: Read (4 hours)
+                          - list [ref=e695]:
+                            - listitem [ref=e696]: Chapter 4
+                      - listitem [ref=e697]:
+                        - heading "Watch (1 hour)" [level=4] [ref=e703]:
+                          - strong [ref=e705]:
+                            - generic [ref=e706]: Watch (1 hour)
+                      - listitem [ref=e707]:
+                        - heading "Participate (2 hours)" [level=4] [ref=e713]:
+                          - strong [ref=e715]:
+                            - generic [ref=e716]: Participate (2 hours)
+                      - listitem [ref=e717]:
+                        - generic [ref=e719]:
+                          - 'link "DF (Wk4: Power) Forum" [ref=e724] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366360
+                            - generic [ref=e725]:
+                              - text: "DF (Wk4: Power)"
+                              - generic [ref=e726]: Forum
+                          - 'generic "Completion requirements for DF (Wk4: Power)" [ref=e732]':
+                            - button "To do " [ref=e734] [cursor=pointer]
+                      - listitem [ref=e735]:
+                        - heading "Produce (5 hours)" [level=4] [ref=e741]:
+                          - strong [ref=e744]:
+                            - generic [ref=e745]: Produce (5 hours)
+                      - listitem [ref=e746]:
+                        - generic [ref=e748]:
+                          - 'link "Assignment #3 (Wk4: Infographic)" [ref=e753] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366362
+                          - 'generic "Completion requirements for Assignment #3 (Wk4: Infographic)" [ref=e757]':
+                            - button "To do " [ref=e759] [cursor=pointer]
+                      - listitem [ref=e760]:
+                        - 'link "Exam #1 Quiz" [ref=e767] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/quiz/view.php?id=366363
+                          - generic [ref=e768]:
+                            - text: "Exam #1"
+                            - generic [ref=e769]: Quiz
+              - listitem [ref=e770]:
+                - generic [ref=e771]:
+                  - generic [ref=e773]:
+                    - 'button "Week 5: May 4-10" [expanded] [ref=e774] [cursor=pointer]':
+                      - generic "Collapse" [ref=e775]:
+                        - generic [ref=e776]: 
+                        - generic [ref=e777]: Collapse
+                      - text:  
+                    - 'heading "Week 5: May 4-10" [level=3] [ref=e778]':
+                      - 'link "Week 5: May 4-10" [ref=e779] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71304
+                  - generic [ref=e780]:
+                    - generic [ref=e783]:
+                      - paragraph [ref=e784]:
+                        - strong [ref=e785]: Week 5
+                        - text: ": For this week's Discussion Forum, your initial response is due"
+                        - strong [ref=e786]: by 11:59pm on T
+                        - strong [ref=e787]: hursday.
+                        - text: However, your two responses to the initial posts made by others, is due by
+                        - strong [ref=e788]: 11:59pm on Sunday.
+                      - paragraph [ref=e789]:
+                        - strong [ref=e790]: "Important note:"
+                        - text: Your initial post will be graded out of 50 points. Your two responses will account for the remaining 50 points.
+                      - paragraph [ref=e791]:
+                        - text: No late responses will be accepted for your
+                        - strong [ref=e792]: initial post
+                        - text: ", which is due by Thursday. No exceptions!"
+                      - paragraph [ref=e793]: No points will be earned for your 2 responses to initial posts made by others if they are posted after Sunday.
+                    - list [ref=e794]:
+                      - listitem [ref=e795]:
+                        - generic [ref=e800]:
+                          - heading "Read (7 hours)" [level=4] [ref=e801]:
+                            - strong [ref=e802]:
+                              - strong [ref=e803]: Read (7 hours)
+                          - list [ref=e805]:
+                            - listitem [ref=e806]: Chapter 5
+                            - listitem [ref=e807]: Chapter 6
+                      - listitem [ref=e808]:
+                        - heading "Participate (2 hours)" [level=4] [ref=e814]:
+                          - strong [ref=e816]:
+                            - generic [ref=e817]: Participate (2 hours)
+                      - listitem [ref=e818]:
+                        - generic [ref=e820]:
+                          - 'link "DF (Wk5: Fairness) Forum" [ref=e825] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366366
+                            - generic [ref=e826]:
+                              - text: "DF (Wk5: Fairness)"
+                              - generic [ref=e827]: Forum
+                          - 'generic "Completion requirements for DF (Wk5: Fairness)" [ref=e833]':
+                            - button "To do " [ref=e835] [cursor=pointer]
+                      - listitem [ref=e836]:
+                        - heading "Produce (4 hours)" [level=4] [ref=e842]:
+                          - strong [ref=e845]:
+                            - generic [ref=e846]: Produce (4 hours)
+                      - listitem [ref=e847]:
+                        - generic [ref=e849]:
+                          - 'button "Mark This is Part #1 of a two-part assignment, in which... as done" [ref=e853] [cursor=pointer]': Mark as done
+                          - generic [ref=e856]:
+                            - paragraph [ref=e857]:
+                              - text: This is
+                              - strong [ref=e858]: "Part #1"
+                              - text: of a two-part assignment, which requires you to develop slides pertaining to
+                              - strong [ref=e859]: either
+                              - text: Chapter 5 or Chapter 6. Only the slide deck is due this week.
+                            - paragraph [ref=e860]:
+                              - emphasis [ref=e861]: "Part #2 of the assignment is due in week #8. In that assignment, you will video-record your presentation. You will record offline and then upload your recording. A step-by-step recording guide is provided in Week #8. For your recording, you will need a camera and microphone attached to or already integrated with your computer."
+                            - paragraph [ref=e862]: "In Part #1, develop 10-15 slides based on the selected chapter. Consider your audience to be other students in this class."
+                            - paragraph [ref=e863]: You can use PowerPoint or any other slide software that enables you to save and upload slides.
+                            - paragraph [ref=e864]:
+                              - text: The slides should serve as prompts or notes for the class and the presenter.
+                              - emphasis [ref=e865]:
+                                - strong [ref=e866]: You
+                              - emphasis [ref=e867]:
+                                - strong [ref=e868]: should not simply read aloud the slides' content.
+                              - text: Instead, you should explain and add to the information displayed on them. Slides should not be text-heavy. Instead, they should contain bullets with short sentences, words, or phrases. Including graphics such as charts, photos, diagrams, etc., can enhance the presentation.
+                      - listitem [ref=e869]:
+                        - generic [ref=e871]:
+                          - link "Slides of Chapter 5 or 6 Assignment" [ref=e876] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366369
+                            - generic [ref=e877]:
+                              - text: Slides of Chapter 5 or 6
+                              - generic [ref=e878]: Assignment
+                          - generic "Completion requirements for Slides of Chapter 5 or 6" [ref=e882]:
+                            - button "To do " [ref=e884] [cursor=pointer]
+              - listitem [ref=e885]:
+                - generic [ref=e886]:
+                  - generic [ref=e888]:
+                    - 'button "Week 6: May 11-17" [expanded] [ref=e889] [cursor=pointer]':
+                      - generic "Collapse" [ref=e890]:
+                        - generic [ref=e891]: 
+                        - generic [ref=e892]: Collapse
+                      - text:  
+                    - 'heading "Week 6: May 11-17" [level=3] [ref=e893]':
+                      - 'link "Week 6: May 11-17" [ref=e894] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71305
+                  - generic [ref=e895]:
+                    - generic [ref=e898]:
+                      - paragraph [ref=e899]:
+                        - strong [ref=e900]: Week 6
+                        - text: ": For this week's Discussion Forum, your initial response is due"
+                        - strong [ref=e901]: by 11:59pm on T
+                        - strong [ref=e902]: hursday.
+                        - text: However, your two responses to the initial posts made by others, is due by
+                        - strong [ref=e903]: 11:59pm on Sunday.
+                      - paragraph [ref=e904]:
+                        - strong [ref=e905]: "Important note:"
+                        - text: Your initial post will be graded out of 50 points. Your two responses will account for the remaining 50 points.
+                      - paragraph [ref=e906]:
+                        - text: No late responses will be accepted for your
+                        - strong [ref=e907]: initial post
+                        - text: ", which is due by Thursday. No exceptions!"
+                      - paragraph [ref=e908]: No points will be earned for your 2 responses to initial posts made by others if they are posted after Sunday.
+                      - paragraph
+                    - list [ref=e909]:
+                      - listitem [ref=e910]:
+                        - generic [ref=e915]:
+                          - heading "Read (4 hours)" [level=4] [ref=e916]:
+                            - strong [ref=e918]: Read (4 hours)
+                          - list [ref=e920]:
+                            - listitem [ref=e921]: Chapter 7
+                      - listitem [ref=e922]:
+                        - heading "Watch ( hours)" [level=4] [ref=e928]:
+                          - strong [ref=e930]:
+                            - generic [ref=e931]: Watch ( hours)
+                      - listitem [ref=e932]:
+                        - heading "Participate (2 hours)" [level=4] [ref=e938]:
+                          - strong [ref=e940]:
+                            - generic [ref=e941]: Participate (2 hours)
+                      - listitem [ref=e942]:
+                        - generic [ref=e944]:
+                          - 'link "DF (Wk6: Biases) Forum" [ref=e949] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366373
+                            - generic [ref=e950]:
+                              - text: "DF (Wk6: Biases)"
+                              - generic [ref=e951]: Forum
+                          - 'generic "Completion requirements for DF (Wk6: Biases)" [ref=e957]':
+                            - button "To do " [ref=e959] [cursor=pointer]
+                      - listitem [ref=e960]:
+                        - heading "Produce (5 hours)" [level=4] [ref=e966]:
+                          - strong [ref=e969]:
+                            - generic [ref=e970]: Produce (5 hours)
+                      - listitem [ref=e971]:
+                        - generic [ref=e973]:
+                          - 'link "Assignment #4 (Wk6: Article Review)" [ref=e978] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366375
+                          - 'generic "Completion requirements for Assignment #4 (Wk6: Article Review)" [ref=e982]':
+                            - button "To do " [ref=e984] [cursor=pointer]
+              - listitem [ref=e985]:
+                - generic [ref=e986]:
+                  - generic [ref=e988]:
+                    - 'button "Week 7: May 18-24" [expanded] [ref=e989] [cursor=pointer]':
+                      - generic "Collapse" [ref=e990]:
+                        - generic [ref=e991]: 
+                        - generic [ref=e992]: Collapse
+                      - text:  
+                    - 'heading "Week 7: May 18-24" [level=3] [ref=e993]':
+                      - 'link "Week 7: May 18-24" [ref=e994] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71306
+                  - generic [ref=e995]:
+                    - generic [ref=e998]:
+                      - paragraph [ref=e999]:
+                        - strong [ref=e1000]: Week 7
+                        - text: ":"
+                        - strong [ref=e1001]
+                        - text: For this week's Discussion Forum, your initial response is due
+                        - strong [ref=e1002]: by 11:59pm on T
+                        - strong [ref=e1003]: hursday.
+                        - text: However, your two responses to the initial posts made by others, is due by
+                        - strong [ref=e1004]: 11:59pm on Sunday.
+                      - paragraph [ref=e1005]:
+                        - strong [ref=e1006]: "Important note:"
+                        - text: Your initial post will be graded out of 50 points. Your two responses will account for the remaining 50 points.
+                      - paragraph [ref=e1007]:
+                        - text: No late responses will be accepted for your
+                        - strong [ref=e1008]: initial post
+                        - text: ", which is due by Thursday. No exceptions!"
+                      - paragraph [ref=e1009]: No points will be earned for your 2 responses to initial posts made by others if they are posted after Sunday.
+                      - paragraph
+                    - list [ref=e1010]:
+                      - listitem [ref=e1011]:
+                        - generic [ref=e1016]:
+                          - heading "Read (3 hours)" [level=4] [ref=e1017]:
+                            - strong [ref=e1019]: Read (3 hours)
+                          - list [ref=e1021]:
+                            - listitem [ref=e1022]: Chapter 8
+                      - listitem [ref=e1023]:
+                        - heading "Watch ( hours)" [level=4] [ref=e1029]:
+                          - strong [ref=e1031]:
+                            - generic [ref=e1032]: Watch ( hours)
+                      - listitem [ref=e1033]:
+                        - heading "Participate (2 hours)" [level=4] [ref=e1039]:
+                          - strong [ref=e1041]:
+                            - generic [ref=e1042]: Participate (2 hours)
+                      - listitem [ref=e1043]:
+                        - generic [ref=e1045]:
+                          - 'link "DF (Wk7: Metrics) Forum" [ref=e1050] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366379
+                            - generic [ref=e1051]:
+                              - text: "DF (Wk7: Metrics)"
+                              - generic [ref=e1052]: Forum
+                          - 'generic "Completion requirements for DF (Wk7: Metrics)" [ref=e1058]':
+                            - button "To do " [ref=e1060] [cursor=pointer]
+                      - listitem [ref=e1061]:
+                        - heading "Produce (5 hours)" [level=4] [ref=e1067]:
+                          - strong [ref=e1070]:
+                            - generic [ref=e1071]: Produce (5 hours)
+                      - listitem [ref=e1072]:
+                        - generic [ref=e1074]:
+                          - 'link "Assignment #5 (Wk7: eMail)" [ref=e1079] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366381
+                          - 'generic "Completion requirements for Assignment #5 (Wk7: eMail)" [ref=e1083]':
+                            - button "To do " [ref=e1085] [cursor=pointer]
+              - listitem [ref=e1086]:
+                - generic [ref=e1087]:
+                  - generic [ref=e1089]:
+                    - 'button "Week 8: May 24-31" [expanded] [ref=e1090] [cursor=pointer]':
+                      - generic "Collapse" [ref=e1091]:
+                        - generic [ref=e1092]: 
+                        - generic [ref=e1093]: Collapse
+                      - text:  
+                    - 'heading "Week 8: May 24-31" [level=3] [ref=e1094]':
+                      - 'link "Week 8: May 24-31" [ref=e1095] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71307
+                  - generic [ref=e1096]:
+                    - paragraph [ref=e1100]:
+                      - strong [ref=e1101]: Week 8
+                      - text: ": Develop and upload recorded video"
+                    - list [ref=e1102]:
+                      - listitem [ref=e1103]:
+                        - heading "Read (1 hour)" [level=4] [ref=e1109]:
+                          - strong [ref=e1111]: Read (1 hour)
+                      - listitem [ref=e1112]:
+                        - generic [ref=e1114]:
+                          - link "How to Record and Upload your Videorecorded Slide Presentation using Zoom File" [ref=e1119] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=366383
+                            - generic [ref=e1120]:
+                              - text: How to Record and Upload your Videorecorded Slide Presentation using Zoom
+                              - generic [ref=e1121]: File
+                          - button "Mark How to Record and Upload your Videorecorded Slide Presentation using Zoom as done" [ref=e1127] [cursor=pointer]: Mark as done
+                      - listitem [ref=e1128]:
+                        - generic [ref=e1133]:
+                          - heading "Watch (2 hour)" [level=4] [ref=e1134]:
+                            - strong [ref=e1135]:
+                              - strong [ref=e1136]: Watch (2 hour)
+                          - generic [ref=e1137]: Take some time to watch some videos developed by your classmates.
+                      - listitem [ref=e1138]:
+                        - heading "Participate (10 hours)" [level=4] [ref=e1144]:
+                          - strong [ref=e1146]:
+                            - generic [ref=e1147]: Participate (10 hours)
+                      - listitem [ref=e1148]:
+                        - generic [ref=e1150]:
+                          - 'button "Mark This is Part #2 of the two-part assignment, whic... as done" [ref=e1154] [cursor=pointer]': Mark as done
+                          - generic [ref=e1157]:
+                            - paragraph [ref=e1158]:
+                              - text: This is
+                              - strong [ref=e1159]: Part 2
+                              - text: of a two-part assignment and builds on the slides developed in Week 5 (Chapter 5 or 6). You are required to create a video presentation based on those slides.
+                            - paragraph [ref=e1160]: Record your presentation offline and upload the final video. A step-by-step recording guide has been provided. You will need a camera and microphone (built-in or external).
+                            - paragraph [ref=e1161]: Your presentation does not need to be perfect, but preparation is essential. Test your equipment and review practice recordings to ensure clear audio, good lighting, and proper screen setup. Make sure your slides are fully visible and that your video does not block important content.
+                            - paragraph [ref=e1162]: Do not submit your first recording. Practice and record multiple times, then submit your best version.
+                      - listitem [ref=e1163]:
+                        - link "Upload Your 10-Minute Videorecorded Presentation Assignment" [ref=e1170] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366387
+                          - generic [ref=e1171]:
+                            - text: Upload Your 10-Minute Videorecorded Presentation
+                            - generic [ref=e1172]: Assignment
+                      - listitem [ref=e1173]:
+                        - generic [ref=e1175]:
+                          - 'button "Mark EBSCO Password Update (Effective 11/22/2023): ... as done" [ref=e1179] [cursor=pointer]': Mark as done
+                          - generic [ref=e1182]:
+                            - paragraph
+                            - paragraph [ref=e1183]:
+                              - generic [ref=e1184]: "EBSCO Password Update (Effective 11/22/2023):"
+                            - paragraph [ref=e1185]:
+                              - generic [ref=e1186]: "User ID: humphreys"
+                            - paragraph [ref=e1187]:
+                              - generic [ref=e1188]: "Password: HU2024!"
+                            - paragraph
+                      - listitem [ref=e1189]:
+                        - 'link "Exam #2 Quiz" [ref=e1196] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/quiz/view.php?id=366389
+                          - generic [ref=e1197]:
+                            - text: "Exam #2"
+                            - generic [ref=e1198]: Quiz
+              - listitem [ref=e1199]:
+                - generic [ref=e1200]:
+                  - generic [ref=e1202]:
+                    - 'button "Week 9: June 1-7" [expanded] [ref=e1203] [cursor=pointer]':
+                      - generic "Collapse" [ref=e1204]:
+                        - generic [ref=e1205]: 
+                        - generic [ref=e1206]: Collapse
+                      - text:  
+                    - 'heading "Week 9: June 1-7" [level=3] [ref=e1207]':
+                      - 'link "Week 9: June 1-7" [ref=e1208] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71308
+                  - generic [ref=e1209]:
+                    - generic [ref=e1212]:
+                      - paragraph [ref=e1213]:
+                        - strong [ref=e1214]: Week 9
+                        - text: ": For this week's Discussion Forum, your initial response is due"
+                        - strong [ref=e1215]: by 11:59pm on T
+                        - strong [ref=e1216]: hursday.
+                        - text: However, your two responses to the initial posts made by others, is due by
+                        - strong [ref=e1217]: 11:59pm on Sunday.
+                      - paragraph [ref=e1218]:
+                        - strong [ref=e1219]: "Important note:"
+                        - text: Your initial post will be graded out of 50 points. Your two responses will account for the remaining 50 points.
+                      - paragraph [ref=e1220]:
+                        - text: No late responses will be accepted for your
+                        - strong [ref=e1221]: initial post
+                        - text: ", which is due by Thursday. No exceptions!"
+                      - paragraph [ref=e1222]: No points will be earned for your 2 responses to initial posts made by others if they are posted after Sunday.
+                      - paragraph
+                      - paragraph
+                    - list [ref=e1223]:
+                      - listitem [ref=e1224]:
+                        - generic [ref=e1229]:
+                          - heading "Read (4 hours)" [level=4] [ref=e1230]:
+                            - strong [ref=e1232]: Read (4 hours)
+                          - list [ref=e1234]:
+                            - listitem [ref=e1235]: Chapter 9
+                      - listitem [ref=e1236]:
+                        - heading "Watch ( hours)" [level=4] [ref=e1242]:
+                          - strong [ref=e1244]:
+                            - generic [ref=e1245]: Watch ( hours)
+                      - listitem [ref=e1246]:
+                        - heading "Participate (2 hours)" [level=4] [ref=e1252]:
+                          - strong [ref=e1254]:
+                            - generic [ref=e1255]: Participate (2 hours)
+                      - listitem [ref=e1256]:
+                        - generic [ref=e1258]:
+                          - 'link "DF (Wk9: Social Media) Forum" [ref=e1263] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366393
+                            - generic [ref=e1264]:
+                              - text: "DF (Wk9: Social Media)"
+                              - generic [ref=e1265]: Forum
+                          - 'generic "Completion requirements for DF (Wk9: Social Media)" [ref=e1271]':
+                            - button "To do " [ref=e1273] [cursor=pointer]
+                      - listitem [ref=e1274]:
+                        - heading "Produce (5 hours)" [level=4] [ref=e1280]:
+                          - strong [ref=e1283]:
+                            - generic [ref=e1284]: Produce (5 hours)
+                      - listitem [ref=e1285]:
+                        - generic [ref=e1287]:
+                          - 'link "Assignment #6 (Wk 9: Blog)" [ref=e1292] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366395
+                          - 'generic "Completion requirements for Assignment #6 (Wk 9: Blog)" [ref=e1296]':
+                            - button "To do " [ref=e1298] [cursor=pointer]
+              - listitem [ref=e1299]:
+                - generic [ref=e1300]:
+                  - generic [ref=e1302]:
+                    - 'button "Week 10: June 8-14" [expanded] [ref=e1303] [cursor=pointer]':
+                      - generic "Collapse" [ref=e1304]:
+                        - generic [ref=e1305]: 
+                        - generic [ref=e1306]: Collapse
+                      - text:  
+                    - 'heading "Week 10: June 8-14" [level=3] [ref=e1307]':
+                      - 'link "Week 10: June 8-14" [ref=e1308] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71309
+                  - generic [ref=e1309]:
+                    - generic [ref=e1312]:
+                      - paragraph [ref=e1313]:
+                        - strong [ref=e1314]: Week 10
+                        - text: ": For this week's Discussion Forum, your initial response is due"
+                        - strong [ref=e1315]: by 11:59pm on T
+                        - strong [ref=e1316]: hursday.
+                        - text: However, your two responses to the initial posts made by others, is due by
+                        - strong [ref=e1317]: 11:59pm on Sunday.
+                      - paragraph [ref=e1318]:
+                        - strong [ref=e1319]: "Important note:"
+                        - text: Your initial post will be graded out of 50 points. Your two responses will account for the remaining 50 points.
+                      - paragraph [ref=e1320]:
+                        - text: No late responses will be accepted for your
+                        - strong [ref=e1321]: initial post
+                        - text: ", which is due by Thursday. No exceptions!"
+                      - paragraph [ref=e1322]: No points will be earned for your 2 responses to initial posts made by others if they are posted after Sunday.
+                    - list [ref=e1323]:
+                      - listitem [ref=e1324]:
+                        - generic [ref=e1329]:
+                          - heading "Read (3 hours)" [level=4] [ref=e1330]:
+                            - strong [ref=e1332]: Read (3 hours)
+                          - list [ref=e1334]:
+                            - listitem [ref=e1335]: Chapter 10
+                      - listitem [ref=e1336]:
+                        - heading "Watch ( hours)" [level=4] [ref=e1342]:
+                          - strong [ref=e1344]:
+                            - generic [ref=e1345]: Watch ( hours)
+                      - listitem [ref=e1346]:
+                        - heading "Participate (2 hours)" [level=4] [ref=e1352]:
+                          - strong [ref=e1354]:
+                            - generic [ref=e1355]: Participate (2 hours)
+                      - listitem [ref=e1356]:
+                        - generic [ref=e1358]:
+                          - 'link "DF (Wk10: Top 3 Lessons) Forum" [ref=e1363] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366399
+                            - generic [ref=e1364]:
+                              - text: "DF (Wk10: Top 3 Lessons)"
+                              - generic [ref=e1365]: Forum
+                          - 'generic "Completion requirements for DF (Wk10: Top 3 Lessons)" [ref=e1371]':
+                            - button "To do " [ref=e1373] [cursor=pointer]
+                      - listitem [ref=e1374]:
+                        - heading "Produce (5 hours)" [level=4] [ref=e1380]:
+                          - strong [ref=e1383]:
+                            - generic [ref=e1384]: Produce (5 hours)
+                      - listitem [ref=e1385]:
+                        - generic [ref=e1387]:
+                          - 'link "Assignment #7 (Wk10: Safeguard Data)" [ref=e1392] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=366401
+                          - 'generic "Completion requirements for Assignment #7 (Wk10: Safeguard Data)" [ref=e1396]':
+                            - button "To do " [ref=e1398] [cursor=pointer]
+              - listitem [ref=e1399]:
+                - generic [ref=e1400]:
+                  - generic [ref=e1402]:
+                    - 'button "Week 11: June 15-19" [expanded] [ref=e1403] [cursor=pointer]':
+                      - generic "Collapse" [ref=e1404]:
+                        - generic [ref=e1405]: 
+                        - generic [ref=e1406]: Collapse
+                      - text:  
+                    - 'heading "Week 11: June 15-19" [level=3] [ref=e1407]':
+                      - 'link "Week 11: June 15-19" [ref=e1408] [cursor=pointer]':
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=71310
+                  - generic [ref=e1409]:
+                    - generic [ref=e1412]:
+                      - paragraph [ref=e1413]:
+                        - strong [ref=e1414]: Week 11
+                        - text: ": This week's requirement is different, as described below:"
+                      - paragraph [ref=e1415]:
+                        - text: For the Discussion Forum this week, your initial response is due by
+                        - strong [ref=e1416]: 11:59pm on THURSDAY.
+                      - paragraph [ref=e1417]:
+                        - strong [ref=e1418]: You are not required to post responses to posts made by other students.
+                    - list [ref=e1419]:
+                      - listitem [ref=e1420]:
+                        - generic [ref=e1425]:
+                          - heading "Read (3 hours)" [level=4] [ref=e1426]:
+                            - strong [ref=e1428]: Read (3 hours)
+                          - list [ref=e1430]:
+                            - listitem [ref=e1431]: Chapter 11
+                      - listitem [ref=e1432]:
+                        - heading "Watch ( hours)" [level=4] [ref=e1438]:
+                          - strong [ref=e1440]:
+                            - generic [ref=e1441]: Watch ( hours)
+                      - listitem [ref=e1442]:
+                        - heading "Participate (2 hours)" [level=4] [ref=e1448]:
+                          - strong [ref=e1450]:
+                            - generic [ref=e1451]: Participate (2 hours)
+                      - listitem [ref=e1452]:
+                        - heading "Produce (5 hours)" [level=4] [ref=e1458]:
+                          - strong [ref=e1461]:
+                            - generic [ref=e1462]: Produce (5 hours)
+                      - listitem [ref=e1463]:
+                        - generic [ref=e1465]:
+                          - 'link "DF (Wk11: Reflection) Forum" [ref=e1470] [cursor=pointer]':
+                            - /url: https://moodle.humphreys.edu/mod/forum/view.php?id=366406
+                            - generic [ref=e1471]:
+                              - text: "DF (Wk11: Reflection)"
+                              - generic [ref=e1472]: Forum
+                          - 'generic "Completion requirements for DF (Wk11: Reflection)" [ref=e1478]':
+                            - button "To do " [ref=e1480] [cursor=pointer]
+                      - listitem [ref=e1481]:
+                        - 'link "Exam #3 Quiz" [ref=e1488] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/quiz/view.php?id=366407
+                          - generic [ref=e1489]:
+                            - text: "Exam #3"
+                            - generic [ref=e1490]: Quiz
+      - contentinfo:
+        - button "Show footer" [ref=e1491] [cursor=pointer]:
+          - generic [ref=e1492]: "?"
+        - text: 

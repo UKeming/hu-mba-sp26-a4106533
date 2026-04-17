@@ -1,0 +1,850 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:     
+      - navigation [ref=e36]:
+        - list [ref=e39]:
+          - listitem [ref=e40]
+          - listitem [ref=e44]
+          - listitem [ref=e48]
+          - listitem [ref=e52]
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic:
+          - text: 
+          - button "Open block drawer" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: Open block drawer
+            - generic [ref=e62]: 
+            - text: 
+        - banner [ref=e63]:
+          - generic [ref=e64]:
+            - generic:
+              - generic:
+                - navigation "Breadcrumb":
+                  - list
+            - heading "2026SP-MBA392- CPT Practicum - V.Claus" [level=1] [ref=e70]
+        - navigation [ref=e72]:
+          - menubar [ref=e73]:
+            - menuitem "Course" [ref=e74] [cursor=pointer]
+            - menuitem "Participants" [ref=e75] [cursor=pointer]
+            - menuitem "Grades" [ref=e76] [cursor=pointer]
+            - menuitem "Competencies" [ref=e77] [cursor=pointer]
+            - text: 
+        - main [ref=e81]:
+          - generic [ref=e84]:
+            - heading "Section outline" [level=2] [ref=e85]
+            - list [ref=e86]:
+              - listitem [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]:
+                      - button "MBA392 - MUST READ!" [expanded] [ref=e91] [cursor=pointer]:
+                        - generic "Collapse" [ref=e92]:
+                          - generic [ref=e93]: 
+                          - generic [ref=e94]: Collapse
+                        - text:  
+                      - heading "MBA392 - MUST READ!" [level=3] [ref=e95]:
+                        - link "MBA392 - MUST READ!" [ref=e96] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/course/section.php?id=70709
+                    - button "Collapse all" [expanded] [ref=e98] [cursor=pointer]:
+                      - generic [ref=e99]: Collapse all
+                  - generic [ref=e100]:
+                    - generic [ref=e103]:
+                      - paragraph [ref=e104]:
+                        - strong [ref=e105]: ABOUT MBA392
+                      - paragraph [ref=e106]: The MBA392 CPT Practicum course is designed to provide you with the opportunity to explore and develop the connections between what you learn in the classroom and what you do at your place of work.
+                      - paragraph [ref=e107]: As you go through your courses this term, each week you should write down your thoughts about how the course material connects to your work and how your work connects to the course material. Please don’t wait until the end of this term to begin your CPT Practicum Integration Papers, as late papers WILL NOT be accepted.
+                      - paragraph [ref=e108]:
+                        - strong [ref=e109]: HOW TO PASS MBA392
+                      - paragraph [ref=e110]: "Please note the following requirements, which will ensure you Pass MBA392:"
+                      - list [ref=e111]:
+                        - listitem [ref=e112]: You must submit one paper per course you are enrolled in.
+                        - listitem [ref=e113]: Each paper should be a minimum of 4.5 pages of content (i.e., excluding the cover page and reference page).
+                        - listitem [ref=e114]: Each paper must be formatted according to the template (see below).
+                        - listitem [ref=e115]: Each paper must be original content that is not plagiarized, AI generated, etc.
+                        - listitem [ref=e116]: "You must provide Parts #1 and #2 (see below) in each paper you submit."
+                        - listitem [ref=e117]: You must submit your work on time.
+                        - listitem [ref=e118]: You must submit your work in a .doc or .docx file. Do not submit a PDF file or other file types.
+                        - listitem [ref=e119]: "You must label your paper using this format: LastName.Class.PaperX (e.g., Claus.MBA320.Paper1)."
+                      - paragraph
+                      - paragraph [ref=e120]:
+                        - strong [ref=e121]: REQUIRED NUMBER OF PAPERS
+                      - paragraph [ref=e122]: If you are enrolled in TWO courses, you need to submit ONE paper per course. Therefore, a total of TWO PAPERS need to be submitted.
+                      - paragraph [ref=e123]: If you are enrolled in only ONE course, you need to submit ONE paper total.
+                      - paragraph [ref=e124]: If you are enrolled in MBA385, you only need to submit ONE paper by the deadline provided.
+                      - paragraph [ref=e125]:
+                        - strong [ref=e126]: EXPECTATIONS
+                      - paragraph [ref=e127]: Provide a cover page with all APA information.
+                      - paragraph [ref=e128]: "Provide 4.5+ pages of content (not including the cover page or reference page) detailing information about Parts #1 and #2."
+                      - paragraph [ref=e129]: "Part #1: In about 0.5 to 1 pages, please describe the company where you work and what you do there. What does the company do? What is its business? Also, describe what kind of work you do for that company. Please note that Part #1 can be reused from past versions of MBA392."
+                      - paragraph [ref=e130]: "Part #2: Write the remainder of your paper (4 to 4.5 pages) about one or both of the following: Provide details about how the course content relates to what you do at your company, and/or provide details about how the course content relates to the business of the company. If you do not think the course content relates directly to what you do, that is fine. Then, please write about how the content relates to your company. If you are not sure how the course relates to your company, ask some people at work; use it as an opportunity to talk to some leaders at your company. Be sure to identify specific chapters from the text or videos from the course site."
+                      - paragraph [ref=e131]: Provide a reference page, which is formatted according to APA standards. You need to include in-text citations and references.
+                      - paragraph
+                      - paragraph [ref=e132]:
+                        - strong [ref=e133]: DEADLINES
+                      - paragraph [ref=e134]: As you will see in the syllabi for all other MBA courses, there is a late policy. Please note that this late policy DOES NOT apply to MBA392. Therefore, you must adhere to the deadlines below.
+                      - list [ref=e135]:
+                        - listitem [ref=e136]: "Paper #1 (Due April 26, 2026 at 11:59 PM PST)"
+                        - listitem [ref=e137]: "Paper #2 (Due May 10, 2026 at 11:59 PM PST)"
+                      - paragraph
+                      - paragraph [ref=e138]:
+                        - strong [ref=e139]: NO GRACE PERIOD... PLEASE READ!
+                      - paragraph [ref=e140]: "Each term, I receive messages stating, “How can I submit work for my course because we are less than halfway through the term?” Many times, students are not certain how to proceed in terms of submitting work. Last term (as well as the term before), I received many messages stating that papers were due at the end of the term. Students mentioned that it was too difficult to submit papers by the deadlines set forth… Please note that neither of those reasons are excuses for missing the deadlines. You now know the deadlines and, thus, you now know that papers need to be submitted by April 26, 2026 at 11:59 PM PST (Paper #1) and Paper #2 is due on May 10, 2026 at 11:59 PM PST."
+                      - paragraph [ref=e141]: In terms of paper content, you need to follow the template. Here’s an example of how a student, only a few weeks into this term, could write about a topic.
+                      - paragraph [ref=e142]: Pretend you’re taking a class about leadership. During Weeks 1 to 3, you learned about various leadership styles. One of the styles explored might have been servant leadership. Based upon that specific leadership style, you could provide information about why servant leadership is important to you and, too, what you have witnessed in the workplace when a servant leadership approach is used versus when this approach is not used. Your experiences, reflections, material understanding, etc. should help you to create a strong paper.
+                      - paragraph [ref=e143]:
+                        - strong [ref=e144]: OTHER IMPORTANT PIECES OF INFORMATION
+                      - paragraph [ref=e145]: MBA392 is not calculated in your cumulative grade point average (GPA).
+                      - paragraph [ref=e146]: If you are not currently employed, you will receive a “No Credit” grade for MBA392.
+                      - paragraph [ref=e147]: Your “No Credit” grade is not calculated into your cumulative grade point average (GPA). Furthermore, there are no units of credit for MBA392. Once you obtain employment, please make sure it is approved by the DSO.
+                      - paragraph [ref=e148]: If you do not pass MBA392, this will NOT impact your academic record. If you do not pass MBA392, you will receive a “No Credit” grade. No Credit grades in MBA392 are assigned because (1) submissions are not made in a timely manner, (2) the work does not meet the expectations set forth, (3) the assignment is not aligned with the specific course, etc.
+                      - paragraph [ref=e149]: If you receive a “Not Satisfactory” score, on either paper, you will receive a “No Credit” grade.
+                      - paragraph [ref=e150]: If you receive a “Satisfactory” or “Outstanding” score on both papers, you will receive a Credit grade.
+                    - list [ref=e151]:
+                      - listitem [ref=e152]:
+                        - generic [ref=e154]:
+                          - link "MBA392 APA TEMPLATE File" [ref=e159] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=361498
+                            - generic [ref=e160]:
+                              - text: MBA392 APA TEMPLATE
+                              - generic [ref=e161]: File
+                          - button "Mark MBA392 APA TEMPLATE as done" [ref=e167] [cursor=pointer]: Mark as done
+                          - paragraph [ref=e171]:
+                            - strong [ref=e172]: "Note:"
+                            - text: You MUST use this APA template! Your document MUST be properly formatted, it MUST include in-text citations and references, and it NEEDS to be as long as noted. If you submit a paper that is too short, you will not pass this assignment and, too, you will fail the class. No submissions will be accepted.
+                      - listitem [ref=e173]:
+                        - generic [ref=e175]:
+                          - link "MBA392 FREQUENTLY ASKED QUESTIONS File" [ref=e180] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=361499
+                            - generic [ref=e181]:
+                              - text: MBA392 FREQUENTLY ASKED QUESTIONS
+                              - generic [ref=e182]: File
+                          - button "Mark MBA392 FREQUENTLY ASKED QUESTIONS as done" [ref=e188] [cursor=pointer]: Mark as done
+                          - paragraph [ref=e192]: Please review the FAQ document for answers to common questions related to MBA392.
+                      - listitem [ref=e193]:
+                        - generic [ref=e195]:
+                          - link "MBA392 VIDEO EXPLANATION Page" [ref=e200] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/page/view.php?id=361500
+                            - generic [ref=e201]:
+                              - text: MBA392 VIDEO EXPLANATION
+                              - generic [ref=e202]: Page
+                          - button "Mark MBA392 VIDEO EXPLANATION as done" [ref=e206] [cursor=pointer]: Mark as done
+                          - paragraph [ref=e210]: Please review the video for critical information about MBA392 requirements. A failure to comply with these requirements will likely result in a No Pass grade.
+                      - listitem [ref=e211]:
+                        - generic [ref=e213]:
+                          - button "Mark GENERATIVE ARTIFICIAL INTELLIGENCE (AI) POLICY (Ef... as done" [ref=e217] [cursor=pointer]: Mark as done
+                          - generic [ref=e220]:
+                            - paragraph [ref=e221]:
+                              - strong [ref=e222]: USE OF GENERATIVE ARTIFICIAL INTELLIGENCE (GENAI) TOOLS
+                            - paragraph [ref=e223]: Humphreys University recognizes that generative artificial intelligence (GenAI) tools can enhance innovation, productivity, and learning. However, the use of such tools must uphold academic integrity, intellectual property rights, and ethical standards. All members of the University community are expected to engage with AI technologies in ways that demonstrate honesty, accountability, and respect for privacy and ownership.
+                            - paragraph [ref=e224]:
+                              - strong [ref=e225]: "Prohibited Uses of AI:"
+                              - text: The following actions are expressly prohibited and constitute a violation of university policy.
+                            - list [ref=e226]:
+                              - listitem [ref=e227]: Entering or uploading any university-produced materials—including syllabi, instructor guides, assessment questions, templates, or feedback—into GenAI systems.
+                              - listitem [ref=e228]:
+                                - text: Using GenAI tools to complete quizzes, examinations, or other summative assessments unless explicitly authorized.
+                                - list [ref=e229]:
+                                  - listitem [ref=e230]: "Note: In MBA392, your summative assessments are Papers #1 and #2. Therefore, AI cannot be used."
+                              - listitem [ref=e231]: Inputting or sharing confidential information, including student records, grades, peer feedback, or faculty materials.
+                              - listitem [ref=e232]: Submitting unedited or uncited AI-generated content as one’s own original work.
+                            - paragraph
+                            - paragraph [ref=e233]:
+                              - strong [ref=e234]: Business Department Policy – Allowed
+                            - paragraph [ref=e235]: "Other than the above expressly prohibited uses, GenAI tools may be used in this course as long as students do so honestly through proper documentation, citation, and acknowledgement. To demonstrate honest use of these tools and the learning process, students must:"
+                            - list [ref=e236]:
+                              - listitem [ref=e237]: Keep histories of GenAI chats and submit them when requested.
+                              - listitem [ref=e238]: Any use of AI tools must be properly cited. Citation formats will be specified by the instructor.
+                              - listitem [ref=e239]: Verify the accuracy and authenticity of GenAI information by consulting credible, original sources.
+                            - paragraph
+                            - paragraph [ref=e240]: Plagiarized or falsified content—whether produced by a human or GenAI—will be treated as an honor code violation.
+                      - listitem [ref=e241]:
+                        - generic [ref=e243]:
+                          - button "Mark CHEATING AND PLAGIARISM (Effective July 3, 2023) ... as done" [ref=e247] [cursor=pointer]: Mark as done
+                          - generic [ref=e250]:
+                            - paragraph
+                            - paragraph [ref=e251]:
+                              - strong [ref=e252]:
+                                - generic [ref=e253]: CHEATING AND PLAGIARISM (Effective July 3, 2023)
+                            - generic [ref=e255]:
+                              - paragraph [ref=e256]: Plagiarism is not condoned or excused. Term papers, research reports, forum discussion postings/responses and essays are expected to be the individual work of the student. References, intellectual material, and sources of information should be identified and accurately documented within the body of any written work.
+                              - paragraph
+                              - paragraph [ref=e257]: Students found violating the Cheating and Plagiarism policy can be placed on probation, fail the course(s) and/or dismissed from Humphreys University.
+                              - paragraph
+                              - paragraph [ref=e258]: When you submit a paper or discussion post, your material is checked by TurnItIn for plagiarism. If your score is 24% or less, there's no problem. If your score is more than 24%, then you must fix the issues and resubmit your paper on time. A paper or discussion post that is submitted with a score of more than 24% will likely receive a failing grade.
+                            - paragraph
+                      - listitem [ref=e259]:
+                        - generic [ref=e261]:
+                          - button "Mark EBSCO DATABASE USER ID AND PASSWORD as done" [ref=e265] [cursor=pointer]: Mark as done
+                          - generic [ref=e268]:
+                            - paragraph
+                            - paragraph [ref=e269]:
+                              - strong [ref=e270]: EBSCO DATABASE USER ID AND PASSWORD
+                            - paragraph [ref=e271]:
+                              - link "EBSCO" [ref=e272] [cursor=pointer]:
+                                - /url: http://search.ebscohost.com/
+                                - strong [ref=e273]: EBSCO
+                            - paragraph [ref=e274]: "User ID: humphreys"
+                            - paragraph [ref=e275]: "Password: HU2026!"
+              - listitem [ref=e276]:
+                - generic [ref=e277]:
+                  - generic [ref=e279]:
+                    - button "MBA392 DEADLINES AND MORE" [expanded] [ref=e280] [cursor=pointer]:
+                      - generic "Collapse" [ref=e281]:
+                        - generic [ref=e282]: 
+                        - generic [ref=e283]: Collapse
+                      - text:  
+                    - heading "MBA392 DEADLINES AND MORE" [level=3] [ref=e284]:
+                      - link "MBA392 DEADLINES AND MORE" [ref=e285] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=70710
+                  - generic [ref=e286]:
+                    - generic [ref=e289]:
+                      - paragraph [ref=e290]: Hi Students-
+                      - paragraph [ref=e291]: Welcome to MBA392! I hope that you are all doing well. Please note that this course requires you to submit your work on time, as the late submission policy does NOT apply in MBA392. Anything submitted late will not receive credit and, thus, you will receive a No Credit score in MBA392.
+                      - paragraph [ref=e292]: "Paper #1 is due on April 26, 2026 at 11:59 PM PST."
+                      - paragraph [ref=e293]: "Paper #2 is due on May 10, 2026 at 11:59 PM PST."
+                      - paragraph [ref=e294]: "You MUST upload your work in a timely manner and, too, use the template. No late work will be accepted. Please ensure that you are reviewing the requirements, as Part #1 of your paper should be a minimum of 0.5-page of content and Part #2 of your paper should be a minimum of 4- to 5-pages of content (equal to a minimum of 4.5 pages of content for Parts #1 and #2)."
+                      - paragraph [ref=e295]: Please email me for clarification. Before emailing me, please ensure that you’re reading the Announcements, watching the video, reviewing the FAQ document, etc., as (very likely) all of your questions/concerns have been clarified.
+                      - paragraph [ref=e296]: All the best.
+                      - paragraph [ref=e297]: Dr. Vanessa Ann Claus
+                    - list [ref=e298]:
+                      - listitem [ref=e299]:
+                        - generic [ref=e301]:
+                          - link "Writing Support and Library Resources File" [ref=e306] [cursor=pointer]:
+                            - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=367707
+                            - generic [ref=e307]:
+                              - text: Writing Support and Library Resources
+                              - generic [ref=e308]: File
+                          - generic [ref=e313]:
+                            - paragraph [ref=e314]: Please ensure you're reviewing and utilizing the resources offered. If you have issues with your writing, concerns about research processes, etc. you need to reach out to the amazing university resources that are available. Again, DO NOT use translating programs, writing/editing programs, etc., as these will result in a high AI score, thereby resulting in not passing MBA392.
+                            - paragraph [ref=e315]:
+                              - text: Jordan Joyner, English Grammar & Writing Tutor-
+                              - link "mov icon" [ref=e316] [cursor=pointer]:
+                                - /url: https://humphreys0-my.sharepoint.com/:v:/g/personal/huadmin_humphreys_edu/EULUMKZK9z5Kg9UG_vy6pecBnLeQ9eGaESzNhKVuDBXDRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=RFOJLi
+                                - img "mov icon" [ref=e317]
+                              - link "Jordan - Writing Tutor Intro_Humphreys.mov" [ref=e319] [cursor=pointer]:
+                                - /url: https://humphreys0-my.sharepoint.com/:v:/g/personal/huadmin_humphreys_edu/EULUMKZK9z5Kg9UG_vy6pecBnLeQ9eGaESzNhKVuDBXDRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=RFOJLi
+                            - paragraph [ref=e320]:
+                              - text: Alberto Castello, Math & Accounting Tutor-
+                              - link "mp4 icon" [ref=e321] [cursor=pointer]:
+                                - /url: https://humphreys0-my.sharepoint.com/:v:/g/personal/huadmin_humphreys_edu/ETR4zh4vrslKtlwDIUUHI44BXPqTVIeeB2-bcR7eyD1y8A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=YWb8uC
+                                - img "mp4 icon" [ref=e322]
+                              - link "Alberto Tutor Video.mp4" [ref=e324] [cursor=pointer]:
+                                - /url: https://humphreys0-my.sharepoint.com/:v:/g/personal/huadmin_humphreys_edu/ETR4zh4vrslKtlwDIUUHI44BXPqTVIeeB2-bcR7eyD1y8A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=YWb8uC
+                      - listitem [ref=e325]:
+                        - link "How to Access the Online Databases File" [ref=e332] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=367708
+                          - generic [ref=e333]:
+                            - text: How to Access the Online Databases
+                            - generic [ref=e334]: File
+                      - listitem [ref=e337]:
+                        - link "How to Succeed in College File" [ref=e344] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=367709
+                          - generic [ref=e345]:
+                            - text: How to Succeed in College
+                            - generic [ref=e346]: File
+                      - listitem [ref=e349]:
+                        - link "Library Workshops - Spring 2026 File" [ref=e356] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=367710
+                          - generic [ref=e357]:
+                            - text: Library Workshops - Spring 2026
+                            - generic [ref=e358]: File
+                      - listitem [ref=e361]:
+                        - link "Tutoring Services - Spring 2026 File" [ref=e368] [cursor=pointer]:
+                          - /url: https://moodle.humphreys.edu/mod/resource/view.php?id=367711
+                          - generic [ref=e369]:
+                            - text: Tutoring Services - Spring 2026
+                            - generic [ref=e370]: File
+              - listitem [ref=e373]:
+                - generic [ref=e374]:
+                  - generic [ref=e376]:
+                    - button "CPT PAPER UPLOAD" [expanded] [ref=e377] [cursor=pointer]:
+                      - generic "Collapse" [ref=e378]:
+                        - generic [ref=e379]: 
+                        - generic [ref=e380]: Collapse
+                      - text:  
+                    - heading "CPT PAPER UPLOAD" [level=3] [ref=e381]:
+                      - link "CPT PAPER UPLOAD" [ref=e382] [cursor=pointer]:
+                        - /url: https://moodle.humphreys.edu/course/section.php?id=70711
+                  - list [ref=e384]:
+                    - listitem [ref=e385]:
+                      - generic [ref=e387]:
+                        - 'link "MBA301: Financial Accounting - Paper Assignment" [ref=e392] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361505
+                          - generic [ref=e393]:
+                            - text: "MBA301: Financial Accounting - Paper"
+                            - generic [ref=e394]: Assignment
+                        - generic [ref=e397]:
+                          - paragraph [ref=e398]:
+                            - strong [ref=e399]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e401]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e402]:
+                            - strong [ref=e404]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e406]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e407]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e408]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e409]:
+                            - listitem [ref=e410]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e411]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e412]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e413]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e414]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e415]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e416]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e417]:
+                      - generic [ref=e419]:
+                        - 'link "MBA303: Managerial Accounting for Decision-Making - Paper Assignment" [ref=e424] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361506
+                          - generic [ref=e425]:
+                            - text: "MBA303: Managerial Accounting for Decision-Making - Paper"
+                            - generic [ref=e426]: Assignment
+                        - generic [ref=e429]:
+                          - paragraph [ref=e430]:
+                            - strong [ref=e431]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e433]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e434]:
+                            - strong [ref=e436]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e438]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e439]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e440]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e441]:
+                            - listitem [ref=e442]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e443]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e444]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e445]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e446]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e447]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e448]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e449]:
+                      - generic [ref=e451]:
+                        - 'link "MBA305: Marketing Management - Paper Assignment" [ref=e456] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361507
+                          - generic [ref=e457]:
+                            - text: "MBA305: Marketing Management - Paper"
+                            - generic [ref=e458]: Assignment
+                        - generic [ref=e461]:
+                          - paragraph [ref=e462]:
+                            - strong [ref=e463]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e465]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e466]:
+                            - strong [ref=e468]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e470]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e471]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e472]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e473]:
+                            - listitem [ref=e474]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e475]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e476]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e477]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e478]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e479]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e480]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e481]:
+                      - generic [ref=e483]:
+                        - 'link "MBA306: Macroeconomics: Business Conditions - Paper Assignment" [ref=e488] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361508
+                          - generic [ref=e489]:
+                            - text: "MBA306: Macroeconomics: Business Conditions - Paper"
+                            - generic [ref=e490]: Assignment
+                        - generic [ref=e493]:
+                          - paragraph [ref=e494]:
+                            - strong [ref=e495]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e497]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e498]:
+                            - strong [ref=e500]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e502]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e503]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e504]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e505]:
+                            - listitem [ref=e506]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e507]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e508]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e509]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e510]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e511]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e512]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e513]:
+                      - generic [ref=e515]:
+                        - 'link "MBA307: Microeconomics: Decision-Making - Paper Assignment" [ref=e520] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361509
+                          - generic [ref=e521]:
+                            - text: "MBA307: Microeconomics: Decision-Making - Paper"
+                            - generic [ref=e522]: Assignment
+                        - generic [ref=e525]:
+                          - paragraph [ref=e526]:
+                            - strong [ref=e527]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e529]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e530]:
+                            - strong [ref=e532]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e534]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e535]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e536]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e537]:
+                            - listitem [ref=e538]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e539]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e540]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e541]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e542]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e543]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e544]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e545]:
+                      - generic [ref=e547]:
+                        - 'link "MBA317: Internet Marketing - Paper Assignment" [ref=e552] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361510
+                          - generic [ref=e553]:
+                            - text: "MBA317: Internet Marketing - Paper"
+                            - generic [ref=e554]: Assignment
+                        - generic [ref=e557]:
+                          - paragraph [ref=e558]:
+                            - strong [ref=e559]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e561]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e562]:
+                            - strong [ref=e564]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e566]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e567]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e568]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e569]:
+                            - listitem [ref=e570]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e571]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e572]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e573]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e574]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e575]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e576]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e577]:
+                      - generic [ref=e579]:
+                        - 'link "MBA320: Organizational Behavior - Paper Assignment" [ref=e584] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361511
+                          - generic [ref=e585]:
+                            - text: "MBA320: Organizational Behavior - Paper"
+                            - generic [ref=e586]: Assignment
+                        - generic [ref=e589]:
+                          - paragraph [ref=e590]:
+                            - strong [ref=e591]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e593]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e594]:
+                            - strong [ref=e596]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e598]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e599]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e600]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e601]:
+                            - listitem [ref=e602]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e603]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e604]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e605]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e606]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e607]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e608]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e609]:
+                      - generic [ref=e611]:
+                        - 'link "MBA321: Data Analysis for Decision Making - Paper Assignment" [ref=e616] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361512
+                          - generic [ref=e617]:
+                            - text: "MBA321: Data Analysis for Decision Making - Paper"
+                            - generic [ref=e618]: Assignment
+                        - generic [ref=e621]:
+                          - paragraph [ref=e622]:
+                            - strong [ref=e623]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e625]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e626]:
+                            - strong [ref=e628]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e630]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e631]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e632]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e633]:
+                            - listitem [ref=e634]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e635]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e636]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e637]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e638]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e639]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e640]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e641]:
+                      - generic [ref=e643]:
+                        - 'link "MBA322: Fundamentals of Project Management - Paper Assignment" [ref=e648] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361513
+                          - generic [ref=e649]:
+                            - text: "MBA322: Fundamentals of Project Management - Paper"
+                            - generic [ref=e650]: Assignment
+                        - generic [ref=e653]:
+                          - paragraph [ref=e654]:
+                            - strong [ref=e655]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e657]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e658]:
+                            - strong [ref=e660]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e662]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e663]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e664]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e665]:
+                            - listitem [ref=e666]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e667]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e668]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e669]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e670]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e671]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e672]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e673]:
+                      - generic [ref=e675]:
+                        - 'link "MBA323: Risk Management - Paper Assignment" [ref=e680] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361514
+                          - generic [ref=e681]:
+                            - text: "MBA323: Risk Management - Paper"
+                            - generic [ref=e682]: Assignment
+                        - generic [ref=e685]:
+                          - paragraph [ref=e686]:
+                            - strong [ref=e687]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e689]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e690]:
+                            - strong [ref=e692]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e694]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e695]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e696]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e697]:
+                            - listitem [ref=e698]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e699]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e700]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e701]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e702]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e703]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e704]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e705]:
+                      - generic [ref=e707]:
+                        - 'link "MBA324: Global Project Management - Paper Assignment" [ref=e712] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361515
+                          - generic [ref=e713]:
+                            - text: "MBA324: Global Project Management - Paper"
+                            - generic [ref=e714]: Assignment
+                        - generic [ref=e717]:
+                          - paragraph [ref=e718]:
+                            - strong [ref=e719]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e721]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e722]:
+                            - strong [ref=e724]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e726]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e727]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e728]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e729]:
+                            - listitem [ref=e730]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e731]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e732]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e733]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e734]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e735]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e736]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e737]:
+                      - generic [ref=e739]:
+                        - 'link "MBA325: Process Improvement - Paper Assignment" [ref=e744] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361516
+                          - generic [ref=e745]:
+                            - text: "MBA325: Process Improvement - Paper"
+                            - generic [ref=e746]: Assignment
+                        - generic [ref=e749]:
+                          - paragraph [ref=e750]:
+                            - strong [ref=e751]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e753]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e754]:
+                            - strong [ref=e756]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e758]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e759]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e760]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e761]:
+                            - listitem [ref=e762]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e763]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e764]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e765]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e766]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e767]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e768]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e769]:
+                      - generic [ref=e771]:
+                        - 'link "MBA326: Project Planning - Paper Assignment" [ref=e776] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=367712
+                          - generic [ref=e777]:
+                            - text: "MBA326: Project Planning - Paper"
+                            - generic [ref=e778]: Assignment
+                        - generic [ref=e781]:
+                          - paragraph [ref=e782]:
+                            - strong [ref=e783]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e785]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e786]:
+                            - strong [ref=e788]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e790]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e791]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e792]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e793]:
+                            - listitem [ref=e794]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e795]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e796]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e797]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e798]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e799]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e800]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e801]:
+                      - generic [ref=e803]:
+                        - 'link "MBA330: Human Resource Management - Paper Assignment" [ref=e808] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361517
+                          - generic [ref=e809]:
+                            - text: "MBA330: Human Resource Management - Paper"
+                            - generic [ref=e810]: Assignment
+                        - generic [ref=e813]:
+                          - paragraph [ref=e814]:
+                            - strong [ref=e815]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e817]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e818]:
+                            - strong [ref=e820]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e822]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e823]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e824]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e825]:
+                            - listitem [ref=e826]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e827]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e828]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e829]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e830]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e831]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e832]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e833]:
+                      - generic [ref=e835]:
+                        - 'link "MBA345: Operations and Supply Chain Management - Paper Assignment" [ref=e840] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361518
+                          - generic [ref=e841]:
+                            - text: "MBA345: Operations and Supply Chain Management - Paper"
+                            - generic [ref=e842]: Assignment
+                        - generic [ref=e845]:
+                          - paragraph [ref=e846]:
+                            - strong [ref=e847]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e849]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e850]:
+                            - strong [ref=e852]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e854]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e855]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e856]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e857]:
+                            - listitem [ref=e858]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e859]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e860]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e861]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e862]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e863]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e864]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e865]:
+                      - generic [ref=e867]:
+                        - 'link "MBA370: Corporate Financial Management - Paper Assignment" [ref=e872] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361519
+                          - generic [ref=e873]:
+                            - text: "MBA370: Corporate Financial Management - Paper"
+                            - generic [ref=e874]: Assignment
+                        - generic [ref=e877]:
+                          - paragraph [ref=e878]:
+                            - strong [ref=e879]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e881]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e882]:
+                            - strong [ref=e884]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e886]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e887]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e888]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e889]:
+                            - listitem [ref=e890]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e891]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e892]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e893]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e894]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e895]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e896]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e897]:
+                      - generic [ref=e899]:
+                        - 'link "MBA385: Strategic Management - Paper Assignment" [ref=e904] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361520
+                          - generic [ref=e905]:
+                            - text: "MBA385: Strategic Management - Paper"
+                            - generic [ref=e906]: Assignment
+                        - generic [ref=e909]:
+                          - paragraph [ref=e910]:
+                            - strong [ref=e911]: IF YOU ARE ENROLLED IN MBA385, YOU ARE LIKELY ONLY TAKING ONE COURSE. THEREFORE, YOUR PAPER IS DUE ON
+                            - strong [ref=e912]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e913]:
+                            - strong [ref=e915]: "NOTE: IF YOU ARE NOT ENROLLED IN MBA385, PLEASE DO NOT COMPLETE THIS PAPER."
+                          - paragraph [ref=e916]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e917]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e918]:
+                            - listitem [ref=e919]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e920]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA385.PAPER1)"
+                            - listitem [ref=e921]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e922]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e923]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e924]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e925]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e926]:
+                      - generic [ref=e928]:
+                        - 'link "MBA389: Negotiation and Conflict Resolution - Paper Assignment" [ref=e933] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361521
+                          - generic [ref=e934]:
+                            - text: "MBA389: Negotiation and Conflict Resolution - Paper"
+                            - generic [ref=e935]: Assignment
+                        - generic [ref=e938]:
+                          - paragraph [ref=e939]:
+                            - strong [ref=e940]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e942]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e943]:
+                            - strong [ref=e945]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e947]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e948]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e949]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e950]:
+                            - listitem [ref=e951]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e952]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e953]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e954]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e955]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e956]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e957]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e958]:
+                      - generic [ref=e960]:
+                        - 'link "MBA390: Change Management - Paper Assignment" [ref=e965] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361522
+                          - generic [ref=e966]:
+                            - text: "MBA390: Change Management - Paper"
+                            - generic [ref=e967]: Assignment
+                        - generic [ref=e970]:
+                          - paragraph [ref=e971]:
+                            - strong [ref=e972]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e974]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e975]:
+                            - strong [ref=e977]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e979]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e980]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e981]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e982]:
+                            - listitem [ref=e983]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e984]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e985]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e986]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e987]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e988]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e989]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e990]:
+                      - generic [ref=e992]:
+                        - 'link "MBA391: Business Leadership - Paper Assignment" [ref=e997] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361523
+                          - generic [ref=e998]:
+                            - text: "MBA391: Business Leadership - Paper"
+                            - generic [ref=e999]: Assignment
+                        - generic [ref=e1002]:
+                          - paragraph [ref=e1003]:
+                            - strong [ref=e1004]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e1006]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e1007]:
+                            - strong [ref=e1009]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e1011]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e1012]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e1013]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e1014]:
+                            - listitem [ref=e1015]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e1016]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e1017]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e1018]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e1019]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e1020]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e1021]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e1022]:
+                      - generic [ref=e1024]:
+                        - 'link "MBA393: Networking in Business Environments - Paper Assignment" [ref=e1029] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361524
+                          - generic [ref=e1030]:
+                            - text: "MBA393: Networking in Business Environments - Paper"
+                            - generic [ref=e1031]: Assignment
+                        - generic [ref=e1034]:
+                          - paragraph [ref=e1035]:
+                            - strong [ref=e1036]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e1038]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e1039]:
+                            - strong [ref=e1041]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e1043]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e1044]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e1045]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e1046]:
+                            - listitem [ref=e1047]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e1048]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e1049]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e1050]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e1051]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e1052]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e1053]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e1054]:
+                      - generic [ref=e1056]:
+                        - 'link "MBA394: Data in Business Environments - Paper Assignment" [ref=e1061] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361525
+                          - generic [ref=e1062]:
+                            - text: "MBA394: Data in Business Environments - Paper"
+                            - generic [ref=e1063]: Assignment
+                        - generic [ref=e1066]:
+                          - paragraph [ref=e1067]:
+                            - strong [ref=e1068]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e1070]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e1071]:
+                            - strong [ref=e1073]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e1075]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e1076]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e1077]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e1078]:
+                            - listitem [ref=e1079]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e1080]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e1081]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e1082]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e1083]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e1084]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e1085]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+                    - listitem [ref=e1086]:
+                      - generic [ref=e1088]:
+                        - 'link "MBA395: International Management - Paper Assignment" [ref=e1093] [cursor=pointer]':
+                          - /url: https://moodle.humphreys.edu/mod/assign/view.php?id=361526
+                          - generic [ref=e1094]:
+                            - text: "MBA395: International Management - Paper"
+                            - generic [ref=e1095]: Assignment
+                        - generic [ref=e1098]:
+                          - paragraph [ref=e1099]:
+                            - strong [ref=e1100]: "PAPER #1 IS DUE ON"
+                            - strong [ref=e1102]: APRIL 26, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e1103]:
+                            - strong [ref=e1105]: "PAPER #2 IS DUE ON"
+                            - strong [ref=e1107]: MAY 10, 2026 AT 11:59 PM PST.
+                          - paragraph [ref=e1108]: "NOTE: YOU MUST USE THE APA TEMPLATE, WHICH CAN BE FOUND IN THE SECTION ENTITLED “AN INTRODUCTION TO MBA392.” YOUR PAPER MUST BE A MINIMUM OF 4.5 PAGES OF CONTENT (NOT INCLUDING YOUR COVER PAGE AND REFERENCE PAGE). YOUR PAPER MUST INCLUDE PARTS #1 and #2. YOUR PAPER MUST BE SUBMITTED IN A .DOC OR .DOCX FILE. YOU MUST SUBMIT YOUR WORK ON TIME (NO LATE SUBMISSIONS WILL BE ACCEPTED). YOU MUST ADHERE TO THE REQUIREMENTS (NO RESUBMISSIONS WILL BE ACCEPTED). YOUR CONTENT MUST BE ORIGINAL, NOT AI GENERATED, AND MUST NOT BE TRANSLATED INTO ENGLISH."
+                          - paragraph [ref=e1109]: "BEFORE SUBMITTING, PLEASE ASK YOURSELF:"
+                          - list [ref=e1110]:
+                            - listitem [ref=e1111]: DID I WATCH THE MBA392 VIDEO?
+                            - listitem [ref=e1112]: "IS MY PAPER PROPERLY LABELED AND SUBMITTED IN A .DOC OR .DOCX FILE? NAMING PAPER – LASTNAME.COURSENUMBER.PAPERX. (EXAMPLE: CLAUS.MBA301.PAPER1)."
+                            - listitem [ref=e1113]: IS MY PAPER FORMATTED ACCORDING TO THE TEMPLATE REQUIREMENTS?
+                            - listitem [ref=e1114]: DOES MY PAPER MEET THE LENGTH REQUIREMENTS?
+                            - listitem [ref=e1115]: IS MY CONTENT ORIGINAL?
+                            - listitem [ref=e1116]: "DID I ADDRESS THE CONTENT NEEDED FOR PARTS #1 AND #2?"
+                          - paragraph [ref=e1117]: "NOTE: IF YOU ANSWERED “NO” TO ANY OF THE ABOVE QUESTIONS, PLEASE GO BACK AND ENSURE COMPLIANCE. OTHERWISE, YOU WILL NOT PASS MBA392."
+      - contentinfo:
+        - button "Show footer" [ref=e1118] [cursor=pointer]:
+          - generic [ref=e1119]: "?"
+        - text: 

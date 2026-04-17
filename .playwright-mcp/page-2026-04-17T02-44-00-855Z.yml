@@ -1,0 +1,53 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - main [ref=e10]:
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - img "Humphreys University" [ref=e14]
+          - heading "Log in to Humphreys University" [level=1] [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]: Username
+            - textbox "Username" [ref=e19]
+          - generic [ref=e20]:
+            - generic [ref=e21]: Password
+            - textbox "Password" [ref=e22]
+          - button "Log in" [ref=e24] [cursor=pointer]
+          - link "Lost password?" [ref=e26] [cursor=pointer]:
+            - /url: https://moodle.humphreys.edu/login/forgot_password.php
+        - generic [ref=e28]:
+          - heading "Log in using your account on:" [level=2] [ref=e29]
+          - link "Login via Office 365" [ref=e30] [cursor=pointer]:
+            - /url: https://moodle.humphreys.edu/auth/saml2/login.php?wants=https%3A%2F%2Fmoodle.humphreys.edu%2Fcourse%2F&idp=d505af913958147918e8128f927097e8&passive=off
+        - generic [ref=e32]:
+          - heading "Is this your first time here?" [level=2] [ref=e33]
+          - paragraph [ref=e34]: "Log In Procedures:"
+          - paragraph [ref=e35]: "Username: Use your Humphreys University ID as your username."
+          - paragraph [ref=e36]: Your Humphreys University ID is a nine-digit alpha-numeric string beginning with "HC" followed by seven-digits.
+          - paragraph [ref=e37]: "For instance: HC0012345"
+          - paragraph [ref=e38]
+          - paragraph [ref=e39]: New students as of Spring 2017, your username begins with "HU".
+          - paragraph [ref=e40]: "For instance: HU0103XXX"
+          - paragraph [ref=e41]
+          - paragraph [ref=e42]: If you are a continuing student, you can easily find your student number on a recent grade report or on your Student ID Card;
+          - paragraph [ref=e43]: otherwise, contact the Office of the Registrar at (209) 235-2902.
+          - paragraph [ref=e44]
+          - paragraph [ref=e45]: "Password: Use your birthdate as your password."
+          - paragraph [ref=e46]: "Enter your birthdate in eight-digit format (no dashes, slashes, or hyphens) like this: MMDDYYYY"
+          - paragraph [ref=e47]
+          - paragraph [ref=e48]: If you require additional assistance, contact your instructor in the Faculty Offices at (209) 235-2909;
+          - paragraph [ref=e49]: alternatively, you may contact technical support at
+          - paragraph [ref=e50]:
+            - generic [ref=e52]:
+              - text: "(209) 235-2999 or send an email to:"
+              - link "techsupport@humphreys.edu" [ref=e53] [cursor=pointer]:
+                - /url: http://humphreys.edu
+          - paragraph
+        - button "Cookies notice" [ref=e56] [cursor=pointer]
+    - contentinfo:
+      - button "Show footer" [ref=e57] [cursor=pointer]:
+        - generic [ref=e58]: "?"
+      - text: 

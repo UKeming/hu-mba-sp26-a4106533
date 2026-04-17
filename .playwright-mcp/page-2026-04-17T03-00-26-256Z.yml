@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - banner [ref=e35]:
+          - generic [ref=e36]:
+            - navigation "Breadcrumb" [ref=e39]:
+              - list [ref=e40]:
+                - listitem [ref=e41]:
+                  - link "Calendar" [ref=e42] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/calendar/view.php?view=month
+                - listitem [ref=e43]:
+                  - text: /
+                  - link "Import or export calendars" [ref=e44] [cursor=pointer]:
+                    - /url: https://moodle.humphreys.edu/calendar/managesubscriptions.php
+                - listitem [ref=e45]: / Export calendar
+            - heading "Calendar" [level=1] [ref=e51]
+        - main [ref=e55]:
+          - generic [ref=e57]:
+            - heading "Export calendar" [level=2] [ref=e58]
+            - generic [ref=e59]:
+              - generic [ref=e60]:
+                - paragraph [ref=e61]:
+                  - text: The calendar URL provides a dynamic link for importing events into other calendars. Any new, changed or deleted events in the source calendar
+                  - strong [ref=e62]: will
+                  - text: be reflected in the other calendars.
+                - paragraph [ref=e63]:
+                  - text: The calendar export allows you to create a backup copy of events, which may be imported into other calendars. Updates made in the source calendar
+                  - strong [ref=e64]: will not
+                  - text: be reflected in the other calendars.
+              - generic [ref=e65]:
+                - generic [ref=e66]:
+                  - paragraph [ref=e67]: Events to export
+                  - generic [ref=e70]: 
+                - group "Events to export" [ref=e72]:
+                  - generic [ref=e73]: Events to export
+                  - generic [ref=e74]:
+                    - generic [ref=e75]:
+                      - radio "All events" [ref=e76]
+                      - text: All events
+                    - generic [ref=e77]:
+                      - radio "Events related to categories" [ref=e78]
+                      - text: Events related to categories
+                    - generic [ref=e79]:
+                      - radio "Events related to courses" [ref=e80]
+                      - text: Events related to courses
+                    - generic [ref=e81]:
+                      - radio "Events related to groups" [ref=e82]
+                      - text: Events related to groups
+                    - generic [ref=e83]:
+                      - radio "My personal events" [ref=e84]
+                      - text: My personal events
+              - generic [ref=e85]:
+                - generic [ref=e86]:
+                  - paragraph [ref=e87]: Time period
+                  - generic [ref=e90]: 
+                - group "Time period" [ref=e92]:
+                  - generic [ref=e93]: Time period
+                  - generic [ref=e94]:
+                    - generic [ref=e95]:
+                      - radio "This week" [ref=e96]
+                      - text: This week
+                    - generic [ref=e97]:
+                      - radio "This month" [ref=e98]
+                      - text: This month
+                    - generic [ref=e99]:
+                      - radio "Recent and next 60 days" [ref=e100]
+                      - text: Recent and next 60 days
+                    - generic [ref=e101]:
+                      - radio "Custom range (04/11/26 - 04/16/27)" [ref=e102]
+                      - text: Custom range (04/11/26 - 04/16/27)
+              - generic [ref=e107]:
+                - button "Get calendar URL" [ref=e110] [cursor=pointer]
+                - button "Export" [ref=e113] [cursor=pointer]
+              - generic [ref=e114]:
+                - generic [ref=e115]: 
+                - text: Required
+      - contentinfo:
+        - button "Show footer" [ref=e116] [cursor=pointer]:
+          - generic [ref=e117]: "?"
+        - text: 

@@ -1,0 +1,63 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "Online" [ref=e6] [cursor=pointer]:
+          - /url: https://moodle.humphreys.edu/my/
+          - img "Online" [ref=e7]
+        - navigation [ref=e9]:
+          - menubar [ref=e10]:
+            - menuitem "Home" [ref=e11] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e12] [cursor=pointer]
+            - menuitem "My courses" [ref=e13] [cursor=pointer]
+            - menuitem "Humphreys University" [ref=e14] [cursor=pointer]
+            - menuitem "Moodle Help" [ref=e15] [cursor=pointer]
+            - menuitem "All Courses" [ref=e16] [cursor=pointer]
+            - text: 
+        - list
+        - generic [ref=e17]:
+          - button "Show notification window with no new notifications" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "Toggle messaging drawer" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+          - button "User menu" [ref=e28] [cursor=pointer]:
+            - img "Qi Zhou" [ref=e32]: QZ
+            - text: 
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - banner [ref=e35]:
+          - generic [ref=e38]:
+            - heading "My courses" [level=1] [ref=e42]
+            - generic [ref=e44]: Hi, Qi! 👋
+        - main [ref=e48]:
+          - region "Main content blocks" [ref=e50]:
+            - heading "Main content blocks" [level=2] [ref=e51]
+            - link "Skip Course overview" [ref=e52] [cursor=pointer]:
+              - /url: "#sb-1"
+            - region "Course overview" [ref=e53]:
+              - generic [ref=e54]:
+                - heading "Course overview" [level=3] [ref=e55]
+                - navigation [ref=e57]:
+                  - search "Course overview controls" [ref=e58]:
+                    - generic [ref=e59]:
+                      - generic [ref=e60]:
+                        - button "Grouping drop-down menu" [ref=e61] [cursor=pointer]: All 
+                        - text: 
+                      - search [ref=e64]:
+                        - generic [ref=e65]: Search courses
+                        - textbox "Search courses" [ref=e66]:
+                          - /placeholder: Search
+                        - text: 
+                      - generic [ref=e68]:
+                        - button "Sorting drop-down menu" [ref=e69] [cursor=pointer]: Sort by course name 
+                        - text: 
+                      - generic [ref=e70]:
+                        - button "Display drop-down menu" [ref=e71] [cursor=pointer]: Card 
+                        - text: 
+      - contentinfo:
+        - button "Show footer" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]: "?"
+        - text: 
