@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>日历 · Humphreys MBA</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header data-page="calendar"></header>
+
+<main>
+<section>
+  <h2><svg class="icon"><use href="#i-calendar"/></svg>月历视图</h2>
+  <p class="subtitle">点击事件看详情 · 已完成自动划线 · 点击非自动项可手动标记</p>
+
+  <div class="cal-legend">
+    <span><span class="swatch" style="background:var(--m306)"></span>MBA306</span>
+    <span><span class="swatch" style="background:var(--m392)"></span>MBA392</span>
+    <span><span class="swatch" style="background:var(--m394)"></span>MBA394</span>
+    <span><span class="swatch" style="background:var(--gen)"></span>通用</span>
+    <span style="margin-left:auto;text-decoration:line-through;opacity:.5">已完成</span>
+    <span style="color:var(--danger)">红框 = 紧急未完成</span>
+  </div>
+
+  <div id="month-grid"></div>
+</section>
+</main>
+
+<footer></footer>
+
+<div class="cal-modal" id="calModal" onclick="if(event.target===this)this.classList.remove('show')">
+  <div class="cal-modal-inner">
+    <button class="cal-modal-close" onclick="document.getElementById('calModal').classList.remove('show')"><svg class="icon lg"><use href="#i-x"/></svg></button>
+    <div id="calModalContent"></div>
+  </div>
+</div>
+
+<script src="site.js"></script>
+<script>window.addEventListener('DOMContentLoaded', () => setTimeout(renderCalendar, 50));</script>
+</body>
+</html>
